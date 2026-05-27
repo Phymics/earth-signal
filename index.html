@@ -431,12 +431,16 @@
     }
 
     .back-btn {
-      width: 40px;
+      min-width: 48px;
       height: 40px;
       border-radius: 14px;
       color: var(--text);
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid rgba(255, 255, 255, 0.12);
+      font-family: var(--font-en);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
     }
 
     .card {
@@ -960,6 +964,10 @@
       border: 1px solid rgba(255, 240, 187, 0.34);
       background: rgba(255, 255, 255, 0.1);
       box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+      font-family: var(--font-en);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
       transition: transform 160ms ease, background 160ms ease;
     }
 
@@ -1620,11 +1628,45 @@
       background: linear-gradient(135deg, var(--gold-2), var(--blue-2));
       border: 1px solid rgba(255, 240, 187, 0.5);
       box-shadow: 0 12px 28px rgba(59, 213, 255, 0.18), inset 0 0 0 2px rgba(255, 255, 255, 0.16);
-      font-family: var(--font-en);
-      font-size: 19px;
-      font-weight: 800;
-      line-height: 1;
       transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+    }
+
+    .play-icon {
+      display: block;
+      width: 18px;
+      height: 18px;
+      position: relative;
+    }
+
+    .play-icon-play::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 3px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 9px solid #172033;
+    }
+
+    .play-icon-pause::before,
+    .play-icon-pause::after {
+      content: "";
+      position: absolute;
+      top: 3px;
+      width: 4px;
+      height: 12px;
+      border-radius: 999px;
+      background: #172033;
+    }
+
+    .play-icon-pause::before {
+      left: 4px;
+    }
+
+    .play-icon-pause::after {
+      right: 4px;
     }
 
     .play-icon-btn:hover,
@@ -1971,7 +2013,7 @@
   <main class="app">
     <div class="topbar">
       <div class="brand-mini"><span class="signal-dot"></span><span>Earth Signal</span></div>
-      <button class="back-btn" type="button" data-route="home" aria-label="返回首页">←</button>
+      <button class="back-btn" type="button" data-route="home" aria-label="返回首页">BACK</button>
     </div>
 
     <section id="home" class="section active">
@@ -2094,7 +2136,9 @@
           </div>
           <span id="playStatus" class="visually-hidden">播放器状态</span>
           <div class="player-control-row">
-            <button id="playBtn" class="play-icon-btn" type="button" aria-label="播放">▶</button>
+            <button id="playBtn" class="play-icon-btn" type="button" aria-label="播放">
+              <span class="play-icon play-icon-play" aria-hidden="true"></span>
+            </button>
             <div class="progress-wrap">
               <input id="progressRange" class="progress-range" type="range" min="0" max="100" value="0" aria-label="播客播放进度">
               <div class="time-row">
@@ -2441,7 +2485,7 @@
 
     function setPlayButtonState(isPlaying) {
       state.isPlaying = isPlaying;
-      playBtn.textContent = isPlaying ? "Ⅱ" : "▶";
+      playBtn.innerHTML = `<span class="play-icon ${isPlaying ? "play-icon-pause" : "play-icon-play"}" aria-hidden="true"></span>`;
       playBtn.setAttribute("aria-label", isPlaying ? "暂停" : "播放");
     }
 
@@ -2603,7 +2647,7 @@
       fallbackNotice.classList.toggle("show", fallback);
       setTimeout(() => {
         revealCard.innerHTML = `
-          <button id="makeShareBtn" class="share-icon-btn" type="button" aria-label="分享卡">↗</button>
+          <button id="makeShareBtn" class="share-icon-btn" type="button" aria-label="分享卡">OPEN</button>
           <div class="meta">
             <span>${item.date}</span>
             <span>${item.year}</span>
