@@ -2,6 +2,7 @@ import asyncio
 import html
 import json
 import re
+import shutil
 import ssl
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -9,8 +10,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-AUDIO_PATH = "audio/today-podcast.mp3"
-VOICE = "zh-CN-XiaoxiaoNeural"
+LEGACY_AUDIO_PATH = "audio/today-podcast.mp3"
+TODAY_AUDIO_ZH = "audio/today-podcast-zh.mp3"
+TODAY_AUDIO_ORIGINAL = "audio/today-podcast-original.mp3"
+VOICE_ZH = "zh-CN-XiaoxiaoNeural"
+VOICE_ORIGINAL = "en-US-JennyNeural"
 MAX_ITEMS_PER_SOURCE = 5
 
 RSS_SOURCES = [
@@ -398,7 +402,7 @@ def build_ai_insight_zh(chinese_content: dict) -> str:
     )
 
 
-def build_audio_text(zh_content: dict) -> str:
+def build_audio_text_zh(zh_content: dict) -> str:
     return (
         zh_content["podcastScript"]
         + "\n\n最后，给你今天的关键信号。\n\n"
@@ -406,7 +410,15 @@ def build_audio_text(zh_content: dict) -> str:
     )
 
 
-async def generate_audio_from_zh(content: str) -> None:
+def build_audio_text_original(original_content: dict) -> str:
+    return (
+        original_content["podcastScript"]
+        + "\n\nFinally, here is today's signal.\n\n"
+        + original_content["aiInsight"]
+    )
+
+
+async def generate_audio(content: str, output_path: str, voice: str) -> None:
     try:
         import edge_tts
     except ImportError:
@@ -414,10 +426,21 @@ async def generate_audio_from_zh(content: str) -> None:
         print("Please run: python3 -m pip install edge-tts")
         raise SystemExit(1)
 
-    output_file = Path(__file__).resolve().parent / AUDIO_PATH
+    output_file = Path(__file__).resolve().parent / output_path
     output_file.parent.mkdir(exist_ok=True)
-    communicate = edge_tts.Communicate(content, voice=VOICE, rate="+0%")
+    communicate = edge_tts.Communicate(content, voice=voice, rate="+0%")
     await communicate.save(str(output_file))
+
+
+async def generate_audio_from_zh(content: str) -> None:
+    await generate_audio(content, TODAY_AUDIO_ZH, VOICE_ZH)
+    legacy_file = Path(__file__).resolve().parent / LEGACY_AUDIO_PATH
+    legacy_file.parent.mkdir(exist_ok=True)
+    shutil.copyfile(Path(__file__).resolve().parent / TODAY_AUDIO_ZH, legacy_file)
+
+
+async def generate_audio_from_original(content: str) -> None:
+    await generate_audio(content, TODAY_AUDIO_ORIGINAL, VOICE_ORIGINAL)
 
 
 def save_json(data: dict) -> Path:
@@ -426,6 +449,47 @@ def save_json(data: dict) -> Path:
     json_file = data_dir / "today-podcast.json"
     json_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     return json_file
+
+
+def history_audio_paths(date: str) -> dict:
+    return {
+        "zh": f"audio/history/{date}-zh.mp3",
+        "original": f"audio/history/{date}-original.mp3",
+    }
+
+
+def update_history(today_payload: dict) -> Path:
+    root = Path(__file__).resolve().parent
+    history_file = root / "data" / "history-podcasts.json"
+    history_file.parent.mkdir(exist_ok=True)
+    if history_file.exists():
+        try:
+            history = json.loads(history_file.read_text(encoding="utf-8"))
+            if not isinstance(history, list):
+                history = []
+        except json.JSONDecodeError:
+            history = []
+    else:
+        history = []
+
+    date = today_payload["date"]
+    audio_paths = history_audio_paths(date)
+    history_item = json.loads(json.dumps(today_payload, ensure_ascii=False))
+    history_item["audio"] = {
+        **audio_paths,
+        "duration": today_payload.get("audio", {}).get("duration", "01:00"),
+    }
+
+    history = [item for item in history if item.get("date") != date]
+    history.insert(0, history_item)
+    history = sorted(history, key=lambda item: item.get("date", ""), reverse=True)[:3]
+    history_file.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    history_audio_dir = root / "audio" / "history"
+    history_audio_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(root / TODAY_AUDIO_ZH, root / audio_paths["zh"])
+    shutil.copyfile(root / TODAY_AUDIO_ORIGINAL, root / audio_paths["original"])
+    return history_file
 
 
 async def main() -> None:
@@ -450,17 +514,24 @@ async def main() -> None:
         },
         "zh": zh,
         "audio": {
-            "src": AUDIO_PATH,
+            "zh": TODAY_AUDIO_ZH,
+            "original": TODAY_AUDIO_ORIGINAL,
+            "fallback": LEGACY_AUDIO_PATH,
             "duration": "01:00",
         },
         "selection": item["selection"],
     }
 
     json_file = save_json(payload)
-    await generate_audio_from_zh(build_audio_text(zh))
+    await generate_audio_from_zh(build_audio_text_zh(zh))
+    await generate_audio_from_original(build_audio_text_original(original))
+    history_file = update_history(payload)
 
     print(f"Generated {json_file}")
-    print(f"Generated {Path(__file__).resolve().parent / AUDIO_PATH}")
+    print(f"Generated {history_file}")
+    print(f"Generated {Path(__file__).resolve().parent / TODAY_AUDIO_ZH}")
+    print(f"Generated {Path(__file__).resolve().parent / TODAY_AUDIO_ORIGINAL}")
+    print(f"Generated {Path(__file__).resolve().parent / LEGACY_AUDIO_PATH}")
     print(f"Candidates: {payload['selection']['totalCandidates']}")
     print(f"Selected: {payload['original']['title']}")
     print(f"Score: {payload['selection']['selectedScore']}")

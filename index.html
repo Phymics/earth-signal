@@ -246,7 +246,7 @@
     .hero-copy {
       text-align: center;
       display: grid;
-      gap: 9px;
+      gap: 10px;
       position: relative;
       z-index: 1;
     }
@@ -256,6 +256,18 @@
       line-height: 0.95;
       letter-spacing: 0;
       text-shadow: 0 0 24px rgba(59, 213, 255, 0.36), 0 12px 40px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-tagline {
+      width: fit-content;
+      margin: 0 auto;
+      padding: 7px 12px;
+      border-radius: 999px;
+      color: rgba(255, 240, 187, 0.92);
+      border: 1px solid rgba(255, 240, 187, 0.18);
+      background: rgba(255, 240, 187, 0.07);
+      font-size: 12px;
+      letter-spacing: 0.08em;
     }
 
     .subtitle {
@@ -1400,6 +1412,17 @@
         repeating-linear-gradient(0deg, rgba(37, 29, 19, 0.035) 0 1px, transparent 1px 7px);
     }
 
+    body.archive-mode .selection-panel {
+      padding: 14px;
+      border-style: dashed;
+      background: rgba(248, 240, 223, 0.58);
+      box-shadow: 0 10px 26px rgba(74, 55, 28, 0.08);
+    }
+
+    body.archive-mode .selection-panel .section-title h2 {
+      font-size: 18px;
+    }
+
     body.archive-mode .good-card {
       border-width: 2px;
       border-color: rgba(40, 31, 19, 0.34);
@@ -1638,8 +1661,42 @@
 
     .selection-content {
       display: grid;
-      gap: 12px;
+      gap: 10px;
       color: #2b241a;
+    }
+
+    .selection-summary {
+      display: grid;
+      gap: 10px;
+    }
+
+    .selection-summary p {
+      color: #5f574d;
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    .selection-toggle {
+      width: fit-content;
+      min-height: 34px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      color: #1f3d45;
+      background: rgba(31, 61, 69, 0.08);
+      border: 1px solid rgba(31, 61, 69, 0.22);
+      font-size: 13px;
+      font-weight: 800;
+      transition: transform 160ms ease, background 160ms ease;
+    }
+
+    .selection-toggle:active {
+      transform: scale(0.97);
+    }
+
+    .selection-detail {
+      display: grid;
+      gap: 10px;
+      padding-top: 2px;
     }
 
     .selection-stats {
@@ -1675,9 +1732,10 @@
     .selection-reason {
       color: #3f3425;
       line-height: 1.7;
-      border-left: 3px solid #9d7535;
-      padding: 10px 0 10px 12px;
-      background: rgba(223, 194, 123, 0.12);
+      border-left: 2px solid rgba(157, 117, 53, 0.7);
+      padding: 8px 0 8px 10px;
+      background: rgba(223, 194, 123, 0.08);
+      font-size: 13px;
     }
 
     .candidate-list {
@@ -1876,7 +1934,8 @@
         </div>
         <div class="hero-copy">
           <h1>Earth Signal</h1>
-          <p class="subtitle">每天从地球接收一点值得听见的信号</p>
+          <p class="hero-tagline">每天捕捉一条世界信号</p>
+          <p class="subtitle">从全球新闻里，听见正在改变生活的细微信号。</p>
         </div>
         <div class="entry-grid">
           <button class="entry-card" type="button" data-route="capsule">
@@ -1890,7 +1949,7 @@
             <span class="entry-icon"><span class="podcast-shape"></span></span>
             <span>
               <h2>每日新闻播客</h2>
-              <p>精选一条全球新闻，生成 1 分钟播客</p>
+              <p>每天捕捉一条世界信号，带来 1 分钟收听</p>
             </span>
           </button>
         </div>
@@ -1954,21 +2013,21 @@
 
         <article class="card script-panel">
           <div class="section-title">
-            <h2>今日播客稿</h2>
+            <h2>本期内容</h2>
           </div>
           <div id="scriptBox" class="script-box"></div>
         </article>
 
         <article class="card summary-panel">
           <div class="section-title">
-            <h2>AI 信号解读</h2>
+            <h2>今日信号</h2>
           </div>
           <div id="aiSummary" class="ai-summary"></div>
         </article>
 
         <article id="selectionPanel" class="card selection-panel" hidden>
           <div class="section-title">
-            <h2>今日信号筛选过程</h2>
+            <h2>今日为什么是它</h2>
           </div>
           <div id="selectionContent" class="selection-content"></div>
         </article>
@@ -1978,9 +2037,9 @@
             <h2>播客播放器</h2>
             <span id="durationLabel" class="duration-label">01:00</span>
           </div>
-          <h3 id="playerTitle" class="player-title">城市正在用 AI 管理更细的能源波动</h3>
-          <p id="playerNote" class="player-note">优先播放本地生成音频，失败时回退浏览器朗读</p>
-          <p class="player-hint">真实版本可接入 OpenAI TTS / ElevenLabs / Edge TTS 生成更自然的人声</p>
+          <h3 id="playerTitle" class="player-title">城市能源系统正在变得更敏捷</h3>
+          <p id="playerNote" class="player-note">优先播放本期音频，缺失时使用朗读模式</p>
+          <p class="player-hint">每日自动更新，内容来自公开 RSS 新闻源。</p>
           <div class="waveform" aria-hidden="true">
             <span></span><span></span><span></span><span></span><span></span><span></span>
             <span></span><span></span><span></span><span></span><span></span><span></span>
@@ -1995,8 +2054,7 @@
           </div>
           <div id="speedControls" class="speed-controls" aria-label="倍速选择"></div>
           <div class="button-row">
-            <button id="playBtn" class="primary" type="button">播放播客</button>
-            <button id="pauseBtn" class="ghost" type="button">暂停</button>
+            <button id="playBtn" class="primary" type="button">播放</button>
           </div>
         </article>
 
@@ -2191,13 +2249,13 @@
     const podcastData = [
       {
         date: "2026-05-26",
-        title: "城市正在用 AI 管理更细的能源波动",
+        title: "城市能源系统正在变得更敏捷",
         region: "欧洲",
-        category: "AI",
-        summary: "多座城市测试 AI 调度电网与楼宇能耗，降低尖峰压力。",
+        category: "科技",
+        summary: "多座城市测试智能调度电网与楼宇能耗，降低尖峰压力。",
         whyItMatters: "能源系统越复杂，越需要能实时理解供需变化的工具。",
         duration: "01:00",
-        script: "你好，这里是 Earth Signal 的今日 1 分钟新闻播客。\n\n今天关注的是城市能源管理。随着电动车、分布式光伏和极端天气同时增加，传统电网面对的波动越来越细，也越来越快。\n\n一些欧洲城市正在测试 AI 调度系统，把天气预测、建筑用电、充电桩负载和电价信号放在一起分析，再给出削峰填谷建议。它不只是让某栋楼少用一点电，而是让整个街区在关键时段更平稳。\n\n这件事重要，是因为未来的低碳城市不只靠更多清洁能源，也靠更聪明的分配方式。当能源被更精确地使用，居民账单、城市韧性和减排目标都会同时受益。\n\n今天的信号是：更安静的电网背后，可能藏着更聪明的城市。"
+        script: "你好，这里是 Earth Signal 的今日 1 分钟新闻播客。\n\n今天关注的是城市能源管理。随着电动车、分布式光伏和极端天气同时增加，传统电网面对的波动越来越细，也越来越快。\n\n一些欧洲城市正在测试智能调度系统，把天气预测、建筑用电、充电桩负载和电价信号放在一起分析，再给出削峰填谷建议。它不只是让某栋楼少用一点电，而是让整个街区在关键时段更平稳。\n\n这件事重要，是因为未来的低碳城市不只靠更多清洁能源，也靠更聪明的分配方式。当能源被更精确地使用，居民账单、城市韧性和减排目标都会同时受益。\n\n今天的信号是：更安静的电网背后，可能藏着更聪明的城市。"
       },
       {
         date: "2026-05-25",
@@ -2231,17 +2289,17 @@
       },
       {
         date: "2026-05-22",
-        title: "教育平台用 AI 帮学生生成个性化复习路径",
+        title: "教育平台让复习路径更贴近每个学生",
         region: "北美",
         category: "教育",
-        summary: "学习平台根据错题和进度生成复习计划，帮助学生补齐薄弱点。",
+        summary: "学习平台根据错题和进度安排复习计划，帮助学生补齐薄弱点。",
         whyItMatters: "个性化学习让复习从刷题数量转向更准确的理解缺口。",
         duration: "01:04",
-        script: "你好，这里是 Earth Signal 的今日播客。\n\n今天看教育科技。一些学习平台正在用 AI 分析学生的错题、停留时间和知识点掌握情况，再生成更个性化的复习路径。\n\n过去，很多复习计划是按章节推进，学生容易在已经掌握的地方重复消耗时间。现在，系统可以更快发现薄弱概念，把练习、讲解和回顾安排得更有针对性。\n\n这件事重要，是因为学习效率不只取决于努力，也取决于反馈是否及时。更好的反馈能让学生知道自己真正卡在哪里。\n\n今天的信号是：当学习路线更清楚，努力就更容易抵达结果。"
+        script: "你好，这里是 Earth Signal 的今日播客。\n\n今天看教育科技。一些学习平台正在分析学生的错题、停留时间和知识点掌握情况，再安排更个性化的复习路径。\n\n过去，很多复习计划是按章节推进，学生容易在已经掌握的地方重复消耗时间。现在，系统可以更快发现薄弱概念，把练习、讲解和回顾安排得更有针对性。\n\n这件事重要，是因为学习效率不只取决于努力，也取决于反馈是否及时。更好的反馈能让学生知道自己真正卡在哪里。\n\n今天的信号是：当学习路线更清楚，努力就更容易抵达结果。"
       }
     ];
 
-    const flowSteps = ["新闻源采集", "AI 筛选", "AI 改写", "TTS 生成音频", "移动端推送", "用户收听"];
+    const flowSteps = ["新闻源采集", "智能筛选", "内容改写", "声音制作", "移动端推送", "用户收听"];
     const state = {
       currentGoodNews: null,
       archive: [],
@@ -2258,7 +2316,9 @@
       audioLoadFailed: false,
       podcastLanguage: "zh",
       selectedPodcastType: "today",
-      selectedHistoryIndex: null
+      selectedHistoryIndex: null,
+      selectionExpanded: false,
+      isPlaying: false
     };
 
     const sections = document.querySelectorAll(".section");
@@ -2281,7 +2341,6 @@
     const playerTitle = document.querySelector("#playerTitle");
     const playerNote = document.querySelector("#playerNote");
     const playBtn = document.querySelector("#playBtn");
-    const pauseBtn = document.querySelector("#pauseBtn");
     const playStatus = document.querySelector("#playStatus");
     const durationLabel = document.querySelector("#durationLabel");
     const progressRange = document.querySelector("#progressRange");
@@ -2311,6 +2370,7 @@
     const yearOptions = ["2020", "2021", "2022", "2023", "2024", "2025", "2026"];
     const speedOptions = [0.5, 1, 1.25, 1.5, 2];
     let generatedPodcast = null;
+    let historyPodcasts = [];
     let pickerMonth = 5;
     let pickerDay = 26;
     let toastTimer = null;
@@ -2328,6 +2388,11 @@
       if (!src) return src;
       const separator = src.includes("?") ? "&" : "?";
       return `${src}${separator}t=${Date.now()}`;
+    }
+
+    function setPlayButtonState(isPlaying) {
+      state.isPlaying = isPlaying;
+      playBtn.textContent = isPlaying ? "暂停" : "播放";
     }
 
     function formatMonthDay(value) {
@@ -2488,7 +2553,7 @@
       fallbackNotice.classList.toggle("show", fallback);
       setTimeout(() => {
         revealCard.innerHTML = `
-          <button id="makeShareBtn" class="share-icon-btn" type="button" aria-label="生成分享卡">↗</button>
+          <button id="makeShareBtn" class="share-icon-btn" type="button" aria-label="分享卡">↗</button>
           <div class="meta">
             <span>${item.date}</span>
             <span>${item.year}</span>
@@ -2599,10 +2664,10 @@
           await navigator.clipboard.writeText(text);
           showToast("分享文案已复制");
         } else {
-          showToast("已生成分享文案");
+          showToast("分享文案已准备好");
         }
       } catch (error) {
-        showToast("已生成分享文案");
+        showToast("分享文案已准备好");
       }
     }
 
@@ -2625,6 +2690,7 @@
       `;
       scriptBox.textContent = content.podcastScript;
       aiSummary.textContent = content.aiInsight;
+      state.selectionExpanded = false;
       renderSelectionPanel(item);
       durationLabel.textContent = getPodcastDuration(item);
       playerTitle.textContent = content.title;
@@ -2646,32 +2712,49 @@
       }
       const selection = item.selection;
       const topCandidates = Array.isArray(selection.topCandidates) ? selection.topCandidates.slice(0, 3) : [];
+      const totalCandidates = selection.totalCandidates || 0;
       selectionPanel.hidden = false;
       selectionContent.innerHTML = `
-        <div class="selection-stats">
-          <div class="selection-stat">
-            <span>今日候选数量</span>
-            <strong>${selection.totalCandidates}</strong>
-          </div>
-          <div class="selection-stat">
-            <span>最终入选分数</span>
-            <strong>${selection.selectedScore}</strong>
-          </div>
+        <div class="selection-summary">
+          <p>今天从 ${totalCandidates} 条候选信息中，捕捉到这一条更值得被听见的信号。</p>
+          <button id="selectionToggleBtn" class="selection-toggle" type="button">${state.selectionExpanded ? "收起" : "展开查看筛选过程"}</button>
         </div>
-        <div class="selection-reason">${selection.selectedReason || ""}</div>
-        <div class="candidate-list">
-          ${topCandidates.map((candidate) => `
-            <div class="candidate-item">
-              <strong>${candidate.title}</strong>
-              <div class="candidate-meta">
-                <span>${candidate.sourceName}</span>
-                <span>分数 ${candidate.score}</span>
+        ${state.selectionExpanded ? `
+          <div class="selection-detail">
+            <div class="selection-stats">
+              <div class="selection-stat">
+                <span>今日候选</span>
+                <strong>${totalCandidates}</strong>
               </div>
-              ${candidate.reason ? `<span>${candidate.reason}</span>` : ""}
+              <div class="selection-stat">
+                <span>入选分数</span>
+                <strong>${selection.selectedScore || "N/A"}</strong>
+              </div>
             </div>
-          `).join("")}
-        </div>
+            <div class="selection-reason"><strong>选择理由</strong><br>${selection.selectedReason || ""}</div>
+            <div class="candidate-list">
+              <span>Top 候选</span>
+              ${topCandidates.map((candidate) => `
+                <div class="candidate-item">
+                  <strong>${candidate.title}</strong>
+                  <div class="candidate-meta">
+                    <span>${candidate.sourceName}</span>
+                    <span>分数 ${candidate.score}</span>
+                  </div>
+                  ${candidate.reason ? `<span>${candidate.reason}</span>` : ""}
+                </div>
+              `).join("")}
+            </div>
+          </div>
+        ` : ""}
       `;
+      const toggleBtn = selectionContent.querySelector("#selectionToggleBtn");
+      if (toggleBtn) {
+        toggleBtn.addEventListener("click", () => {
+          state.selectionExpanded = !state.selectionExpanded;
+          renderSelectionPanel(state.currentPodcast);
+        });
+      }
     }
 
     function getPodcastDisplayContent(item) {
@@ -2693,12 +2776,17 @@
     }
 
     function getPodcastAudioPath(item) {
-      const src = item.audio && item.audio.src ? item.audio.src : item.audioPath;
-      return src;
+      if (item.audio) {
+        if (state.podcastLanguage === "original" && item.audio.original) return item.audio.original;
+        if (state.podcastLanguage === "zh" && item.audio.zh) return item.audio.zh;
+        if (item.audio.fallback) return item.audio.fallback;
+        if (item.audio.src) return item.audio.src;
+      }
+      return item.audioPath;
     }
 
     function getPodcastDuration(item) {
-      return item.audio && item.audio.duration ? item.audio.duration : item.duration;
+      return item.audio && item.audio.duration ? item.audio.duration : (item.duration || "01:00");
     }
 
     function getPodcastScriptForSpeech(item) {
@@ -2735,20 +2823,34 @@
       }
     }
 
+    async function loadHistoryPodcasts() {
+      try {
+        const response = await fetch("data/history-podcasts.json", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        historyPodcasts = Array.isArray(data) ? data.slice(0, 3) : [];
+      } catch (error) {
+        historyPodcasts = [];
+      }
+      renderHistory();
+    }
+
     function extractSignalLine(script) {
       const match = script.match(/今天的信号是[：:](.+)$/);
       return match ? match[1].trim() : "这条新闻值得被压缩成一分钟认真听见。";
     }
 
     function episodeMarkup(item, index, attrName, selected = false) {
+      const content = getPodcastDisplayContent(item);
+      const duration = getPodcastDuration(item);
       return `
         <button class="history-item ${selected ? "selected" : ""}" type="button" ${attrName}="${index}">
           <span class="episode-art">ES</span>
           <span>
-            <strong>${item.date} · ${item.title}</strong>
-            <span class="muted">${item.category}</span>
+            <strong>${item.date} · ${content.title}</strong>
+            <span class="muted">${item.sourceName || item.category || "Earth Signal"}</span>
           </span>
-          <span class="muted">${item.duration}</span>
+          <span class="muted">${duration}</span>
         </button>
       `;
     }
@@ -2761,7 +2863,7 @@
         <button class="history-item ${state.selectedPodcastType === "today" ? "selected" : ""}" type="button" data-today-podcast="true">
           <span class="episode-art">新</span>
           <span>
-            <strong>${item.date} · 今日播客 · 最新生成</strong>
+            <strong>${item.date} · 今日播客 · 最新</strong>
             <span class="muted">${content.title}</span>
           </span>
           <span class="muted">${duration}</span>
@@ -2781,37 +2883,45 @@
       showToast("已切回今日播客");
     }
 
-    function selectHistoryPodcast(index, closeEpisodes = false) {
-      const item = podcastData[index];
-      if (!item) return;
-      state.selectedPodcastType = "history";
-      state.selectedHistoryIndex = index;
+	    function selectHistoryPodcast(index, closeEpisodes = false) {
+	      const item = historyPodcasts[index];
+	      if (!item) return;
+	      state.selectedPodcastType = "history";
+	      state.selectedHistoryIndex = index;
       renderPodcast(item);
       renderHistory();
       if (closeEpisodes) closeModal(episodesModal);
       todayNews.scrollIntoView({ behavior: "smooth", block: "start" });
-      showToast("节目已切换");
-    }
+	      showToast("节目已切换");
+	    }
 
-    function renderHistory() {
-      const visibleItems = podcastData.slice(0, 3);
-      historyList.innerHTML = todayEpisodeMarkup()
-        + visibleItems.map((item, index) => episodeMarkup(item, index, "data-history-index", state.selectedPodcastType === "history" && state.selectedHistoryIndex === index)).join("")
-        + (podcastData.length > 3 ? `<button id="moreEpisodesBtn" class="ghost more-btn" type="button">查看更多节目</button>` : "");
-      const todayPodcastBtn = historyList.querySelector("[data-today-podcast]");
-      if (todayPodcastBtn) todayPodcastBtn.addEventListener("click", selectTodayPodcast);
+	    function getVisibleHistoryPodcasts() {
+	      const todayDate = (generatedPodcast || podcastData[0]).date;
+	      return historyPodcasts
+	        .map((item, index) => ({ item, index }))
+	        .filter((entry) => entry.item.date !== todayDate)
+	        .slice(0, 3);
+	    }
+
+	    function renderHistory() {
+	      const visibleItems = getVisibleHistoryPodcasts();
+	      historyList.innerHTML = todayEpisodeMarkup()
+	        + visibleItems.map((entry) => episodeMarkup(entry.item, entry.index, "data-history-index", state.selectedPodcastType === "history" && state.selectedHistoryIndex === entry.index)).join("")
+	        + (!visibleItems.length ? `<div class="empty">暂无历史节目</div>` : "");
+	      const todayPodcastBtn = historyList.querySelector("[data-today-podcast]");
+	      if (todayPodcastBtn) todayPodcastBtn.addEventListener("click", selectTodayPodcast);
       historyList.querySelectorAll("[data-history-index]").forEach((button) => {
         button.addEventListener("click", () => {
           selectHistoryPodcast(Number(button.dataset.historyIndex));
         });
       });
-      const moreEpisodesBtn = document.querySelector("#moreEpisodesBtn");
-      if (moreEpisodesBtn) moreEpisodesBtn.addEventListener("click", showEpisodesModal);
-    }
+	    }
 
-    function showEpisodesModal() {
-      episodesModalList.innerHTML = todayEpisodeMarkup()
-        + podcastData.map((item, index) => episodeMarkup(item, index, "data-episode-index", state.selectedPodcastType === "history" && state.selectedHistoryIndex === index)).join("");
+	    function showEpisodesModal() {
+	      const visibleItems = getVisibleHistoryPodcasts();
+	      episodesModalList.innerHTML = todayEpisodeMarkup()
+	        + visibleItems.map((entry) => episodeMarkup(entry.item, entry.index, "data-episode-index", state.selectedPodcastType === "history" && state.selectedHistoryIndex === entry.index)).join("")
+	        + (!visibleItems.length ? `<div class="empty">暂无历史节目</div>` : "");
       const todayPodcastBtn = episodesModalList.querySelector("[data-today-podcast]");
       if (todayPodcastBtn) todayPodcastBtn.addEventListener("click", () => {
         selectTodayPodcast();
@@ -2856,7 +2966,8 @@
       state.playMode = null;
       state.audioLoadFailed = false;
       playStatus.textContent = "已暂停";
-      playerNote.textContent = "优先播放本地生成音频，失败时回退浏览器朗读";
+      setPlayButtonState(false);
+      playerNote.textContent = "优先播放本期音频，缺失时使用朗读模式";
       playerCard.classList.remove("playing");
       renderProgress();
     }
@@ -2880,12 +2991,14 @@
       state.speaking = false;
       state.usingAudioFile = false;
       state.playMode = null;
+      setPlayButtonState(false);
     }
 
     function handlePodcastError() {
       state.audioLoadFailed = true;
       state.usingAudioFile = false;
       if (state.playMode === "mp3") state.playMode = null;
+      setPlayButtonState(false);
     }
 
     function parseDuration(duration) {
@@ -2948,6 +3061,10 @@
     }
 
     async function playPodcast() {
+      if (state.isPlaying) {
+        pauseSpeech();
+        return;
+      }
       if (podcastAudio && !state.audioLoadFailed) {
         try {
           const total = Number.isFinite(podcastAudio.duration) ? podcastAudio.duration : parseDuration(getPodcastDuration(state.currentPodcast));
@@ -2963,15 +3080,16 @@
           state.usingAudioFile = true;
           state.speaking = true;
           playStatus.textContent = "播放中";
-          playerNote.textContent = "当前播放：本地生成音频";
+          setPlayButtonState(true);
+          playerNote.textContent = "正在播放本期音频";
           playerCard.classList.add("playing");
-          showToast("正在播放最新本地 MP3");
+          showToast("正在播放本期音频");
           return;
         } catch (error) {
           state.audioLoadFailed = true;
           state.usingAudioFile = false;
           state.playMode = null;
-          showToast("本地 MP3 加载失败，改用浏览器朗读");
+          showToast("音频加载失败，进入朗读模式");
         }
       }
       playBrowserSpeech();
@@ -2990,7 +3108,8 @@
       if (window.speechSynthesis.paused) {
         window.speechSynthesis.resume();
         playStatus.textContent = "播放中";
-        playerNote.textContent = "当前为浏览器朗读模拟";
+        setPlayButtonState(true);
+        playerNote.textContent = "当前使用朗读模式";
         state.speaking = true;
         playerCard.classList.add("playing");
         startProgressTimer();
@@ -3006,6 +3125,7 @@
         renderProgress();
         playStatus.textContent = "已结束";
         state.speaking = false;
+        setPlayButtonState(false);
         playerCard.classList.remove("playing");
         pauseProgressTimer();
       };
@@ -3013,7 +3133,8 @@
       state.speaking = true;
       state.playMode = "speech";
       playStatus.textContent = "播放中";
-      playerNote.textContent = "当前为浏览器朗读模拟";
+      setPlayButtonState(true);
+      playerNote.textContent = "当前使用朗读模式";
       playerCard.classList.add("playing");
       startProgressTimer();
       window.speechSynthesis.speak(utterance);
@@ -3027,6 +3148,7 @@
       }
       state.speaking = false;
       playStatus.textContent = "已暂停";
+      setPlayButtonState(false);
       playerCard.classList.remove("playing");
       pauseProgressTimer();
     }
@@ -3067,14 +3189,14 @@
     langZhBtn.addEventListener("click", () => {
       state.podcastLanguage = "zh";
       renderLanguageSwitch();
-      renderPodcast(state.currentPodcast, false);
+      renderPodcast(state.currentPodcast, true);
       renderHistory();
       showToast("已切换中文版本");
     });
     langOriginalBtn.addEventListener("click", () => {
       state.podcastLanguage = "original";
       renderLanguageSwitch();
-      renderPodcast(state.currentPodcast, false);
+      renderPodcast(state.currentPodcast, true);
       renderHistory();
       showToast("已切换原文版本");
     });
@@ -3100,7 +3222,6 @@
 
     openCapsuleBtn.addEventListener("click", () => openCapsule(false));
     playBtn.addEventListener("click", playPodcast);
-    pauseBtn.addEventListener("click", pauseSpeech);
 
     const today = new Date();
     dateInput.value = today.toISOString().slice(0, 10);
@@ -3110,6 +3231,7 @@
     renderSpeedControls();
     renderLanguageSwitch();
     loadGeneratedPodcast();
+    loadHistoryPodcasts();
     renderHistory();
     renderFlow();
   </script>

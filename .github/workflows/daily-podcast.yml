@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/today-podcast.json audio/today-podcast.mp3
+          git add data/today-podcast.json data/history-podcasts.json audio/today-podcast.mp3 audio/today-podcast-zh.mp3 audio/today-podcast-original.mp3 audio/history
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No generated podcast changes to commit."
@@ -44,51 +44,26 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Send ServerChan notification
+      - name: Send PushPlus notification
         if: ${{ success() && steps.commit.outputs.changed == 'true' }}
         env:
-          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
-          PODCAST_URL: https://YOUR_NETLIFY_URL_HERE
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         run: |
-          if [ -z "$SERVERCHAN_SENDKEY" ]; then
-            echo "SERVERCHAN_SENDKEY is not set. Skip ServerChan notification."
+          if [ -z "$PUSHPLUS_TOKEN" ]; then
+            echo "PUSHPLUS_TOKEN is not set. Skip PushPlus notification."
             exit 0
           fi
 
-          python - <<'PY'
+          curl -fsS "https://www.pushplus.plus/send" \
+            -H "Content-Type: application/json" \
+            -d "$(python - <<'PY'
           import json
           import os
 
-          with open("data/today-podcast.json", "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-          title = data.get("zh", {}).get("title") or data.get("original", {}).get("title") or "今日播客"
-          source = data.get("sourceName", "Unknown Source")
-          selection = data.get("selection", {})
-          score = selection.get("selectedScore", "N/A")
-          reason = selection.get("selectedReason", "暂无筛选原因")
-          url = os.environ.get("PODCAST_URL", "https://YOUR_NETLIFY_URL_HERE")
-
-          desp = "\n".join([
-              f"今日新闻标题：{title}",
-              "",
-              f"来源：{source}",
-              "",
-              f"入选分数：{score}",
-              "",
-              f"入选原因：{reason}",
-              "",
-              f"收听链接：{url}",
-          ])
-
-          with open("/tmp/serverchan_title.txt", "w", encoding="utf-8") as f:
-              f.write("🌍 Earth Signal 今日播客已更新")
-          with open("/tmp/serverchan_desp.txt", "w", encoding="utf-8") as f:
-              f.write(desp)
+          print(json.dumps({
+              "token": os.environ["PUSHPLUS_TOKEN"],
+              "title": "Earth Signal 今日播客已更新",
+              "content": "今日播客已自动生成，可打开公网页面查看",
+          }, ensure_ascii=False))
           PY
-
-          SERVERCHAN_TITLE="$(cat /tmp/serverchan_title.txt)"
-          SERVERCHAN_DESP="$(cat /tmp/serverchan_desp.txt)"
-          curl -fsS "https://sctapi.ftqq.com/${SERVERCHAN_SENDKEY}.send" \
-            --data-urlencode "title=${SERVERCHAN_TITLE}" \
-            --data-urlencode "desp=${SERVERCHAN_DESP}"
+          )"
