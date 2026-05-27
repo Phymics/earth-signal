@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Earth Signal | 地球信号</title>
+  <style>
+    :root {
+      --bg: #030711;
+      --bg-2: #071325;
+      --card: rgba(11, 23, 44, 0.78);
+      --card-strong: rgba(16, 34, 63, 0.92);
+      --line: rgba(131, 219, 255, 0.22);
+      --line-strong: rgba(120, 241, 255, 0.46);
+      --text: #f5f8ff;
+      --muted: #aab8d2;
+      --blue: #3bd5ff;
+      --blue-2: #78f1ff;
+      --gold: #f3d48a;
+      --gold-2: #fff0bb;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.48);
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--bg);
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 50% -14%, rgba(59, 213, 255, 0.34), transparent 32%),
+        radial-gradient(circle at 18% 16%, rgba(243, 212, 138, 0.15), transparent 25%),
+        radial-gradient(circle at 84% 28%, rgba(42, 100, 196, 0.16), transparent 28%),
+        linear-gradient(180deg, #01040d 0%, #061326 45%, #02040b 100%);
+      overflow-x: hidden;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      background-image:
+        radial-gradient(circle, rgba(255, 255, 255, 0.84) 0 1px, transparent 1.4px),
+        radial-gradient(circle, rgba(120, 241, 255, 0.6) 0 1px, transparent 1.2px),
+        radial-gradient(circle, rgba(243, 212, 138, 0.52) 0 1px, transparent 1.1px);
+      background-size: 84px 84px, 137px 137px, 213px 213px;
+      background-position: 0 0, 32px 18px, 19px 64px;
+      animation: stars 5.5s ease-in-out infinite alternate;
+      opacity: 0.56;
+    }
+
+    body::after {
+      background:
+        linear-gradient(135deg, transparent 0 28%, rgba(59, 213, 255, 0.08), transparent 58% 100%),
+        repeating-linear-gradient(180deg, transparent 0 13px, rgba(120, 241, 255, 0.025) 14px 15px);
+      mix-blend-mode: screen;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    .app {
+      position: relative;
+      z-index: 1;
+      width: min(100%, 430px);
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 18px 14px 34px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+      padding: 2px 2px 0;
+    }
+
+    .brand-mini {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold-2);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .signal-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--blue);
+      box-shadow: 0 0 0 6px rgba(59, 213, 255, 0.12), 0 0 24px rgba(59, 213, 255, 0.9);
+      animation: pulse 2.2s ease-in-out infinite;
+    }
+
+    .section {
+      display: none;
+      animation: rise 560ms ease both;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .hero {
+      position: relative;
+      min-height: calc(100vh - 76px);
+      display: grid;
+      align-content: center;
+      gap: 18px;
+      padding: 6px 0 8px;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      pointer-events: none;
+      transform: translateX(-50%);
+    }
+
+    .hero::before {
+      top: 5%;
+      width: min(96vw, 410px);
+      height: min(96vw, 410px);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, transparent 0 45%, rgba(120, 241, 255, 0.11) 46% 47%, transparent 48% 60%, rgba(243, 212, 138, 0.11) 61% 62%, transparent 63%),
+        conic-gradient(from 115deg, transparent 0 21%, rgba(120, 241, 255, 0.2) 24%, transparent 28% 71%, rgba(243, 212, 138, 0.17) 74%, transparent 78%);
+      filter: blur(0.2px);
+      animation: signalSweep 9s linear infinite;
+    }
+
+    .hero::after {
+      top: 19%;
+      width: min(82vw, 340px);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(120, 241, 255, 0.6), transparent);
+      box-shadow: 0 0 22px rgba(59, 213, 255, 0.44);
+      animation: scanLine 4.6s ease-in-out infinite;
+    }
+
+    .earth-wrap {
+      position: relative;
+      width: min(76vw, 310px);
+      aspect-ratio: 1;
+      margin: 0 auto 2px;
+      display: grid;
+      place-items: center;
+      filter: drop-shadow(0 24px 58px rgba(0, 0, 0, 0.42));
+    }
+
+    .orbit {
+      position: absolute;
+      inset: 6%;
+      border: 1px solid rgba(120, 241, 255, 0.28);
+      border-radius: 50%;
+      transform: rotate(-18deg) scaleY(0.48);
+      box-shadow: 0 0 36px rgba(59, 213, 255, 0.16), inset 0 0 30px rgba(59, 213, 255, 0.06);
+      animation: orbitGlow 5s ease-in-out infinite alternate;
+    }
+
+    .orbit::after {
+      content: "";
+      position: absolute;
+      right: 19%;
+      top: 3%;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 22px rgba(243, 212, 138, 0.9);
+      animation: satellite 4.6s ease-in-out infinite;
+    }
+
+    .earth {
+      position: relative;
+      width: 72%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.48), transparent 0 10%, transparent 11%),
+        radial-gradient(circle at 36% 34%, rgba(103, 222, 255, 0.9), transparent 0 13%, transparent 14%),
+        linear-gradient(120deg, rgba(59, 213, 255, 0.96), rgba(15, 79, 154, 0.9) 48%, rgba(2, 13, 34, 0.98));
+      box-shadow:
+        inset -38px -16px 48px rgba(0, 0, 0, 0.52),
+        inset 18px 10px 34px rgba(255, 255, 255, 0.18),
+        0 0 42px rgba(59, 213, 255, 0.42),
+        0 0 92px rgba(59, 213, 255, 0.16);
+    }
+
+    .earth::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 24% 36%, rgba(20, 137, 111, 0.95) 0 13%, transparent 14%),
+        radial-gradient(ellipse at 57% 28%, rgba(68, 166, 115, 0.9) 0 10%, transparent 11%),
+        radial-gradient(ellipse at 64% 60%, rgba(72, 157, 102, 0.86) 0 16%, transparent 17%),
+        radial-gradient(ellipse at 38% 69%, rgba(31, 126, 104, 0.86) 0 9%, transparent 10%);
+      animation: rotateEarth 12s linear infinite;
+    }
+
+    .earth::after {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 28% 26%, transparent 0 46%, rgba(0, 0, 0, 0.48) 78%);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .hero-copy {
+      text-align: center;
+      display: grid;
+      gap: 9px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: clamp(44px, 15vw, 66px);
+      line-height: 0.95;
+      letter-spacing: 0;
+      text-shadow: 0 0 24px rgba(59, 213, 255, 0.36), 0 12px 40px rgba(0, 0, 0, 0.7);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .entry-grid,
+    .stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .card,
+    .entry-card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.06), transparent 36%),
+        linear-gradient(145deg, rgba(12, 27, 52, 0.92), rgba(4, 10, 22, 0.82));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .card::before,
+    .entry-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(120deg, rgba(255, 255, 255, 0.14), transparent 28% 72%, rgba(120, 241, 255, 0.07));
+      opacity: 0.54;
+    }
+
+    .card > *,
+    .entry-card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .entry-card {
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 14px;
+      min-height: 118px;
+      padding: 18px;
+      text-align: left;
+      color: var(--text);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .entry-card:hover,
+    .entry-card:focus-visible,
+    .primary:hover,
+    .ghost:hover {
+      transform: translateY(-2px);
+      border-color: rgba(120, 241, 255, 0.65);
+      box-shadow: 0 26px 76px rgba(0, 0, 0, 0.5), 0 0 34px rgba(59, 213, 255, 0.14);
+    }
+
+    .entry-icon,
+    .capsule-icon,
+    .podcast-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      border: 1px solid rgba(243, 212, 138, 0.28);
+      background:
+        radial-gradient(circle at 50% 20%, rgba(255, 240, 187, 0.2), transparent 42%),
+        rgba(243, 212, 138, 0.08);
+      display: grid;
+      place-items: center;
+      box-shadow: inset 0 0 18px rgba(243, 212, 138, 0.08);
+    }
+
+    .capsule-shape {
+      width: 16px;
+      height: 36px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--gold), var(--blue));
+      box-shadow: 0 0 24px rgba(243, 212, 138, 0.45);
+      transform: rotate(34deg);
+      animation: capsuleFloat 3.4s ease-in-out infinite;
+    }
+
+    .podcast-shape {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid var(--blue);
+      box-shadow: 0 0 0 7px rgba(59, 213, 255, 0.12), inset 0 0 16px rgba(59, 213, 255, 0.18);
+      position: relative;
+    }
+
+    .podcast-shape::before,
+    .podcast-shape::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--gold);
+    }
+
+    .podcast-shape::before {
+      top: 7px;
+      width: 9px;
+      height: 14px;
+      border-radius: 999px;
+    }
+
+    .podcast-shape::after {
+      bottom: 5px;
+      width: 16px;
+      height: 2px;
+      border-radius: 999px;
+    }
+
+    .entry-card h2 {
+      font-size: 18px;
+      margin-bottom: 7px;
+    }
+
+    .entry-card p,
+    .muted {
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    .footer-line {
+      padding: 20px 8px 0;
+      color: rgba(255, 240, 187, 0.78);
+      text-align: center;
+      font-size: 13px;
+      text-shadow: 0 0 16px rgba(243, 212, 138, 0.18);
+    }
+
+    .page-head {
+      display: grid;
+      gap: 10px;
+      margin: 6px 0 18px;
+      padding: 6px 2px 0;
+    }
+
+    .page-head h1 {
+      font-size: 30px;
+      line-height: 1.12;
+    }
+
+    .back-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 14px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .card {
+      padding: 18px;
+    }
+
+    .capsule-console {
+      min-height: 178px;
+      display: grid;
+      align-content: end;
+      border-color: rgba(243, 212, 138, 0.28);
+      background:
+        radial-gradient(circle at 50% 18%, rgba(243, 212, 138, 0.18), transparent 24%),
+        radial-gradient(circle at 50% 38%, rgba(59, 213, 255, 0.13), transparent 28%),
+        linear-gradient(145deg, rgba(12, 27, 52, 0.95), rgba(3, 8, 18, 0.9));
+    }
+
+    .capsule-console::after {
+      content: "";
+      position: absolute;
+      top: 18px;
+      left: 50%;
+      width: 54px;
+      height: 88px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 240, 187, 0.46);
+      background:
+        linear-gradient(180deg, rgba(255, 240, 187, 0.18), rgba(59, 213, 255, 0.2)),
+        linear-gradient(90deg, transparent 0 45%, rgba(255, 255, 255, 0.26) 46% 49%, transparent 50%);
+      box-shadow: 0 0 36px rgba(243, 212, 138, 0.18), inset 0 0 18px rgba(120, 241, 255, 0.14);
+      transform: translateX(-50%) rotate(28deg);
+      animation: capsuleRitual 3.6s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-title h2 {
+      font-size: 18px;
+    }
+
+    .date-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    input[type="date"] {
+      width: 100%;
+      color: var(--text);
+      background: rgba(0, 0, 0, 0.28);
+      border: 1px solid rgba(120, 241, 255, 0.34);
+      border-radius: 14px;
+      padding: 13px 14px;
+      color-scheme: dark;
+      box-shadow: inset 0 0 18px rgba(59, 213, 255, 0.06);
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .primary,
+    .ghost {
+      min-height: 44px;
+      border-radius: 14px;
+      padding: 11px 15px;
+      color: var(--text);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .primary {
+      background: linear-gradient(135deg, #fff0bb 0%, #5ee8ff 45%, #1798d4 100%);
+      color: #00131e;
+      font-weight: 700;
+      box-shadow: 0 12px 34px rgba(59, 213, 255, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.48);
+    }
+
+    .ghost {
+      background: rgba(255, 255, 255, 0.055);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .notice {
+      display: none;
+      margin-top: 12px;
+      padding: 11px 13px;
+      color: var(--gold-2);
+      border: 1px solid rgba(243, 212, 138, 0.22);
+      border-radius: 14px;
+      background: rgba(243, 212, 138, 0.07);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .notice.show {
+      display: block;
+    }
+
+    .good-card,
+    .news-card {
+      display: grid;
+      gap: 12px;
+    }
+
+    .good-card {
+      border-color: rgba(243, 212, 138, 0.3);
+      background:
+        radial-gradient(circle at 88% 8%, rgba(243, 212, 138, 0.2), transparent 24%),
+        linear-gradient(145deg, rgba(18, 35, 62, 0.95), rgba(4, 9, 18, 0.9));
+    }
+
+    .good-card::after {
+      content: "";
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid rgba(243, 212, 138, 0.34);
+      background: radial-gradient(circle, rgba(243, 212, 138, 0.18), transparent 64%);
+      box-shadow: 0 0 24px rgba(243, 212, 138, 0.12);
+      pointer-events: none;
+    }
+
+    .news-card {
+      min-height: 212px;
+      padding-top: 24px;
+      border-color: rgba(120, 241, 255, 0.32);
+      background:
+        radial-gradient(circle at 50% 18%, rgba(120, 241, 255, 0.16), transparent 30%),
+        linear-gradient(145deg, rgba(13, 30, 58, 0.95), rgba(3, 7, 16, 0.92));
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      color: #02101a;
+      background: linear-gradient(135deg, var(--gold), var(--gold-2));
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .good-card h2,
+    .news-card h2 {
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .emotional {
+      color: var(--gold-2);
+      font-size: 15px;
+      line-height: 1.7;
+      border-left: 3px solid var(--gold);
+      padding-left: 12px;
+    }
+
+    .archive-list,
+    .history-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mini-card {
+      position: relative;
+      min-height: 86px;
+      padding: 15px 15px 15px 62px;
+      border-radius: 16px;
+      border: 1px solid rgba(243, 212, 138, 0.18);
+      background:
+        linear-gradient(90deg, rgba(243, 212, 138, 0.12), transparent 34%),
+        rgba(255, 255, 255, 0.045);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .mini-card::before {
+      content: attr(data-date);
+      position: absolute;
+      left: 12px;
+      top: 13px;
+      width: 38px;
+      height: 56px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      color: var(--gold-2);
+      border: 1px solid rgba(243, 212, 138, 0.28);
+      background: rgba(0, 0, 0, 0.24);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    .mini-card strong {
+      display: block;
+      margin-bottom: 5px;
+      line-height: 1.4;
+    }
+
+    .empty {
+      padding: 22px 14px;
+      color: var(--muted);
+      text-align: center;
+      border: 1px dashed rgba(120, 241, 255, 0.25);
+      border-radius: 14px;
+      line-height: 1.7;
+      background: rgba(255, 255, 255, 0.035);
+      box-shadow: inset 0 0 32px rgba(59, 213, 255, 0.04);
+    }
+
+    .share-card {
+      display: none;
+      position: relative;
+      overflow: hidden;
+      min-height: 360px;
+      padding: 24px;
+      border-radius: 24px;
+      border: 1px solid rgba(243, 212, 138, 0.35);
+      background:
+        radial-gradient(circle at 82% 14%, rgba(243, 212, 138, 0.26), transparent 24%),
+        radial-gradient(circle at 16% 76%, rgba(59, 213, 255, 0.22), transparent 26%),
+        linear-gradient(145deg, #06152d, #020610 72%);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.52);
+    }
+
+    .share-card.show {
+      display: grid;
+      align-content: space-between;
+      gap: 22px;
+    }
+
+    .share-date {
+      color: var(--gold-2);
+      font-size: 52px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .share-card h2 {
+      font-size: 24px;
+      line-height: 1.22;
+    }
+
+    .share-card .planet-mark {
+      position: absolute;
+      right: -42px;
+      bottom: -42px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 1px solid rgba(120, 241, 255, 0.28);
+      background: radial-gradient(circle at 35% 30%, rgba(120, 241, 255, 0.46), rgba(11, 48, 91, 0.9) 52%, rgba(0, 0, 0, 0.72));
+      opacity: 0.7;
+    }
+
+    .script-box {
+      padding: 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(120, 241, 255, 0.19);
+      background: rgba(0, 0, 0, 0.28);
+      color: #dce8ff;
+      line-height: 1.82;
+      white-space: pre-line;
+      font-size: 14px;
+    }
+
+    .player {
+      display: grid;
+      gap: 14px;
+      min-height: 214px;
+      align-content: center;
+      border-radius: 28px;
+      border-color: rgba(120, 241, 255, 0.34);
+      background:
+        radial-gradient(circle at 50% 12%, rgba(120, 241, 255, 0.2), transparent 28%),
+        radial-gradient(circle at 18% 72%, rgba(243, 212, 138, 0.12), transparent 28%),
+        linear-gradient(180deg, rgba(14, 30, 57, 0.98), rgba(2, 5, 12, 0.96));
+    }
+
+    .player::after {
+      content: "";
+      width: 154px;
+      height: 154px;
+      position: absolute;
+      right: -28px;
+      top: 50%;
+      border-radius: 50%;
+      border: 1px solid rgba(120, 241, 255, 0.18);
+      background:
+        radial-gradient(circle, rgba(59, 213, 255, 0.18) 0 12%, transparent 13% 25%, rgba(255, 255, 255, 0.05) 26% 27%, transparent 28% 45%, rgba(120, 241, 255, 0.1) 46% 47%, transparent 48%),
+        rgba(0, 0, 0, 0.14);
+      opacity: 0.68;
+      transform: translateY(-50%);
+      pointer-events: none;
+      animation: vinylTurn 10s linear infinite;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      color: var(--blue-2);
+      border-radius: 999px;
+      border: 1px solid rgba(120, 241, 255, 0.22);
+      background: rgba(59, 213, 255, 0.08);
+      font-size: 13px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .status-pill::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+      box-shadow: 0 0 16px currentColor;
+    }
+
+    .history-item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
+      width: 100%;
+      min-height: 72px;
+      padding: 13px;
+      text-align: left;
+      color: var(--text);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.045);
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+    }
+
+    .history-item:hover {
+      transform: translateY(-1px);
+      border-color: rgba(120, 241, 255, 0.34);
+      background: rgba(120, 241, 255, 0.065);
+    }
+
+    .flow {
+      display: grid;
+      gap: 10px;
+    }
+
+    .flow-step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .flow-num {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #02101a;
+      background: var(--blue-2);
+      font-weight: 800;
+      box-shadow: 0 0 22px rgba(59, 213, 255, 0.18);
+    }
+
+    .flow-text {
+      padding: 12px 13px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .demo-note {
+      margin-top: 14px;
+      color: var(--gold-2);
+      line-height: 1.65;
+      font-size: 13px;
+    }
+
+    @keyframes stars {
+      from {
+        opacity: 0.32;
+        transform: translateY(0);
+      }
+      to {
+        opacity: 0.62;
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes pulse {
+      50% {
+        box-shadow: 0 0 0 10px rgba(59, 213, 255, 0.05), 0 0 30px rgba(59, 213, 255, 1);
+      }
+    }
+
+    @keyframes rotateEarth {
+      from {
+        transform: translateX(-10%) rotate(0deg);
+      }
+      to {
+        transform: translateX(10%) rotate(360deg);
+      }
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes signalSweep {
+      to {
+        transform: translateX(-50%) rotate(360deg);
+      }
+    }
+
+    @keyframes scanLine {
+      0%, 100% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-22px);
+      }
+      45%, 58% {
+        opacity: 1;
+      }
+      70% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(120px);
+      }
+    }
+
+    @keyframes orbitGlow {
+      to {
+        border-color: rgba(120, 241, 255, 0.42);
+        box-shadow: 0 0 46px rgba(59, 213, 255, 0.2), inset 0 0 42px rgba(59, 213, 255, 0.08);
+      }
+    }
+
+    @keyframes satellite {
+      50% {
+        transform: scale(1.35);
+        box-shadow: 0 0 30px rgba(243, 212, 138, 1);
+      }
+    }
+
+    @keyframes capsuleFloat {
+      50% {
+        transform: rotate(34deg) translateY(-4px);
+      }
+    }
+
+    @keyframes capsuleRitual {
+      0%, 100% {
+        transform: translateX(-50%) rotate(28deg) translateY(0);
+        opacity: 0.78;
+      }
+      50% {
+        transform: translateX(-50%) rotate(28deg) translateY(-8px);
+        opacity: 1;
+      }
+    }
+
+    @keyframes vinylTurn {
+      to {
+        transform: translateY(-50%) rotate(360deg);
+      }
+    }
+
+    @media (max-width: 390px) {
+      .app {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      .entry-card {
+        grid-template-columns: 46px 1fr;
+        padding: 15px;
+      }
+
+      .entry-icon,
+      .capsule-icon,
+      .podcast-icon {
+        width: 46px;
+        height: 46px;
+      }
+
+      .button-row {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 640px) {
+      .app {
+        width: min(100%, 720px);
+        padding: 30px 24px 46px;
+      }
+
+      .entry-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .date-row {
+        grid-template-columns: 1fr auto;
+      }
+
+      .primary,
+      .ghost {
+        min-width: 132px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <div class="topbar">
+      <div class="brand-mini"><span class="signal-dot"></span><span>Earth Signal</span></div>
+      <button class="back-btn" type="button" data-route="home" aria-label="返回首页">←</button>
+    </div>
+
+    <section id="home" class="section active">
+      <div class="hero">
+        <div class="earth-wrap" aria-hidden="true">
+          <div class="orbit"></div>
+          <div class="earth"></div>
+        </div>
+        <div class="hero-copy">
+          <h1>Earth Signal</h1>
+          <p class="subtitle">每天从地球接收一点值得听见的信号</p>
+        </div>
+        <div class="entry-grid">
+          <button class="entry-card" type="button" data-route="capsule">
+            <span class="entry-icon"><span class="capsule-shape"></span></span>
+            <span>
+              <h2>好消息时间胶囊</h2>
+              <p>选择一个日期，看看这一天发生过的一件好事</p>
+            </span>
+          </button>
+          <button class="entry-card" type="button" data-route="podcast">
+            <span class="entry-icon"><span class="podcast-shape"></span></span>
+            <span>
+              <h2>每日新闻播客</h2>
+              <p>精选一条全球新闻，生成 1 分钟播客</p>
+            </span>
+          </button>
+        </div>
+        <p class="footer-line">世界很大，值得被听见的不止坏消息</p>
+      </div>
+    </section>
+
+    <section id="capsule" class="section">
+      <header class="page-head">
+        <h1>好消息时间胶囊</h1>
+        <p class="subtitle">选择日期，打开一颗来自地球某处的亮光。</p>
+      </header>
+
+      <div class="stack">
+        <article class="card capsule-console">
+          <div class="section-title">
+            <h2>日期选择区</h2>
+          </div>
+          <div class="date-row">
+            <input id="dateInput" type="date" aria-label="选择日期">
+            <button id="openCapsuleBtn" class="primary" type="button">开启这一天</button>
+          </div>
+          <div id="fallbackNotice" class="notice"></div>
+        </article>
+
+        <article id="revealCard" class="card good-card" hidden></article>
+
+        <article class="card archive-panel">
+          <div class="section-title">
+            <h2>时间档案区</h2>
+          </div>
+          <div id="archiveList" class="archive-list"></div>
+        </article>
+
+        <article class="card share-panel">
+          <div class="section-title">
+            <h2>分享卡区</h2>
+          </div>
+          <div id="shareCard" class="share-card"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="podcast" class="section">
+      <header class="page-head">
+        <h1>今日 1 分钟新闻播客</h1>
+        <p class="subtitle">每天精选一条全球新闻，压缩成一段可以随时听的音频</p>
+      </header>
+
+      <div class="stack">
+        <article id="todayNews" class="card news-card"></article>
+
+        <article class="card script-panel">
+          <div class="section-title">
+            <h2>播客稿</h2>
+          </div>
+          <div id="scriptBox" class="script-box"></div>
+        </article>
+
+        <article class="card player">
+          <div class="section-title">
+            <h2>音频播放模拟</h2>
+          </div>
+          <span id="playStatus" class="status-pill">已暂停</span>
+          <div class="button-row">
+            <button id="playBtn" class="primary" type="button">播放播客</button>
+            <button id="pauseBtn" class="ghost" type="button">暂停</button>
+          </div>
+        </article>
+
+        <article class="card flow-panel">
+          <div class="section-title">
+            <h2>历史节目列表</h2>
+          </div>
+          <div id="historyList" class="history-list"></div>
+        </article>
+
+        <article class="card">
+          <div class="section-title">
+            <h2>每日推送设想页</h2>
+          </div>
+          <div id="flowList" class="flow"></div>
+          <p class="demo-note">当前 Demo 使用 mock 数据，真实版本可接入 RSS/API、TTS、自动化任务和消息推送。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const goodNewsData = [
+      {
+        date: "01-08",
+        year: "2020",
+        location: "澳大利亚",
+        category: "动物保护",
+        title: "受伤考拉开始重返野外保护区",
+        description: "山火救援后的第一批考拉完成治疗和观察，被送回恢复中的林地。",
+        emotionalLine: "有些生命很小，却让整片森林重新有了呼吸。"
+      },
+      {
+        date: "02-14",
+        year: "2019",
+        location: "肯尼亚",
+        category: "环保",
+        title: "社区植树计划恢复退化河岸",
+        description: "当地学校和家庭共同种下数万棵本土树苗，改善水土流失和鸟类栖息地。",
+        emotionalLine: "爱不只写在卡片上，也可以长成一片新的树荫。"
+      },
+      {
+        date: "03-03",
+        year: "2022",
+        location: "日本",
+        category: "科技",
+        title: "低功耗海洋传感器投入珊瑚监测",
+        description: "研究团队用太阳能浮标追踪海温与酸化数据，帮助更早发现珊瑚白化风险。",
+        emotionalLine: "当海洋发出微弱信号，人类终于学会更认真地听。"
+      },
+      {
+        date: "04-12",
+        year: "1955",
+        location: "美国",
+        category: "医疗",
+        title: "脊髓灰质炎疫苗试验宣布成功",
+        description: "大规模临床试验显示疫苗有效，为全球公共卫生带来深远改变。",
+        emotionalLine: "一支疫苗背后，是无数家庭重新拥有安心的夜晚。"
+      },
+      {
+        date: "05-26",
+        year: "2023",
+        location: "巴西",
+        category: "环保",
+        title: "亚马孙社区巡护队阻止非法砍伐",
+        description: "原住民巡护者与卫星监测协作，及时发现并报告了新的砍伐点。",
+        emotionalLine: "守住一棵树，也是在守住地球向未来发出的信号。"
+      },
+      {
+        date: "06-05",
+        year: "2021",
+        location: "印度",
+        category: "教育",
+        title: "移动图书车把科学课送到乡村",
+        description: "志愿团队把实验器材和图书带到偏远学校，让孩子们第一次亲手做光学实验。",
+        emotionalLine: "知识抵达的那一刻，远方就不再那么远。"
+      },
+      {
+        date: "07-20",
+        year: "1969",
+        location: "月球",
+        category: "科技",
+        title: "人类第一次踏上月球表面",
+        description: "阿波罗 11 号登月成功，让地球上的人第一次从另一个世界回望自己。",
+        emotionalLine: "当人类抬头看星空，也是在重新理解脚下的地球。"
+      },
+      {
+        date: "08-09",
+        year: "2022",
+        location: "卢旺达",
+        category: "医疗",
+        title: "无人机配送血液缩短急救时间",
+        description: "医疗无人机网络把血液和药品快速送到偏远医院，提高产科与急诊救治效率。",
+        emotionalLine: "天空中飞过的不是机器，是一条更快抵达生命的路。"
+      },
+      {
+        date: "09-08",
+        year: "2021",
+        location: "全球",
+        category: "人文",
+        title: "国际扫盲项目帮助成年人重返课堂",
+        description: "多个地区的夜校和数字课程让成年人获得阅读、写作与就业技能。",
+        emotionalLine: "读懂第一个句子的人，也重新读懂了自己的可能。"
+      },
+      {
+        date: "10-16",
+        year: "2020",
+        location: "荷兰",
+        category: "农业",
+        title: "垂直农场减少城市蔬菜运输距离",
+        description: "室内农场通过精确用水和 LED 光照生产绿叶菜，让城市食物供应更稳定。",
+        emotionalLine: "一片叶子长在城市里，也让未来多了一点绿色。"
+      },
+      {
+        date: "11-11",
+        year: "2023",
+        location: "墨西哥",
+        category: "动物保护",
+        title: "海龟保护营释放今年第十万只幼龟",
+        description: "志愿者巡护沙滩、转移受威胁的龟蛋，并在夜间护送幼龟入海。",
+        emotionalLine: "每一只奔向海浪的小海龟，都是世界继续前进的证据。"
+      },
+      {
+        date: "12-10",
+        year: "1948",
+        location: "巴黎",
+        category: "人文",
+        title: "世界人权宣言通过",
+        description: "联合国大会通过重要文件，确认每个人都应享有基本尊严与权利。",
+        emotionalLine: "文明最明亮的时刻，是把尊严写给每一个人。"
+      }
+    ];
+
+    const podcastData = [
+      {
+        date: "2026-05-26",
+        title: "城市正在用 AI 管理更细的能源波动",
+        region: "欧洲",
+        category: "AI",
+        summary: "多座城市测试 AI 调度电网与楼宇能耗，降低尖峰压力。",
+        whyItMatters: "能源系统越复杂，越需要能实时理解供需变化的工具。",
+        duration: "01:00",
+        script: "你好，这里是 Earth Signal 的今日 1 分钟新闻播客。\n\n今天关注的是城市能源管理。随着电动车、分布式光伏和极端天气同时增加，传统电网面对的波动越来越细，也越来越快。\n\n一些欧洲城市正在测试 AI 调度系统，把天气预测、建筑用电、充电桩负载和电价信号放在一起分析，再给出削峰填谷建议。它不只是让某栋楼少用一点电，而是让整个街区在关键时段更平稳。\n\n这件事重要，是因为未来的低碳城市不只靠更多清洁能源，也靠更聪明的分配方式。当能源被更精确地使用，居民账单、城市韧性和减排目标都会同时受益。\n\n今天的信号是：更安静的电网背后，可能藏着更聪明的城市。"
+      },
+      {
+        date: "2026-05-25",
+        title: "全球博物馆合作开放更多数字馆藏",
+        region: "全球",
+        category: "文化",
+        summary: "多家机构推动高精度数字文物共享，降低研究和教育门槛。",
+        whyItMatters: "开放馆藏让文化遗产被更多人看见，也让小型学校获得同等资源。",
+        duration: "01:03",
+        script: "你好，这里是 Earth Signal。今天的新闻来自文化领域。\n\n越来越多博物馆正在把高精度文物图像、三维模型和研究资料开放给公众。过去需要跨国申请才能接触的材料，现在可以进入课堂、研究项目和创作者的工作台。\n\n核心变化不只是数字化，而是共享方式变得更开放。学生可以在线观察细节，研究者可以对比不同馆藏，艺术家也能从真实历史资料中获得灵感。\n\n它重要，是因为文化遗产不应该只属于能够抵达现场的人。技术让距离变短，也让更多地方拥有参与全球文化讨论的机会。\n\n今天的信号是：被保存的过去，正在以新的方式抵达未来。"
+      },
+      {
+        date: "2026-05-24",
+        title: "微型卫星帮助追踪海上塑料漂流路径",
+        region: "太平洋",
+        category: "科技",
+        summary: "研究团队用卫星和浮标数据预测塑料垃圾聚集区域。",
+        whyItMatters: "更准确的路径预测能帮助清理船队减少盲目搜索。",
+        duration: "01:02",
+        script: "你好，这里是 Earth Signal 的每日新闻播客。\n\n今天看向海洋。研究团队正在结合微型卫星、海面浮标和洋流模型，追踪塑料垃圾在大洋中的漂移路径。\n\n过去，清理海上塑料经常像在巨大蓝色平面上寻找移动目标。现在，数据可以帮助预测垃圾更可能聚集在哪里，让清理行动更集中，也更节省燃料。\n\n这件事重要，是因为海洋污染治理不能只靠善意，也需要更好的定位能力和长期监测。每一次更准确的预测，都可能减少一片海域承受的压力。\n\n今天的信号是：当人类看清漂流的路径，也就更接近改变它。"
+      }
+    ];
+
+    const flowSteps = ["新闻源采集", "AI 筛选", "AI 改写", "TTS 生成音频", "移动端推送", "用户收听"];
+    const state = {
+      currentGoodNews: null,
+      archive: [],
+      currentPodcast: podcastData[0],
+      utterance: null,
+      speaking: false
+    };
+
+    const sections = document.querySelectorAll(".section");
+    const backBtn = document.querySelector(".back-btn");
+    const dateInput = document.querySelector("#dateInput");
+    const openCapsuleBtn = document.querySelector("#openCapsuleBtn");
+    const fallbackNotice = document.querySelector("#fallbackNotice");
+    const revealCard = document.querySelector("#revealCard");
+    const archiveList = document.querySelector("#archiveList");
+    const shareCard = document.querySelector("#shareCard");
+    const todayNews = document.querySelector("#todayNews");
+    const scriptBox = document.querySelector("#scriptBox");
+    const playBtn = document.querySelector("#playBtn");
+    const pauseBtn = document.querySelector("#pauseBtn");
+    const playStatus = document.querySelector("#playStatus");
+    const historyList = document.querySelector("#historyList");
+    const flowList = document.querySelector("#flowList");
+
+    function showSection(id) {
+      sections.forEach((section) => section.classList.toggle("active", section.id === id));
+      backBtn.style.visibility = id === "home" ? "hidden" : "visible";
+      if (id !== "podcast") stopSpeech();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function formatMonthDay(value) {
+      if (!value) return "";
+      const parts = value.split("-");
+      return `${parts[1]}-${parts[2]}`;
+    }
+
+    function displayDate(value) {
+      if (!value) return "05-26";
+      const parts = value.split("-");
+      return `${parts[1]}.${parts[2]}`;
+    }
+
+    function randomGoodNews() {
+      return goodNewsData[Math.floor(Math.random() * goodNewsData.length)];
+    }
+
+    function openCapsule(forceRandom = false) {
+      const selected = dateInput.value;
+      const monthDay = formatMonthDay(selected);
+      const matched = goodNewsData.find((item) => item.date === monthDay);
+      const item = forceRandom || !matched ? randomGoodNews() : matched;
+      const fallback = !forceRandom && !matched;
+      state.currentGoodNews = item;
+      renderGoodNews(item, fallback);
+    }
+
+    function renderGoodNews(item, fallback) {
+      revealCard.hidden = false;
+      fallbackNotice.textContent = fallback ? "这一天的专属胶囊还在路上，先送你一条来自地球其他角落的好消息。" : "";
+      fallbackNotice.classList.toggle("show", fallback);
+      revealCard.innerHTML = `
+        <div class="meta">
+          <span>${item.date}</span>
+          <span>${item.year}</span>
+          <span>${item.location}</span>
+          <span class="tag">${item.category}</span>
+        </div>
+        <h2>${item.title}</h2>
+        <p class="muted">${item.description}</p>
+        <p class="emotional">${item.emotionalLine}</p>
+        <div class="button-row">
+          <button id="saveGoodNewsBtn" class="primary" type="button">收进时间档案</button>
+          <button id="anotherGoodNewsBtn" class="ghost" type="button">再看一条</button>
+          <button id="makeShareBtn" class="ghost" type="button">生成分享卡</button>
+          <button class="ghost" type="button" data-route="home">返回首页</button>
+        </div>
+      `;
+      document.querySelector("#saveGoodNewsBtn").addEventListener("click", saveCurrentGoodNews);
+      document.querySelector("#anotherGoodNewsBtn").addEventListener("click", () => openCapsule(true));
+      document.querySelector("#makeShareBtn").addEventListener("click", renderShareCard);
+      revealCard.querySelector("[data-route='home']").addEventListener("click", () => showSection("home"));
+    }
+
+    function saveCurrentGoodNews() {
+      if (!state.currentGoodNews) return;
+      const exists = state.archive.some((item) => item.date === state.currentGoodNews.date && item.title === state.currentGoodNews.title);
+      if (!exists) state.archive.unshift(state.currentGoodNews);
+      renderArchive();
+    }
+
+    function renderArchive() {
+      if (!state.archive.length) {
+        archiveList.innerHTML = `<div class="empty">你的时间档案还是空的。去打开一颗好消息胶囊吧。</div>`;
+        return;
+      }
+      archiveList.innerHTML = state.archive.map((item) => `
+        <div class="mini-card" data-date="${item.date.replace("-", "&#10;")}">
+          <strong>${item.date} · ${item.title}</strong>
+          <p class="muted">${item.location} · ${item.year} · ${item.category}</p>
+        </div>
+      `).join("");
+    }
+
+    function renderShareCard() {
+      const item = state.currentGoodNews;
+      if (!item) return;
+      shareCard.classList.add("show");
+      shareCard.innerHTML = `
+        <div>
+          <div class="share-date">${item.date.replace("-", ".")}</div>
+          <p class="muted">这一天，世界上发生过一件好事</p>
+        </div>
+        <div>
+          <h2>${item.title}</h2>
+          <p class="muted">${item.description}</p>
+          <p class="emotional">${item.location} · ${item.year}</p>
+        </div>
+        <p class="muted">地球很大，好事也一直在发生</p>
+        <span class="planet-mark" aria-hidden="true"></span>
+      `;
+      shareCard.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function renderPodcast(item) {
+      state.currentPodcast = item;
+      todayNews.innerHTML = `
+        <div class="meta">
+          <span>${item.date}</span>
+          <span>${item.region}</span>
+          <span class="tag">${item.category}</span>
+        </div>
+        <h2>${item.title}</h2>
+        <p class="muted">${item.summary}</p>
+        <p class="emotional">${item.whyItMatters}</p>
+      `;
+      scriptBox.textContent = item.script;
+      stopSpeech();
+    }
+
+    function renderHistory() {
+      historyList.innerHTML = podcastData.map((item) => `
+        <button class="history-item" type="button" data-title="${item.title}">
+          <span>
+            <strong>${item.date} · ${item.title}</strong>
+            <span class="muted">${item.category}</span>
+          </span>
+          <span class="muted">${item.duration}</span>
+        </button>
+      `).join("");
+      historyList.querySelectorAll("button").forEach((button, index) => {
+        button.addEventListener("click", () => {
+          renderPodcast(podcastData[index]);
+          todayNews.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      });
+    }
+
+    function renderFlow() {
+      flowList.innerHTML = flowSteps.map((step, index) => `
+        <div class="flow-step">
+          <span class="flow-num">${index + 1}</span>
+          <span class="flow-text">${step}</span>
+        </div>
+      `).join("");
+    }
+
+    function playSpeech() {
+      if (!("speechSynthesis" in window)) {
+        playStatus.textContent = "当前浏览器不支持朗读";
+        return;
+      }
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        playStatus.textContent = "播放中";
+        state.speaking = true;
+        return;
+      }
+      stopSpeech(false);
+      const utterance = new SpeechSynthesisUtterance(state.currentPodcast.script);
+      utterance.lang = "zh-CN";
+      utterance.rate = 0.95;
+      utterance.pitch = 0.95;
+      utterance.onend = () => {
+        playStatus.textContent = "已暂停";
+        state.speaking = false;
+      };
+      state.utterance = utterance;
+      state.speaking = true;
+      playStatus.textContent = "播放中";
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function pauseSpeech() {
+      if ("speechSynthesis" in window && window.speechSynthesis.speaking) {
+        window.speechSynthesis.pause();
+      }
+      state.speaking = false;
+      playStatus.textContent = "已暂停";
+    }
+
+    function stopSpeech(updateStatus = true) {
+      if ("speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
+      state.speaking = false;
+      if (updateStatus) playStatus.textContent = "已暂停";
+    }
+
+    document.querySelectorAll("[data-route]").forEach((button) => {
+      button.addEventListener("click", () => showSection(button.dataset.route));
+    });
+
+    openCapsuleBtn.addEventListener("click", () => openCapsule(false));
+    playBtn.addEventListener("click", playSpeech);
+    pauseBtn.addEventListener("click", pauseSpeech);
+
+    const today = new Date();
+    dateInput.value = today.toISOString().slice(0, 10);
+    backBtn.style.visibility = "hidden";
+    renderArchive();
+    renderPodcast(podcastData[0]);
+    renderHistory();
+    renderFlow();
+  </script>
+</body>
+</html>
