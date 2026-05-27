@@ -25,7 +25,7 @@
     "duration": "01:00"
   },
   "selection": {
-    "totalCandidates": 15,
+    "totalCandidates": 20,
     "selectedScore": 34,
     "selectedReason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
@@ -42,6 +42,12 @@
         "reason": "来源可信度 +8；科技相关：ai, space；公共价值：city；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
       },
       {
+        "title": "SpaceX IPO Filing Reveals Favorable Terms for Elon Musk",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 29,
+        "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
+      },
+      {
         "title": "NASA to Announce Artemis III Crew, Provide Mission Progress Update",
         "sourceName": "NASA News",
         "score": 29,
@@ -52,12 +58,6 @@
         "sourceName": "MIT Technology Review",
         "score": 27,
         "reason": "来源可信度 +8；科技相关：ai, artificial intelligence；信息量较完整 +3"
-      },
-      {
-        "title": "Google Health is here, but a lot of people want their Fitbit app back instead",
-        "sourceName": "The Verge",
-        "score": 24,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：health；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4"
       }
     ]
   }
