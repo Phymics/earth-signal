@@ -46,17 +46,26 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Send ServerChan notification
+      - name: Send PushPlus notification
         if: ${{ success() }}
         env:
-          SERVER_CHAN_SEND_KEY: ${{ secrets.SERVER_CHAN_SEND_KEY }}
-          REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         run: |
-          if [ -z "$SERVER_CHAN_SEND_KEY" ]; then
-            echo "SERVER_CHAN_SEND_KEY is not set. Skip ServerChan notification."
+          if [ -z "$PUSHPLUS_TOKEN" ]; then
+            echo "PUSHPLUS_TOKEN is not set. Skip PushPlus notification."
             exit 0
           fi
 
-          curl -fsS "https://sctapi.ftqq.com/${SERVER_CHAN_SEND_KEY}.send" \
-            --data-urlencode "title=Earth Signal 今日已更新" \
-            --data-urlencode "desp=今日播客已自动生成。\n\nGitHub 仓库：${REPOSITORY_URL}"
+          curl -fsS "https://www.pushplus.plus/send" \
+            -H "Content-Type: application/json" \
+            -d "$(python3 - <<'PY'
+          import json
+          import os
+
+          print(json.dumps({
+              "token": os.environ["PUSHPLUS_TOKEN"],
+              "title": "Earth Signal 今日播客已更新",
+              "content": "今日播客已自动生成，可打开公网页面查看",
+          }, ensure_ascii=False))
+          PY
+          )"
