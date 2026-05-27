@@ -1,0 +1,94 @@
+name: Daily Podcast
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-podcast:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install edge-tts certifi
+
+      - name: Generate podcast JSON and MP3
+        run: python fetch_and_generate_podcast.py
+
+      - name: Commit generated podcast files
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/today-podcast.json audio/today-podcast.mp3
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No generated podcast changes to commit."
+          else
+            git commit -m "chore: update daily podcast"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send ServerChan notification
+        if: ${{ success() && steps.commit.outputs.changed == 'true' }}
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          PODCAST_URL: https://YOUR_NETLIFY_URL_HERE
+        run: |
+          if [ -z "$SERVERCHAN_SENDKEY" ]; then
+            echo "SERVERCHAN_SENDKEY is not set. Skip ServerChan notification."
+            exit 0
+          fi
+
+          python - <<'PY'
+          import json
+          import os
+
+          with open("data/today-podcast.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          title = data.get("zh", {}).get("title") or data.get("original", {}).get("title") or "今日播客"
+          source = data.get("sourceName", "Unknown Source")
+          selection = data.get("selection", {})
+          score = selection.get("selectedScore", "N/A")
+          reason = selection.get("selectedReason", "暂无筛选原因")
+          url = os.environ.get("PODCAST_URL", "https://YOUR_NETLIFY_URL_HERE")
+
+          desp = "\n".join([
+              f"今日新闻标题：{title}",
+              "",
+              f"来源：{source}",
+              "",
+              f"入选分数：{score}",
+              "",
+              f"入选原因：{reason}",
+              "",
+              f"收听链接：{url}",
+          ])
+
+          with open("/tmp/serverchan_title.txt", "w", encoding="utf-8") as f:
+              f.write("🌍 Earth Signal 今日播客已更新")
+          with open("/tmp/serverchan_desp.txt", "w", encoding="utf-8") as f:
+              f.write(desp)
+          PY
+
+          SERVERCHAN_TITLE="$(cat /tmp/serverchan_title.txt)"
+          SERVERCHAN_DESP="$(cat /tmp/serverchan_desp.txt)"
+          curl -fsS "https://sctapi.ftqq.com/${SERVERCHAN_SENDKEY}.send" \
+            --data-urlencode "title=${SERVERCHAN_TITLE}" \
+            --data-urlencode "desp=${SERVERCHAN_DESP}"
