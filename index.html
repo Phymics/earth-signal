@@ -2781,7 +2781,7 @@
         <h2>${content.title}</h2>
         <p class="muted">${content.summary}</p>
       `;
-      scriptBox.textContent = content.podcastScript;
+      scriptBox.textContent = formatSourceName(content.podcastScript);
       aiSummary.textContent = content.aiInsight;
       state.selectionExpanded = false;
       renderSelectionPanel(item);
@@ -2795,6 +2795,10 @@
           state.audioLoadFailed = true;
         }
       }
+    }
+
+    function formatSourceName(text) {
+      return (text || "").replace(/今天的 Earth Signal 来自(?!「)([^。\n]+)(。?)/, "今天的 Earth Signal 来自「$1」$2");
     }
 
     function renderSelectionPanel(item) {
