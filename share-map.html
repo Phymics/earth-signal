@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 轻应用生产地图</title>
+  <style>
+    :root {
+      --page: #f7f7f5;
+      --paper: #ffffff;
+      --card: #fafafa;
+      --text: #1f2329;
+      --muted: #646a73;
+      --soft: #86909c;
+      --border: #e5e6eb;
+      --line: #c9cdd4;
+      --blue: #f3f8ff;
+      --green: #f3fbf6;
+      --purple: #f7f4ff;
+      --warm: #fffaf0;
+      --link: #245bdb;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Microsoft YaHei", "PingFang SC", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-width: 0;
+      margin: 0;
+      color: var(--text);
+      font-family: var(--font);
+      background: var(--page);
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .board {
+      width: min(960px, calc(100% - 32px));
+      margin: 24px auto 32px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--paper);
+      box-shadow: 0 4px 14px rgba(31, 35, 41, 0.04);
+    }
+
+    .top {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.35;
+      font-weight: 750;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+      min-width: 150px;
+    }
+
+    .text-btn,
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 30px;
+      padding: 0 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: #4e5969;
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 500;
+      background: #fff;
+      cursor: pointer;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+
+    .text-btn:hover,
+    .text-btn:focus-visible,
+    .link-btn:hover,
+    .link-btn:focus-visible {
+      border-color: #b7c5e8;
+      color: var(--link);
+      background: #f7faff;
+      text-decoration: none;
+      outline: none;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 14px;
+      margin-top: 22px;
+      padding-left: 64px;
+    }
+
+    .timeline::before {
+      position: absolute;
+      top: 8px;
+      bottom: 8px;
+      left: 24px;
+      width: 1px;
+      content: "";
+      border-left: 1px dashed var(--line);
+    }
+
+    .node {
+      position: relative;
+      min-width: 0;
+    }
+
+    .dot {
+      position: absolute;
+      top: 17px;
+      left: -58px;
+      z-index: 1;
+      display: grid;
+      place-items: center;
+      width: 36px;
+      height: 36px;
+      border: 1px solid #d8dce6;
+      border-radius: 50%;
+      color: #4e5969;
+      font-size: 12px;
+      font-weight: 750;
+      background: #fff;
+    }
+
+    .card {
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      overflow: hidden;
+    }
+
+    .card.blue {
+      background: var(--blue);
+    }
+
+    .card.green {
+      background: var(--green);
+    }
+
+    .card.purple {
+      background: var(--purple);
+    }
+
+    .card.warm {
+      background: var(--warm);
+    }
+
+    .card-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 30px;
+      gap: 12px;
+      width: 100%;
+      padding: 16px;
+      color: inherit;
+      text-align: left;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .card-head:focus-visible {
+      outline: 2px solid rgba(36, 91, 219, 0.28);
+      outline-offset: -2px;
+    }
+
+    .node-title {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.45;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .summary {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      display: inline-flex;
+      max-width: 100%;
+      padding: 3px 8px;
+      border: 1px solid #dde2ee;
+      border-radius: 999px;
+      color: #4e5969;
+      font-size: 12px;
+      line-height: 1.4;
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    .toggle {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border: 1px solid #d8dce6;
+      border-radius: 6px;
+      color: #4e5969;
+      font-size: 18px;
+      line-height: 1;
+      background: rgba(255, 255, 255, 0.78);
+    }
+
+    .toggle::before {
+      content: "+";
+    }
+
+    .card.is-open .toggle::before {
+      content: "-";
+    }
+
+    .detail {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 240ms ease;
+    }
+
+    .detail-inner {
+      padding: 0 16px 16px;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(201, 205, 212, 0.72);
+    }
+
+    .block {
+      min-width: 0;
+      padding: 12px;
+      border: 1px solid rgba(229, 230, 235, 0.95);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.76);
+    }
+
+    .block.demo {
+      grid-column: 1 / -1;
+      background: #fff;
+    }
+
+    .label {
+      margin: 0 0 7px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .text {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.75;
+      word-break: break-word;
+    }
+
+    .text code {
+      padding: 2px 5px;
+      border: 1px solid #e5e6eb;
+      border-radius: 4px;
+      color: #245bdb;
+      background: #f7f8fa;
+      white-space: normal;
+    }
+
+    .demo-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 780px) {
+      .board {
+        width: min(100% - 20px, 960px);
+        margin-top: 10px;
+        padding: 18px;
+      }
+
+      .top {
+        display: block;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      .controls {
+        justify-content: flex-start;
+        margin-top: 14px;
+      }
+
+      .timeline {
+        padding-left: 44px;
+      }
+
+      .timeline::before {
+        left: 18px;
+      }
+
+      .dot {
+        left: -42px;
+        width: 32px;
+        height: 32px;
+        font-size: 11px;
+      }
+
+      .detail-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .block.demo {
+        grid-column: auto;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .board {
+        width: 100%;
+        margin: 0;
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .timeline {
+        padding-left: 0;
+      }
+
+      .timeline::before,
+      .dot {
+        display: none;
+      }
+
+      .card-head {
+        grid-template-columns: minmax(0, 1fr) 28px;
+        padding: 14px;
+      }
+
+      .node-title {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="board">
+    <header class="top">
+      <div>
+        <h1>AI 轻应用生产地图</h1>
+        <p class="subtitle">从一个点子，到可访问、可播放、可自动更新、可推送的小产品。</p>
+      </div>
+      <div class="controls" aria-label="流程图控制">
+        <button class="text-btn" type="button" id="expandAll">全部展开</button>
+        <button class="text-btn" type="button" id="collapseAll">全部收起</button>
+      </div>
+    </header>
+
+    <section class="timeline" aria-label="AI 轻应用生产流程">
+      <article class="node">
+        <div class="dot">01</div>
+        <div class="card blue">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">点子成型：从一个日常想法开始</h2>
+              <p class="summary">先把小想法压缩成一句产品句子，明确最小闭环。</p>
+              <div class="tags"><span class="tag">ChatGPT</span><span class="tag">产品定义</span><span class="tag">范围收敛</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">把一个很小的想法先收敛成一句话：每天自动捕捉一条世界新闻，生成 1 分钟左右可以收听的内容。这个阶段解决的不是技术问题，而是产品方向问题：先明确“我要做什么”，而不是一上来就陷入工具选择。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">主要使用 ChatGPT 做想法收敛和产品定义。也考虑过直接写飞书文档、画原型、做 PPT，但最终先用对话把需求讲清楚，因为最快、成本最低，也最适合从一个模糊念头起步。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：点子很容易发散，可能变成新闻站、播客站、AI 助手、资讯聚合器。最后解决方式是把范围压小：只做“一天一条信号 + 1 分钟收听”，先形成一个最小闭环。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">建议现场用一句话带过，不需要展开太多。可以展示最初的产品定义文字，或者口述：“我不是先写 PRD，而是先把想法压缩成一句产品句子。”</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">02</div>
+        <div class="card green">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">第一个 Demo：先让产品长出来</h2>
+              <p class="summary">先做出能看的网页，再围绕真实页面继续判断和修改。</p>
+              <div class="tags"><span class="tag">Codex</span><span class="tag">HTML/CSS/JS</span><span class="tag">可运行 Demo</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">用 Codex 把想法快速变成第一个可以看的网页 Demo，包括首页、每日新闻播客入口、内容卡片、播放器雏形。这个阶段解决的是“从 0 到可见”的问题：先让产品长出来，再围绕真实页面继续判断和修改。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">主要使用 Codex + HTML/CSS/JS 单文件。考虑过 Figma、Axure、飞书原型、手动画图，但最终先让 Codex 直接写页面，因为时间紧，而且网页 Demo 可以直接变成后续真实产品，不只是静态图。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：如果先做高保真原型，很可能做完还不能运行；如果先写完整需求，又会太慢。解决方式是先让 Codex 生成可运行页面，用真实界面代替抽象描述，再一轮轮改。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以打开本地或公网的 Earth Signal 首页，展示“第一个可看的形态”。如果还保留 <code>index_v2_backup.html</code> / <code>index_v3_backup.html</code>，可以作为阶段性成果截图；如果不展示备份文件，就展示当前页面并说明它是迭代后的版本。</p><p class="demo-links"><a class="link-btn" href="./index.html">打开 Earth Signal 首页</a><a class="link-btn" href="https://phymics.github.io/earth-signal/" target="_blank" rel="noopener">打开公网 Demo</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">03</div>
+        <div class="card purple">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">本地运行：建立“改完就能看”的验证闭环</h2>
+              <p class="summary">用本地 HTTP 服务让每次修改都能马上验收。</p>
+              <div class="tags"><span class="tag">Python3</span><span class="tag">localhost</span><span class="tag">本地验证</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">用 Python3 在本地启动 HTTP 服务，让 <code>index.html</code> 可以在浏览器里真实运行。这个阶段解决的是验证效率问题：每次 Codex 改完后，不是凭感觉判断，而是马上打开页面看效果。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">使用 <code>python3 -m http.server 8000</code>。这个方案不需要额外安装复杂服务，不需要配置后端，也不依赖平台，适合静态页面快速验证。相比完整前端工程，它更轻、更快。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：直接打开 html 文件和通过本地服务访问，体验并不完全一样，后续音频、数据路径、相对路径都需要更接近真实部署环境。解决方式是统一用 <code>localhost:8000</code> 访问，形成标准验证动作。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">现场可以演示：<br><code>cd /Users/phymics/Desktop/codex</code><br><code>python3 -m http.server 8000</code><br>然后打开：<code>http://localhost:8000/</code><br>也可以展示终端截图，说明这是每次改完后的基础验收入口。</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">04</div>
+        <div class="card warm">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">手机局域网访问：验证真实移动端体验</h2>
+              <p class="summary">电脑可用不等于手机可用，用真机验证移动端细节。</p>
+              <div class="tags"><span class="tag">局域网 IP</span><span class="tag">手机浏览器</span><span class="tag">真机验收</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">把本地页面通过局域网 IP 给手机访问，验证真实移动端体验。这个阶段解决的是“电脑可用不等于手机可用”的问题，尤其是页面宽度、按钮尺寸、音频播放、图标显示等移动端问题。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">使用 Mac 本机局域网 IP + 手机浏览器访问。没有上来就依赖公网，也没有复杂部署，原因是速度最快，可以马上验证手机端真实效果。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时遇到过手机打不开的问题，后来发现流量可以打开、公网路径也要区分；也遇到过手机端播放图标显示成 emoji 的问题，比如播放按钮变成蓝色系统 emoji。解决方式是改成 CSS 绘制图标，不再依赖特殊字符。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以现场展示手机访问页面，或者放截图：手机端首页截图、手机端播客页截图、播放按钮从 emoji 改成 CSS 图标前后的对比截图。如果现场演示，可以让大家看到同一个页面在手机上的真实效果。</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">05</div>
+        <div class="card blue">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">公网发布：从 Netlify 拖拽到 GitHub Pages</h2>
+              <p class="summary">从快速临时预览，升级为可持续自动发布链路。</p>
+              <div class="tags"><span class="tag">Netlify Drop</span><span class="tag">GitHub Pages</span><span class="tag">持续发布</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">先用 Netlify Drop 把本地 Demo 快速拖拽上线，验证“别人能不能打开”。后面切换到 GitHub Pages，作为正式公网发布方式。这个阶段解决的是公网访问能力，让作品从“只有我电脑能看”变成“任何人都能打开”。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">考虑过 Netlify、Vercel、GitHub Pages。Netlify Drop 的优势是最快，适合早期临时预览；Vercel 登录和流程对当时来说更有阻碍；GitHub Pages 最终更适合和 GitHub 仓库、自动更新、Actions 串起来，所以后续选择 GitHub Pages 作为正式链路。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：临时发布很快，但如果每天自动更新，就不能靠手动拖拽文件。解决方式是先用 Netlify Drop 验证公网访问成立，再迁移到 GitHub Pages，让代码仓库、自动任务和公网页面形成一个持续发布链路。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以展示 Netlify Drop 页面或当时拖拽发布截图，如果还找得到；也可以展示 GitHub Pages 公网页面和 GitHub Actions 触发 Pages build 的截图。现场可以说：Netlify 是验证“能不能给别人看”，GitHub Pages 是解决“能不能持续自动更新”。</p><p class="demo-links"><a class="link-btn" href="https://phymics.github.io/earth-signal/" target="_blank" rel="noopener">打开 GitHub Pages 公网页面</a><a class="link-btn" href="https://github.com/Phymics/earth-signal/actions" target="_blank" rel="noopener">查看 Actions 页面</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">06</div>
+        <div class="card green">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">内容生成：从 Mock 到真实 RSS</h2>
+              <p class="summary">从静态文案升级为每天变化的真实内容输入。</p>
+              <div class="tags"><span class="tag">Mock</span><span class="tag">RSS</span><span class="tag">Python3</span><span class="tag">JSON</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">从最早的 mock 文案，升级为抓取真实 RSS 新闻源，再用 Python3 进行候选新闻抓取、筛选、总结、结构化，最终生成 <code>today-podcast.json</code> 和 <code>history-podcasts.json</code>。这个阶段解决的是“内容从哪里来、如何每天变化”的问题。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">使用 Python3 抓取和处理 RSS，使用公开 RSS 新闻源作为内容来源，生成 JSON 给前端读取。选择原因是：RSS 公开、稳定、低成本；Python 适合快速写抓取和处理脚本；JSON 适合静态网页直接读取，不需要后端数据库。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：页面一开始只是静态内容，看起来像 Demo，不像每天真的会变化的产品。后来引入 RSS 后，又遇到“当天可能选中同一条新闻”的情况，导致推送收到了但页面内容看起来没变。解决方式是通过日志、<code>git show</code>、JSON 内容核对，确认链路是通的，只是筛选结果未变化。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以现场打开 JSON，展示页面内容不是写死的，而是脚本生成的；也可以展示 GitHub Actions 里 Generate daily podcast 的日志。</p><p class="demo-links"><a class="link-btn" href="data/today-podcast.json">查看 today-podcast.json</a><a class="link-btn" href="data/history-podcasts.json">查看 history-podcasts.json</a><a class="link-btn" href="https://github.com/Phymics/earth-signal/actions" target="_blank" rel="noopener">查看 Actions 日志</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">07</div>
+        <div class="card purple">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">音频能力：从浏览器朗读到双语 MP3</h2>
+              <p class="summary">从“能读”升级到更像播客产品的真实音频文件。</p>
+              <div class="tags"><span class="tag">SpeechSynthesis</span><span class="tag">edge-tts</span><span class="tag">MP3</span><span class="tag">双语</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">最早版本使用浏览器原生朗读作为兜底，但声音比较机械，也不稳定。后来升级成生成真实 MP3 文件，并支持中文 / 原文两套音频，历史节目也能和对应音频一一匹配。这个阶段解决的是“从能读，到像一个真正播客产品”的问题。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">使用 edge-tts 生成 MP3。考虑过浏览器 SpeechSynthesis、在线 TTS 服务、第三方音频 API。最终选择 edge-tts，是因为它能在 Python 脚本里自动跑，生成真实音频文件，适合 GitHub Actions 自动化执行，也不需要复杂前端依赖。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点是：浏览器原声朗读很机械，且不同设备体验不一致；同时只生成一份音频时，中英文切换会出现内容和音频不完全对应的问题。解决方式是生成 <code>today-podcast-zh.mp3</code> 和 <code>today-podcast-original.mp3</code>，并给历史内容建立 history 音频目录。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以展示音频文件目录和页面里的中文 / 原文切换。现场可以演示：切到中文播放中文音频，切到原文播放英文音频。</p><p class="demo-links"><a class="link-btn" href="audio/today-podcast-zh.mp3">中文 MP3</a><a class="link-btn" href="audio/today-podcast-original.mp3">原文 MP3</a><a class="link-btn" href="./index.html">页面内播放</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="node">
+        <div class="dot">08</div>
+        <div class="card warm">
+          <div class="card-head" role="button" tabindex="0" aria-expanded="false">
+            <div>
+              <h2 class="node-title">自动化闭环：GitHub Actions + 外部服务集成 + 微信推送</h2>
+              <p class="summary">定时生成、自动部署、主动推送，形成完整生产闭环。</p>
+              <div class="tags"><span class="tag">GitHub Actions</span><span class="tag">GitHub Pages</span><span class="tag">Secrets</span><span class="tag">PushPlus / Server 酱</span></div>
+            </div>
+            <span class="toggle" aria-hidden="true"></span>
+          </div>
+          <div class="detail">
+            <div class="detail-inner">
+              <div class="detail-grid">
+                <div class="block"><p class="label">做了什么 / 解决了什么</p><p class="text">把整个流程接进 GitHub Actions：定时触发、运行 Python 脚本、生成 JSON 和 MP3、提交到仓库、触发 GitHub Pages 部署，并通过外部推送服务把结果推送到微信。这个阶段解决的是“每天不用手动操作，也能更新和触达”的问题。</p></div>
+                <div class="block"><p class="label">工具选型 / 为什么选</p><p class="text">使用 GitHub Actions 做自动任务，GitHub Pages 做部署，PushPlus / Server 酱作为外部推送服务，GitHub Secrets 管理推送服务的访问凭证。选择原因是：GitHub Actions 和代码仓库天然集成，适合自动跑脚本；Secrets 可以避免把 key 写进代码；PushPlus / Server 酱适合把结果送到微信。</p></div>
+                <div class="block"><p class="label">当时卡点 / 怎么解决</p><p class="text">当时的卡点比较真实：一开始以为 8:30 会自动收到推送，但早上没有收到。后来排查发现定时任务没按预期出现；手动运行后，推送成功，说明整体链路是通的。之后又发现页面内容没变，是因为脚本选中了同一条新闻，不是部署失败。最终通过增加 fallback schedule、查看 Actions 日志、核对 commit 和 JSON 内容，确认链路稳定。</p></div>
+                <div class="block demo"><p class="label">可演示入口</p><p class="text">可以展示 GitHub Actions 页面、Daily Earth Signal workflow、pages build and deployment workflow、Secrets 配置位置截图，注意不要展示具体 token；也可以展示微信收到 PushPlus 推送的截图。现场可以演示点击 Run workflow，或者展示最近一次 Actions 成功记录。</p><p class="demo-links"><a class="link-btn" href="https://github.com/Phymics/earth-signal/actions" target="_blank" rel="noopener">打开 GitHub Actions</a><a class="link-btn" href="https://phymics.github.io/earth-signal/" target="_blank" rel="noopener">打开 GitHub Pages</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
+      var expandAll = document.getElementById("expandAll");
+      var collapseAll = document.getElementById("collapseAll");
+
+      function setCard(card, open) {
+        var head = card.querySelector(".card-head");
+        var detail = card.querySelector(".detail");
+        card.classList.toggle("is-open", open);
+        head.setAttribute("aria-expanded", String(open));
+        detail.style.maxHeight = open ? detail.scrollHeight + "px" : "0px";
+      }
+
+      function refreshOpenHeights() {
+        cards.forEach(function (card) {
+          if (card.classList.contains("is-open")) {
+            var detail = card.querySelector(".detail");
+            detail.style.maxHeight = detail.scrollHeight + "px";
+          }
+        });
+      }
+
+      cards.forEach(function (card) {
+        var head = card.querySelector(".card-head");
+        head.addEventListener("click", function () {
+          setCard(card, !card.classList.contains("is-open"));
+        });
+        head.addEventListener("keydown", function (event) {
+          if (event.key !== "Enter" && event.key !== " ") {
+            return;
+          }
+          event.preventDefault();
+          setCard(card, !card.classList.contains("is-open"));
+        });
+      });
+
+      expandAll.addEventListener("click", function () {
+        cards.forEach(function (card) {
+          setCard(card, true);
+        });
+      });
+
+      collapseAll.addEventListener("click", function () {
+        cards.forEach(function (card) {
+          setCard(card, false);
+        });
+      });
+
+      window.addEventListener("resize", refreshOpenHeights);
+    })();
+  </script>
+</body>
+</html>
