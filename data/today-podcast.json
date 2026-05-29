@@ -50,16 +50,16 @@
         "reason": "来源可信度 +8；科技相关：climate, energy；公共价值：public, climate, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
       },
       {
-        "title": "NASA Uses Mineralogical Marker to Understand Ancient Martian Climate",
-        "sourceName": "NASA News",
-        "score": 35,
-        "reason": "来源可信度 +8；科技相关：nasa, climate；公共价值：climate；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
+        "title": "The deadly Ebola outbreak is proving difficult to control",
+        "sourceName": "MIT Technology Review",
+        "score": 34,
+        "reason": "来源可信度 +8；科技相关：ai；公共价值：public, health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
       },
       {
-        "title": "How a new extraction process could unlock the world’s lithium",
+        "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
         "sourceName": "MIT Technology Review",
-        "score": 31,
-        "reason": "来源可信度 +8；科技相关：energy；公共价值：environment, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
+        "score": 32,
+        "reason": "来源可信度 +8；科技相关：ai, artificial intelligence, technology；信息量较完整 +3"
       }
     ],
     "demoOverride": true,
