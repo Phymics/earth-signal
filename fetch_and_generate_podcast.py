@@ -53,6 +53,24 @@ FALLBACK_CANDIDATE = {
     "category": "科学",
 }
 
+DEMO_BLOCKED_TITLE = "Released: NASA Goddard Issues Draft Request for Proposal for the Landsat 10 Spacecraft"
+DEMO_OVERRIDE_DATE = "2026-05-29"
+
+DEMO_CANDIDATE = {
+    "title": "AI Helps Museums Rebuild Lost Ancient Sounds",
+    "summary": (
+        "Researchers are using artificial intelligence to recreate the sound of ancient instruments, "
+        "helping museums turn silent exhibits into immersive listening experiences."
+    ),
+    "sourceName": "Earth Signal Demo Source",
+    "sourceUrl": "https://phymics.github.io/earth-signal/",
+    "published": "",
+    "category": "AI / Culture",
+    "trust": 10,
+    "score": 999,
+    "reason": "临时演示兜底：避开 5.28 已展示过的 Landsat 10 旧新闻",
+}
+
 TECH_KEYWORDS = {
     "ai": 8,
     "artificial intelligence": 8,
@@ -197,7 +215,43 @@ def fetch_rss_item() -> dict:
     candidates = fetch_all_candidates()
     selected, selection = select_best_story(candidates)
     selected["selection"] = selection
-    return selected
+    return apply_demo_override_if_needed(selected)
+
+
+def apply_demo_override_if_needed(selected: dict) -> dict:
+    is_blocked_story = DEMO_BLOCKED_TITLE in selected.get("title", "")
+    is_demo_day = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d") == DEMO_OVERRIDE_DATE
+    if not is_blocked_story and not is_demo_day:
+        return selected
+
+    print("Demo override activated: using temporary presentation story.")
+    selection = selected.get("selection", {}).copy()
+    top_candidates = selection.get("topCandidates", [])
+    reason = DEMO_CANDIDATE["reason"]
+    if is_demo_day and not is_blocked_story:
+        reason = "临时演示兜底：今天分享固定使用 demo 新闻，便于展示自动更新链路"
+    selection.update(
+        {
+            "selectedScore": DEMO_CANDIDATE["score"],
+            "selectedReason": reason,
+            "demoOverride": True,
+            "demoOverrideDate": DEMO_OVERRIDE_DATE,
+            "replacedTitle": selected.get("title", ""),
+            "topCandidates": [
+                {
+                    "title": DEMO_CANDIDATE["title"],
+                    "sourceName": DEMO_CANDIDATE["sourceName"],
+                    "score": DEMO_CANDIDATE["score"],
+                    "reason": reason,
+                },
+                *top_candidates[:4],
+            ],
+        }
+    )
+
+    demo_item = DEMO_CANDIDATE.copy()
+    demo_item["selection"] = selection
+    return demo_item
 
 
 def fetch_all_candidates() -> list:
@@ -297,6 +351,29 @@ def select_best_story(candidates: list) -> tuple:
 def build_original_content(item: dict) -> dict:
     title = item["title"]
     summary = item["summary"]
+    if title == DEMO_CANDIDATE["title"]:
+        return {
+            "title": title,
+            "summary": summary,
+            "podcastScript": (
+                "Hello, this is Earth Signal.\n\n"
+                "Today's signal comes from a demo story about museums using artificial intelligence "
+                "to recreate the lost sounds of ancient instruments.\n\n"
+                "The report says researchers are using AI to help silent exhibits become immersive "
+                "listening experiences. Instead of only looking at an object behind glass, visitors "
+                "can begin to imagine how that object may once have sounded in daily life, ritual, "
+                "or performance.\n\n"
+                "The bigger signal is that AI is not only about generating text and images. It can "
+                "also become a tool for recovering forms of culture that were difficult to sense "
+                "directly."
+            ),
+            "aiInsight": (
+                "The value of AI is not only improving efficiency. It can also help people notice, "
+                "see and hear things that were once beyond ordinary perception."
+            ),
+            "sourceUrl": item["sourceUrl"],
+        }
+
     podcast_script = (
         "Hello, this is Earth Signal.\n\n"
         f"Today's story comes from {item['sourceName']}: {title}.\n\n"
@@ -356,6 +433,29 @@ def summarize_in_chinese(title: str, summary: str) -> str:
 
 
 def build_chinese_content(original_content: dict) -> dict:
+    if original_content["title"] == DEMO_CANDIDATE["title"]:
+        return {
+            "title": "AI 帮助博物馆重建消失的古代声音",
+            "summary": (
+                "研究人员正在用人工智能重建古代乐器的声音，让原本只能观看的博物馆展品，"
+                "变成可以被听见的沉浸式体验。"
+            ),
+            "podcastScript": (
+                "今天的 Earth Signal，想从一座博物馆说起。\n\n"
+                "这条 demo 新闻讲的是：研究人员正在用人工智能，重建古代乐器曾经发出的声音。"
+                "过去，很多文物只能被看见。它们被放在展柜里，观众能看到形状、材料和纹理，"
+                "却很难想象它们在几百年、几千年前真正响起来是什么样。\n\n"
+                "AI 介入之后，事情开始变得不一样。它不只是生成文字和图片，也可以帮助研究者根据材料、"
+                "结构和历史线索，推测一种声音可能的样子。\n\n"
+                "这让博物馆不再只是“看展”的地方，也有机会变成“听见过去”的地方。"
+                "当沉默的文物重新变成声音，历史就不只是被陈列，也开始重新进入人的感官。"
+            ),
+            "aiInsight": (
+                "AI 的价值不只在于提高效率，也在于让那些原本无法被感知的东西，"
+                "重新被看见、被听见。"
+            ),
+        }
+
     title = keyword_title(original_content["title"], original_content["summary"])
     summary = summarize_in_chinese(original_content["title"], original_content["summary"])
     content = {
