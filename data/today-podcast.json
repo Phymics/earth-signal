@@ -44,12 +44,6 @@
         "reason": "来源可信度 +8；科技相关：ai, climate, energy, technology；公共价值：public, climate, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
       },
       {
-        "title": "Climate tech companies are going public. What’s next?",
-        "sourceName": "MIT Technology Review",
-        "score": 43,
-        "reason": "来源可信度 +8；科技相关：climate, energy；公共价值：public, climate, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
-      },
-      {
         "title": "The deadly Ebola outbreak is proving difficult to control",
         "sourceName": "MIT Technology Review",
         "score": 34,
@@ -60,6 +54,12 @@
         "sourceName": "MIT Technology Review",
         "score": 32,
         "reason": "来源可信度 +8；科技相关：ai, artificial intelligence, technology；信息量较完整 +3"
+      },
+      {
+        "title": "How a new extraction process could unlock the world’s lithium",
+        "sourceName": "MIT Technology Review",
+        "score": 31,
+        "reason": "来源可信度 +8；科技相关：energy；公共价值：environment, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4"
       }
     ],
     "demoOverride": true,
