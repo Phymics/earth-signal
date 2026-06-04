@@ -1,4 +1,5 @@
 import asyncio
+import email.utils
 import html
 import json
 import re
@@ -6,10 +7,12 @@ import shutil
 import ssl
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Optional
 
 
+BUSINESS_TZ = timezone(timedelta(hours=8))
 LEGACY_AUDIO_PATH = "audio/today-podcast.mp3"
 TODAY_AUDIO_ZH = "audio/today-podcast-zh.mp3"
 TODAY_AUDIO_ORIGINAL = "audio/today-podcast-original.mp3"
@@ -51,24 +54,6 @@ FALLBACK_CANDIDATE = {
     "sourceUrl": "https://www.nasa.gov/",
     "published": "",
     "category": "科学",
-}
-
-DEMO_BLOCKED_TITLE = "Released: NASA Goddard Issues Draft Request for Proposal for the Landsat 10 Spacecraft"
-DEMO_OVERRIDE_DATE = "2026-05-29"
-
-DEMO_CANDIDATE = {
-    "title": "AI Helps Museums Rebuild Lost Ancient Sounds",
-    "summary": (
-        "Researchers are using artificial intelligence to recreate the sound of ancient instruments, "
-        "helping museums turn silent exhibits into immersive listening experiences."
-    ),
-    "sourceName": "Earth Signal Demo Source",
-    "sourceUrl": "https://phymics.github.io/earth-signal/",
-    "published": "",
-    "category": "AI / Culture",
-    "trust": 10,
-    "score": 999,
-    "reason": "临时演示兜底：避开 5.28 已展示过的 Landsat 10 旧新闻",
 }
 
 TECH_KEYWORDS = {
@@ -177,6 +162,70 @@ def child_attr(node, local_name, attr):
     return ""
 
 
+def business_now() -> datetime:
+    return datetime.now(timezone.utc).astimezone(BUSINESS_TZ)
+
+
+def parse_published_at(value: str) -> Optional[datetime]:
+    value = clean_text(value)
+    if not value:
+        return None
+
+    try:
+        parsed = email.utils.parsedate_to_datetime(value)
+    except (TypeError, ValueError):
+        parsed = None
+
+    if parsed is None:
+        iso_value = value.replace("Z", "+00:00")
+        try:
+            parsed = datetime.fromisoformat(iso_value)
+        except ValueError:
+            return None
+
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(BUSINESS_TZ)
+
+
+def normalize_history_value(value: str) -> str:
+    return re.sub(r"\s+", " ", clean_text(value).lower()).strip()
+
+
+def load_history() -> list:
+    history_file = Path(__file__).resolve().parent / "data" / "history-podcasts.json"
+    if not history_file.exists():
+        return []
+    try:
+        history = json.loads(history_file.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    return history if isinstance(history, list) else []
+
+
+def collect_history_refs(exclude_date: str = "") -> set:
+    refs = set()
+    for item in load_history():
+        if exclude_date and item.get("date") == exclude_date:
+            continue
+        values = [
+            item.get("sourceUrl", ""),
+            item.get("title", ""),
+            item.get("original", {}).get("title", ""),
+            item.get("zh", {}).get("title", ""),
+        ]
+        for value in values:
+            normalized = normalize_history_value(value)
+            if normalized:
+                refs.add(normalized)
+    return refs
+
+
+def is_history_duplicate(candidate: dict, history_refs: set) -> bool:
+    values = [candidate.get("sourceUrl", ""), candidate.get("title", "")]
+    return any(normalize_history_value(value) in history_refs for value in values if value)
+
+
 def fetch_source(source: dict) -> list:
     request = urllib.request.Request(
         source["url"],
@@ -194,7 +243,8 @@ def fetch_source(source: dict) -> list:
         title = child_text(item, ["title"])
         summary = child_text(item, ["description", "summary", "content", "encoded"])
         source_url = child_text(item, ["link"]) or child_attr(item, "link", "href") or source["url"]
-        published = child_text(item, ["pubDate", "published", "updated"])
+        published = child_text(item, ["published", "updated", "pubDate", "date"])
+        published_at = parse_published_at(published)
         if not title:
             continue
         candidates.append(
@@ -204,6 +254,8 @@ def fetch_source(source: dict) -> list:
                 "sourceName": source["name"],
                 "sourceUrl": source_url,
                 "published": published,
+                "publishedAtUtc8": published_at.isoformat() if published_at else "",
+                "businessDate": published_at.strftime("%Y-%m-%d") if published_at else "",
                 "category": source["category"],
                 "trust": source["trust"],
             }
@@ -215,43 +267,7 @@ def fetch_rss_item() -> dict:
     candidates = fetch_all_candidates()
     selected, selection = select_best_story(candidates)
     selected["selection"] = selection
-    return apply_demo_override_if_needed(selected)
-
-
-def apply_demo_override_if_needed(selected: dict) -> dict:
-    is_blocked_story = DEMO_BLOCKED_TITLE in selected.get("title", "")
-    is_demo_day = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d") == DEMO_OVERRIDE_DATE
-    if not is_blocked_story and not is_demo_day:
-        return selected
-
-    print("Demo override activated: using temporary presentation story.")
-    selection = selected.get("selection", {}).copy()
-    top_candidates = selection.get("topCandidates", [])
-    reason = DEMO_CANDIDATE["reason"]
-    if is_demo_day and not is_blocked_story:
-        reason = "临时演示兜底：今天分享固定使用 demo 新闻，便于展示自动更新链路"
-    selection.update(
-        {
-            "selectedScore": DEMO_CANDIDATE["score"],
-            "selectedReason": reason,
-            "demoOverride": True,
-            "demoOverrideDate": DEMO_OVERRIDE_DATE,
-            "replacedTitle": selected.get("title", ""),
-            "topCandidates": [
-                {
-                    "title": DEMO_CANDIDATE["title"],
-                    "sourceName": DEMO_CANDIDATE["sourceName"],
-                    "score": DEMO_CANDIDATE["score"],
-                    "reason": reason,
-                },
-                *top_candidates[:4],
-            ],
-        }
-    )
-
-    demo_item = DEMO_CANDIDATE.copy()
-    demo_item["selection"] = selection
-    return demo_item
+    return selected
 
 
 def fetch_all_candidates() -> list:
@@ -321,7 +337,7 @@ def score_candidate(candidate: dict) -> tuple:
     return score, "；".join(reasons)
 
 
-def select_best_story(candidates: list) -> tuple:
+def score_candidates(candidates: list) -> list:
     scored = []
     for candidate in candidates:
         score, reason = score_candidate(candidate)
@@ -330,9 +346,83 @@ def select_best_story(candidates: list) -> tuple:
         enriched["reason"] = reason
         scored.append(enriched)
     scored.sort(key=lambda item: item["score"], reverse=True)
-    selected = scored[0]
+    return scored
+
+
+def select_from_pool(scored: list, history_refs: set) -> tuple:
+    skipped_duplicates = 0
+    for candidate in scored:
+        if is_history_duplicate(candidate, history_refs):
+            skipped_duplicates += 1
+            continue
+        return candidate, skipped_duplicates
+    return None, skipped_duplicates
+
+
+def select_best_story(candidates: list) -> tuple:
+    now = business_now()
+    business_date = now.strftime("%Y-%m-%d")
+    recent_cutoff = now - timedelta(hours=48)
+    history_refs = collect_history_refs(exclude_date=business_date)
+
+    today_candidates = [
+        candidate for candidate in candidates if candidate.get("businessDate") == business_date
+    ]
+    recent_candidates = []
+    for candidate in candidates:
+        published_at = parse_published_at(candidate.get("published", ""))
+        if published_at and recent_cutoff <= published_at <= now + timedelta(minutes=10):
+            recent_candidates.append(candidate)
+
+    print(f"UTC+8 business date: {business_date}")
+    print(f"RSS total candidates: {len(candidates)}")
+    print(f"Today candidates: {len(today_candidates)}")
+    print(f"Recent 48h candidates: {len(recent_candidates)}")
+    print(f"History recorded article refs: {len(history_refs)}")
+
+    pool_sequence = []
+    if today_candidates:
+        pool_sequence.append(("today", today_candidates))
+    if recent_candidates:
+        pool_sequence.append(("recent48h", recent_candidates))
+    pool_sequence.append(("all", candidates))
+
+    scored_by_pool = {
+        pool_name: score_candidates(pool_candidates)
+        for pool_name, pool_candidates in pool_sequence
+    }
+
+    duplicate_skips = 0
+    selected = None
+    selected_pool = ""
+    for pool_name, _pool_candidates in pool_sequence:
+        candidate, skipped = select_from_pool(scored_by_pool[pool_name], history_refs)
+        duplicate_skips += skipped
+        if candidate:
+            selected = candidate
+            selected_pool = pool_name
+            break
+
+    if selected is None:
+        fallback_pool = "today" if today_candidates else "recent48h" if recent_candidates else "all"
+        scored = scored_by_pool[fallback_pool]
+        selected = scored[0]
+        selected_pool = "repeated fallback"
+        print("No fresh non-duplicate candidate found; fallback to repeated item.")
+
+    selected_is_duplicate = is_history_duplicate(selected, history_refs)
+    selected_scored = scored_by_pool.get(selected_pool, score_candidates(candidates))
     selection = {
         "totalCandidates": len(candidates),
+        "todayCandidates": len(today_candidates),
+        "recent48hCandidates": len(recent_candidates),
+        "historyRecordedRefs": len(history_refs),
+        "duplicateSkippedCandidates": duplicate_skips,
+        "selectedPool": selected_pool,
+        "selectedPublished": selected.get("published", ""),
+        "selectedPublishedAtUtc8": selected.get("publishedAtUtc8", ""),
+        "selectedBusinessDate": selected.get("businessDate", ""),
+        "selectedIsHistoryDuplicate": selected_is_duplicate,
         "selectedScore": selected["score"],
         "selectedReason": selected["reason"],
         "topCandidates": [
@@ -341,39 +431,25 @@ def select_best_story(candidates: list) -> tuple:
                 "sourceName": item["sourceName"],
                 "score": item["score"],
                 "reason": item["reason"],
+                "published": item.get("published", ""),
+                "businessDate": item.get("businessDate", ""),
+                "historyDuplicate": is_history_duplicate(item, history_refs),
             }
-            for item in scored[:5]
+            for item in selected_scored[:5]
         ],
     }
+    print(f"History duplicate skipped candidates: {duplicate_skips}")
+    print(f"Final candidate pool: {selected_pool}")
+    print(f"Final selected title: {selected['title']}")
+    print(f"Final selected sourceUrl: {selected['sourceUrl']}")
+    print(f"Final selected published: {selected.get('published', '')}")
+    print(f"Final selected history duplicate: {selected_is_duplicate}")
     return selected, selection
 
 
 def build_original_content(item: dict) -> dict:
     title = item["title"]
     summary = item["summary"]
-    if title == DEMO_CANDIDATE["title"]:
-        return {
-            "title": title,
-            "summary": summary,
-            "podcastScript": (
-                "Hello, this is Earth Signal.\n\n"
-                "Today's signal comes from a demo story about museums using artificial intelligence "
-                "to recreate the lost sounds of ancient instruments.\n\n"
-                "The report says researchers are using AI to help silent exhibits become immersive "
-                "listening experiences. Instead of only looking at an object behind glass, visitors "
-                "can begin to imagine how that object may once have sounded in daily life, ritual, "
-                "or performance.\n\n"
-                "The bigger signal is that AI is not only about generating text and images. It can "
-                "also become a tool for recovering forms of culture that were difficult to sense "
-                "directly."
-            ),
-            "aiInsight": (
-                "The value of AI is not only improving efficiency. It can also help people notice, "
-                "see and hear things that were once beyond ordinary perception."
-            ),
-            "sourceUrl": item["sourceUrl"],
-        }
-
     podcast_script = (
         "Hello, this is Earth Signal.\n\n"
         f"Today's story comes from {item['sourceName']}: {title}.\n\n"
@@ -433,29 +509,6 @@ def summarize_in_chinese(title: str, summary: str) -> str:
 
 
 def build_chinese_content(original_content: dict) -> dict:
-    if original_content["title"] == DEMO_CANDIDATE["title"]:
-        return {
-            "title": "AI 帮助博物馆重建消失的古代声音",
-            "summary": (
-                "研究人员正在用人工智能重建古代乐器的声音，让原本只能观看的博物馆展品，"
-                "变成可以被听见的沉浸式体验。"
-            ),
-            "podcastScript": (
-                "今天的 Earth Signal，想从一座博物馆说起。\n\n"
-                "这条 demo 新闻讲的是：研究人员正在用人工智能，重建古代乐器曾经发出的声音。"
-                "过去，很多文物只能被看见。它们被放在展柜里，观众能看到形状、材料和纹理，"
-                "却很难想象它们在几百年、几千年前真正响起来是什么样。\n\n"
-                "AI 介入之后，事情开始变得不一样。它不只是生成文字和图片，也可以帮助研究者根据材料、"
-                "结构和历史线索，推测一种声音可能的样子。\n\n"
-                "这让博物馆不再只是“看展”的地方，也有机会变成“听见过去”的地方。"
-                "当沉默的文物重新变成声音，历史就不只是被陈列，也开始重新进入人的感官。"
-            ),
-            "aiInsight": (
-                "AI 的价值不只在于提高效率，也在于让那些原本无法被感知的东西，"
-                "重新被看见、被听见。"
-            ),
-        }
-
     title = keyword_title(original_content["title"], original_content["summary"])
     summary = summarize_in_chinese(original_content["title"], original_content["summary"])
     content = {
@@ -543,12 +596,54 @@ async def generate_audio_from_original(content: str) -> None:
     await generate_audio(content, TODAY_AUDIO_ORIGINAL, VOICE_ORIGINAL)
 
 
-def save_json(data: dict) -> Path:
+def write_text_if_changed(path: Path, content: str) -> bool:
+    if path.exists() and path.read_text(encoding="utf-8") == content:
+        return False
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
+def save_json(data: dict) -> tuple:
     data_dir = Path(__file__).resolve().parent / "data"
     data_dir.mkdir(exist_ok=True)
     json_file = data_dir / "today-podcast.json"
-    json_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    return json_file
+    changed = write_text_if_changed(json_file, json.dumps(data, ensure_ascii=False, indent=2))
+    return json_file, changed
+
+
+def same_daily_content(existing: dict, payload: dict) -> bool:
+    keys = [
+        ("date",),
+        ("sourceUrl",),
+        ("original", "title"),
+        ("original", "summary"),
+        ("original", "podcastScript"),
+        ("original", "aiInsight"),
+        ("zh", "title"),
+        ("zh", "summary"),
+        ("zh", "podcastScript"),
+        ("zh", "aiInsight"),
+    ]
+    for key_path in keys:
+        existing_value = existing
+        payload_value = payload
+        for key in key_path:
+            existing_value = existing_value.get(key, {}) if isinstance(existing_value, dict) else {}
+            payload_value = payload_value.get(key, {}) if isinstance(payload_value, dict) else {}
+        if existing_value != payload_value:
+            return False
+    return True
+
+
+def today_payload_matches(payload: dict) -> bool:
+    today_file = Path(__file__).resolve().parent / "data" / "today-podcast.json"
+    if not today_file.exists():
+        return False
+    try:
+        existing = json.loads(today_file.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return False
+    return isinstance(existing, dict) and same_daily_content(existing, payload)
 
 
 def history_audio_paths(date: str) -> dict:
@@ -562,15 +657,7 @@ def update_history(today_payload: dict) -> Path:
     root = Path(__file__).resolve().parent
     history_file = root / "data" / "history-podcasts.json"
     history_file.parent.mkdir(exist_ok=True)
-    if history_file.exists():
-        try:
-            history = json.loads(history_file.read_text(encoding="utf-8"))
-            if not isinstance(history, list):
-                history = []
-        except json.JSONDecodeError:
-            history = []
-    else:
-        history = []
+    history = load_history()
 
     date = today_payload["date"]
     audio_paths = history_audio_paths(date)
@@ -583,7 +670,7 @@ def update_history(today_payload: dict) -> Path:
     history = [item for item in history if item.get("date") != date]
     history.insert(0, history_item)
     history = sorted(history, key=lambda item: item.get("date", ""), reverse=True)[:3]
-    history_file.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_text_if_changed(history_file, json.dumps(history, ensure_ascii=False, indent=2))
 
     history_audio_dir = root / "audio" / "history"
     history_audio_dir.mkdir(parents=True, exist_ok=True)
@@ -593,11 +680,12 @@ def update_history(today_payload: dict) -> Path:
 
 
 async def main() -> None:
+    current_business_date = business_now().strftime("%Y-%m-%d")
     item = fetch_rss_item()
     original = build_original_content(item)
     zh = build_chinese_content(original)
     payload = {
-        "date": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d"),
+        "date": current_business_date,
         "region": "GLOBAL",
         "category": item["category"],
         "sourceName": item["sourceName"],
@@ -622,12 +710,23 @@ async def main() -> None:
         "selection": item["selection"],
     }
 
-    json_file = save_json(payload)
+    if today_payload_matches(payload):
+        root = Path(__file__).resolve().parent
+        print("Today content is unchanged; skip JSON, audio, and history rewrites.")
+        print(f"Candidates: {payload['selection']['totalCandidates']}")
+        print(f"Today candidates: {payload['selection']['todayCandidates']}")
+        print(f"Recent 48h candidates: {payload['selection']['recent48hCandidates']}")
+        print(f"Selected: {payload['original']['title']}")
+        print(f"Source: {payload['sourceUrl']}")
+        print(f"Existing files kept: {root / 'data' / 'today-podcast.json'}")
+        return
+
+    json_file, json_changed = save_json(payload)
     await generate_audio_from_zh(build_audio_text_zh(zh))
     await generate_audio_from_original(build_audio_text_original(original))
     history_file = update_history(payload)
 
-    print(f"Generated {json_file}")
+    print(f"Generated {json_file} ({'changed' if json_changed else 'unchanged'})")
     print(f"Generated {history_file}")
     print(f"Generated {Path(__file__).resolve().parent / TODAY_AUDIO_ZH}")
     print(f"Generated {Path(__file__).resolve().parent / TODAY_AUDIO_ORIGINAL}")
