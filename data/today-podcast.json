@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
+  "sourceUrl": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/nasa-concludes-antenna-mishap-investigation-releases-report/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
-    "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll.\n\nThe report says: Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
+    "summary": "NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barstow, California. The agency has classified the event as a Type A mishap based on the total cost of damages. The antenna will […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Concludes Antenna Mishap Investigation, Releases Report.\n\nThe report says: NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barstow, California. The agency has classified the event as a Type A mishap based on the total cost of damages. The antenna will […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 12,
+    "todayCandidates": 10,
     "recent48hCandidates": 20,
     "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 04 Jun 2026 18:01:59 +0000",
-    "selectedPublishedAtUtc8": "2026-06-05T02:01:59+08:00",
-    "selectedBusinessDate": "2026-06-05",
+    "selectedPublished": "Fri, 05 Jun 2026 17:00:00 +0000",
+    "selectedPublishedAtUtc8": "2026-06-06T01:00:00+08:00",
+    "selectedBusinessDate": "2026-06-06",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 36,
-    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 37,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
+        "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
         "sourceName": "NASA News",
-        "score": 36,
-        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 04 Jun 2026 18:01:59 +0000",
-        "businessDate": "2026-06-05",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 05 Jun 2026 17:00:00 +0000",
+        "businessDate": "2026-06-06",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
+        "title": "NASA Announces Winners of 2026 University Innovation Competition",
         "sourceName": "NASA News",
-        "score": 27,
-        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public；信息量较完整 +3；偏消费评测 -4",
-        "published": "Thu, 04 Jun 2026 20:36:24 +0000",
-        "businessDate": "2026-06-05",
+        "score": 34,
+        "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 05 Jun 2026 20:17:11 +0000",
+        "businessDate": "2026-06-06",
         "historyDuplicate": false
       },
       {
-        "title": "Gwynne Shotwell, Elon Musk’s No. 2 at SpaceX, Is the Company’s Steady Hand",
-        "sourceName": "NYTimes Technology RSS",
+        "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
+        "sourceName": "NASA News",
+        "score": 33,
+        "reason": "来源可信度 +8；科技相关：space, nasa, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 05 Jun 2026 19:16:48 +0000",
+        "businessDate": "2026-06-06",
+        "historyDuplicate": false
+      },
+      {
+        "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
+        "sourceName": "NASA News",
         "score": 26,
-        "reason": "来源可信度 +7；科技相关：space；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 04 Jun 2026 17:32:10 +0000",
-        "businessDate": "2026-06-05",
+        "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+        "published": "Fri, 05 Jun 2026 20:44:57 +0000",
+        "businessDate": "2026-06-06",
         "historyDuplicate": false
       },
       {
-        "title": "The Meta hack shows there’s more to AI security than Mythos",
-        "sourceName": "MIT Technology Review",
-        "score": 23,
-        "reason": "来源可信度 +8；科技相关：ai, security；信息量较完整 +3",
-        "published": "Fri, 05 Jun 2026 09:00:00 +0000",
-        "businessDate": "2026-06-05",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Are AI chatbots making us lose control of our brains?",
-        "sourceName": "MIT Technology Review",
-        "score": 19,
-        "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-        "published": "Fri, 05 Jun 2026 09:00:00 +0000",
-        "businessDate": "2026-06-05",
+        "title": "More than a decade later, the team behind N++ is back with a multiplayer sequel",
+        "sourceName": "The Verge",
+        "score": 18,
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "2026-06-05T19:25:34-04:00",
+        "businessDate": "2026-06-06",
         "historyDuplicate": false
       }
     ]
