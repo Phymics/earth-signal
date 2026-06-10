@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-06-10",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+      "summary": "Taking another step toward one of the most complex human spaceflight missions in recent history, NASA on Tuesday provided new Artemis III details and announced the four prime crew members and a backup for the test flight. The mission will undertake a series of challenging tests in Earth orbit in 2027, essential for Artemis IV, the […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Marches Toward Artemis III Mission in 2027, Names Crew Members.\n\nThe report says: Taking another step toward one of the most complex human spaceflight missions in recent history, NASA on Tuesday provided new Artemis III details and announced the four prime crew members and a backup for the test flight. The mission will undertake a series of challenging tests in Earth orbit in 2027, essential for Artemis IV, the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-06-10-zh.mp3",
+      "original": "audio/history/2026-06-10-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 14,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Tue, 09 Jun 2026 16:12:02 +0000",
+      "selectedPublishedAtUtc8": "2026-06-10T00:12:02+08:00",
+      "selectedBusinessDate": "2026-06-10",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 37,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 09 Jun 2026 16:12:02 +0000",
+          "businessDate": "2026-06-10",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Artemis III Crew Announced",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 09 Jun 2026 19:32:29 +0000",
+          "businessDate": "2026-06-10",
+          "historyDuplicate": false
+        },
+        {
+          "title": "The Download: the “steroid olympics” and a safer Mythos",
+          "sourceName": "MIT Technology Review",
+          "score": 24,
+          "reason": "来源可信度 +8；科技相关：ai, technology；信息量较完整 +3",
+          "published": "Wed, 10 Jun 2026 12:10:00 +0000",
+          "businessDate": "2026-06-10",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Waymo built a virtual driver to study how humans react to surprises on the road",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai；公共价值：disaster；信息量较完整 +3",
+          "published": "2026-06-09T18:21:59-04:00",
+          "businessDate": "2026-06-10",
+          "historyDuplicate": false
+        },
+        {
+          "title": "How to Remove Apps You Never Use (or at Least Hide Them)",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 21,
+          "reason": "来源可信度 +7；科技相关：space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 10 Jun 2026 09:02:01 +0000",
+          "businessDate": "2026-06-10",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-06-09",
     "region": "GLOBAL",
     "category": "科技",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "2026-06-08T10:31:06-04:00",
           "businessDate": "2026-06-08",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-06-07",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/games/945088/gog-apologizes-email-nazi-symbols-the-end-of-the-sun",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "GOG apologizes for emailing people Nazi symbols",
-      "summary": "GOG sent a newsletter about the game The End of the Sun on June 5th that included symbols associated with the Nazi SS. The Steam competitor issued a statement attributing the inclusion to a \"series of mistakes,\" including miscommunication with the German QA team, inconsistent font rendering, and being understaffed during a bank holiday, among […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: GOG apologizes for emailing people Nazi symbols.\n\nThe report says: GOG sent a newsletter about the game The End of the Sun on June 5th that included symbols associated with the Nazi SS. The Steam competitor issued a statement attributing the inclusion to a \"series of mistakes,\" including miscommunication with the German QA team, inconsistent font rendering, and being understaffed during a bank holiday, among […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "人工智能新闻释放新的社会信号",
-      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-06-07-zh.mp3",
-      "original": "audio/history/2026-06-07-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 5,
-      "recent48hCandidates": 14,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-06-06T19:26:00-04:00",
-      "selectedPublishedAtUtc8": "2026-06-07T07:26:00+08:00",
-      "selectedBusinessDate": "2026-06-07",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 18,
-      "selectedReason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-      "topCandidates": [
-        {
-          "title": "GOG apologizes for emailing people Nazi symbols",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-06-06T19:26:00-04:00",
-          "businessDate": "2026-06-07",
-          "historyDuplicate": false
-        },
-        {
-          "title": "JMGO’s N3 Ultimate projector is the new portable 4K champ",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-06-07T05:56:57-04:00",
-          "businessDate": "2026-06-07",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The first Story-Rich showcase was packed with narrative-driven games",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-06-06T13:35:33-04:00",
-          "businessDate": "2026-06-07",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The cutest games from the Wholesome Direct 2026 showcase",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-06-06T12:48:25-04:00",
-          "businessDate": "2026-06-07",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Summer Game Fest 2026: All the news from gaming’s busiest week",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-06-06T17:11:11-04:00",
-          "businessDate": "2026-06-07",
           "historyDuplicate": false
         }
       ]
