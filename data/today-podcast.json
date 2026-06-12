@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-preview-katalyst-mission-to-boost-swift-spacecrafts-orbit/",
+  "sourceUrl": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/murep/nasa-award-boosts-space-technology-research-capabilities/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit",
-    "summary": "NASA will host an audio-only media teleconference at 11 a.m. EDT, Wednesday, June 17, to preview the Katalyst Space mission to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacecraft, called LINK, will attempt to rendezvous with Swift and raise its altitude, extending its science mission lifespan and advancing a key […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit.\n\nThe report says: NASA will host an audio-only media teleconference at 11 a.m. EDT, Wednesday, June 17, to preview the Katalyst Space mission to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacecraft, called LINK, will attempt to rendezvous with Swift and raise its altitude, extending its science mission lifespan and advancing a key […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Award Boosts Space Technology Research Capabilities",
+    "summary": "NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M‑STAR) application window opened Thursday and will remain open through 11:59 p.m. EDT on Tuesday, Aug. 11. The research funded through this award supports the agency’s priorities for exploring the […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Award Boosts Space Technology Research Capabilities.\n\nThe report says: NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M‑STAR) application window opened Thursday and will remain open through 11:59 p.m. EDT on Tuesday, Aug. 11. The research funded through this award supports the agency’s priorities for exploring the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 19,
+    "todayCandidates": 16,
     "recent48hCandidates": 20,
-    "historyRecordedRefs": 8,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 11 Jun 2026 13:58:17 +0000",
-    "selectedPublishedAtUtc8": "2026-06-11T21:58:17+08:00",
-    "selectedBusinessDate": "2026-06-11",
+    "selectedPublished": "Thu, 11 Jun 2026 21:14:44 +0000",
+    "selectedPublishedAtUtc8": "2026-06-12T05:14:44+08:00",
+    "selectedBusinessDate": "2026-06-12",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 39,
-    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 45,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, technology；公共价值：education；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit",
+        "title": "NASA Award Boosts Space Technology Research Capabilities",
         "sourceName": "NASA News",
-        "score": 39,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 11 Jun 2026 13:58:17 +0000",
-        "businessDate": "2026-06-11",
+        "score": 45,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa, technology；公共价值：education；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 11 Jun 2026 21:14:44 +0000",
+        "businessDate": "2026-06-12",
         "historyDuplicate": false
       },
       {
-        "title": "NASA, NOAA to Hold Joint Session at 23rd Symposium on Operational Environmental Satellite Systems",
-        "sourceName": "NASA News",
-        "score": 32,
-        "reason": "来源可信度 +8；科技相关：nasa, satellite；公共价值：environment；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 10 Jun 2026 18:09:55 +0000",
-        "businessDate": "2026-06-11",
-        "historyDuplicate": false
-      },
-      {
-        "title": "SpaceX’s IPO Could Turn 4,400 Employees Into Millionaires",
+        "title": "Skeptics Question Whether SpaceX Is Worth $1.77 Trillion",
         "sourceName": "NYTimes Technology RSS",
-        "score": 29,
-        "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 10 Jun 2026 19:10:10 +0000",
-        "businessDate": "2026-06-11",
+        "score": 34,
+        "reason": "来源可信度 +7；科技相关：ai, space；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 11 Jun 2026 20:30:58 +0000",
+        "businessDate": "2026-06-12",
         "historyDuplicate": false
       },
       {
-        "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
+        "title": "Inside Interoception: The hidden sense of how you feel inside",
         "sourceName": "MIT Technology Review",
-        "score": 28,
-        "reason": "来源可信度 +8；科技相关：ai, technology, data；信息量较完整 +3",
-        "published": "Thu, 11 Jun 2026 12:10:00 +0000",
-        "businessDate": "2026-06-11",
+        "score": 31,
+        "reason": "来源可信度 +8；科技相关：ai, space, technology；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 12 Jun 2026 09:00:00 +0000",
+        "businessDate": "2026-06-12",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Awards Contract for Construction Services in California",
+        "title": "NASA’s Chandra Discovers Possible Supernova Remnant in Galactic Center",
         "sourceName": "NASA News",
-        "score": 26,
-        "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
-        "published": "Wed, 10 Jun 2026 20:32:25 +0000",
-        "businessDate": "2026-06-11",
+        "score": 30,
+        "reason": "来源可信度 +8；科技相关：ai, nasa, data；信息量较完整 +3",
+        "published": "Thu, 11 Jun 2026 20:41:44 +0000",
+        "businessDate": "2026-06-12",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+        "sourceName": "MIT Technology Review",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：ai；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 12 Jun 2026 09:00:00 +0000",
+        "businessDate": "2026-06-12",
         "historyDuplicate": false
       }
     ]
