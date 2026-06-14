@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-06-14",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "The Verge",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Amazon security research reportedly led to the White House’s Anthropic Fable ban.\n\nThe report says: According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "人工智能新闻释放新的社会信号",
+      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-06-14-zh.mp3",
+      "original": "audio/history/2026-06-14-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 4,
+      "recent48hCandidates": 14,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "2026-06-13T17:39:26-04:00",
+      "selectedPublishedAtUtc8": "2026-06-14T05:39:26+08:00",
+      "selectedBusinessDate": "2026-06-14",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 22,
+      "selectedReason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+          "sourceName": "The Verge",
+          "score": 22,
+          "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+          "published": "2026-06-13T17:39:26-04:00",
+          "businessDate": "2026-06-14",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Merger Cleared, David Ellison to Join Trump at U.F.C. Bout",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 10,
+          "reason": "来源可信度 +7；信息量较完整 +3",
+          "published": "Sun, 14 Jun 2026 09:01:45 +0000",
+          "businessDate": "2026-06-14",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Microsoft hasn’t ruled out spinning off Xbox",
+          "sourceName": "The Verge",
+          "score": 10,
+          "reason": "来源可信度 +7；信息量较完整 +3",
+          "published": "2026-06-13T12:29:47-04:00",
+          "businessDate": "2026-06-14",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Sealed Super Mario Bros. sells for a record $3 million",
+          "sourceName": "The Verge",
+          "score": 5,
+          "reason": "来源可信度 +7；信息量较完整 +3；商业宣传倾向：sale",
+          "published": "2026-06-13T14:37:21-04:00",
+          "businessDate": "2026-06-14",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-06-13",
     "region": "GLOBAL",
     "category": "科技",
@@ -172,95 +252,6 @@
           "reason": "来源可信度 +8；科技相关：ai；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
           "published": "Fri, 12 Jun 2026 09:00:00 +0000",
           "businessDate": "2026-06-12",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-06-11",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-preview-katalyst-mission-to-boost-swift-spacecrafts-orbit/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit",
-      "summary": "NASA will host an audio-only media teleconference at 11 a.m. EDT, Wednesday, June 17, to preview the Katalyst Space mission to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacecraft, called LINK, will attempt to rendezvous with Swift and raise its altitude, extending its science mission lifespan and advancing a key […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit.\n\nThe report says: NASA will host an audio-only media teleconference at 11 a.m. EDT, Wednesday, June 17, to preview the Katalyst Space mission to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacecraft, called LINK, will attempt to rendezvous with Swift and raise its altitude, extending its science mission lifespan and advancing a key […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-06-11-zh.mp3",
-      "original": "audio/history/2026-06-11-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 19,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Thu, 11 Jun 2026 13:58:17 +0000",
-      "selectedPublishedAtUtc8": "2026-06-11T21:58:17+08:00",
-      "selectedBusinessDate": "2026-06-11",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 39,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit",
-          "sourceName": "NASA News",
-          "score": 39,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-          "published": "Thu, 11 Jun 2026 13:58:17 +0000",
-          "businessDate": "2026-06-11",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA, NOAA to Hold Joint Session at 23rd Symposium on Operational Environmental Satellite Systems",
-          "sourceName": "NASA News",
-          "score": 32,
-          "reason": "来源可信度 +8；科技相关：nasa, satellite；公共价值：environment；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 10 Jun 2026 18:09:55 +0000",
-          "businessDate": "2026-06-11",
-          "historyDuplicate": false
-        },
-        {
-          "title": "SpaceX’s IPO Could Turn 4,400 Employees Into Millionaires",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 29,
-          "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 10 Jun 2026 19:10:10 +0000",
-          "businessDate": "2026-06-11",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
-          "sourceName": "MIT Technology Review",
-          "score": 28,
-          "reason": "来源可信度 +8；科技相关：ai, technology, data；信息量较完整 +3",
-          "published": "Thu, 11 Jun 2026 12:10:00 +0000",
-          "businessDate": "2026-06-11",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Awards Contract for Construction Services in California",
-          "sourceName": "NASA News",
-          "score": 26,
-          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
-          "published": "Wed, 10 Jun 2026 20:32:25 +0000",
-          "businessDate": "2026-06-11",
           "historyDuplicate": false
         }
       ]
