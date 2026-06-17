@@ -2,23 +2,23 @@
   {
     "date": "2026-06-17",
     "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/cold-atom-laboratory/nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade/",
+    "category": "科技",
+    "sourceName": "MIT Technology Review",
+    "sourceUrl": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
     "language": {
       "original": "en",
       "default": "zh"
     },
     "original": {
-      "title": "NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade",
-      "summary": "Astronauts aboard the International Space Station have switched on NASA’s newly upgraded Cold Atom Lab, a one-of-a-kind facility designed to improve how scientists explore the fundamental workings of matter and develop new quantum technologies. By leveraging the unique environment of microgravity in space, the lab can accomplish cutting-edge science impossible to do anywhere else. Quantum […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade.\n\nThe report says: Astronauts aboard the International Space Station have switched on NASA’s newly upgraded Cold Atom Lab, a one-of-a-kind facility designed to improve how scientists explore the fundamental workings of matter and develop new quantum technologies. By leveraging the unique environment of microgravity in space, the lab can accomplish cutting-edge science impossible to do anywhere else. Quantum […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "title": "The Download: a reality check for geoengineering and the science of interoception",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could deliberately intervene in the climate system to counteract global warming, is moving beyond computer simulations…",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from MIT Technology Review: The Download: a reality check for geoengineering and the science of interoception.\n\nThe report says: This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could deliberately intervene in the climate system to counteract global warming, is moving beyond computer simulations…\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
       "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
     },
     "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "title": "气候与环境科技出现新的全球信号",
+      "summary": "这条新闻关注气候与环境相关技术，背后牵动城市韧性、公共安全和长期生活方式变化。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：气候与环境科技出现新的全球信号。这条新闻关注气候与环境相关技术，背后牵动城市韧性、公共安全和长期生活方式变化。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
       "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
     },
     "audio": {
@@ -28,18 +28,27 @@
     },
     "selection": {
       "totalCandidates": 20,
-      "todayCandidates": 8,
+      "todayCandidates": 16,
       "recent48hCandidates": 19,
-      "historyRecordedRefs": 8,
+      "historyRecordedRefs": 6,
       "duplicateSkippedCandidates": 0,
       "selectedPool": "today",
-      "selectedPublished": "Tue, 16 Jun 2026 16:50:40 +0000",
-      "selectedPublishedAtUtc8": "2026-06-17T00:50:40+08:00",
+      "selectedPublished": "Wed, 17 Jun 2026 12:10:00 +0000",
+      "selectedPublishedAtUtc8": "2026-06-17T20:10:00+08:00",
       "selectedBusinessDate": "2026-06-17",
       "selectedIsHistoryDuplicate": false,
-      "selectedScore": 35,
-      "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：environment；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "selectedScore": 46,
+      "selectedReason": "来源可信度 +8；科技相关：ai, climate, technology；公共价值：global, climate；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
       "topCandidates": [
+        {
+          "title": "The Download: a reality check for geoengineering and the science of interoception",
+          "sourceName": "MIT Technology Review",
+          "score": 46,
+          "reason": "来源可信度 +8；科技相关：ai, climate, technology；公共价值：global, climate；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 17 Jun 2026 12:10:00 +0000",
+          "businessDate": "2026-06-17",
+          "historyDuplicate": false
+        },
         {
           "title": "NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade",
           "sourceName": "NASA News",
@@ -50,38 +59,29 @@
           "historyDuplicate": false
         },
         {
-          "title": "D.O.J. Seeks to Halt Pollution Lawsuit Against Elon Musk’s Data Center",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 32,
-          "reason": "来源可信度 +7；科技相关：ai, data, security；公共价值：environment；信息量较完整 +3",
-          "published": "Tue, 16 Jun 2026 17:57:56 +0000",
+          "title": "Entrepreneurs in Nairobi make the case for going solar",
+          "sourceName": "MIT Technology Review",
+          "score": 33,
+          "reason": "来源可信度 +8；科技相关：ai, technology；公共价值：city, communities；信息量较完整 +3",
+          "published": "Wed, 17 Jun 2026 09:00:00 +0000",
           "businessDate": "2026-06-17",
           "historyDuplicate": false
         },
         {
-          "title": "NASA Webb, Hubble Reveal History of Relic of Milky Way’s Formation",
+          "title": "NASA’s Webb Catches Exoplanet Getting Roasted",
           "sourceName": "NASA News",
           "score": 29,
           "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 16 Jun 2026 17:15:00 +0000",
+          "published": "Tue, 16 Jun 2026 21:15:00 +0000",
           "businessDate": "2026-06-17",
           "historyDuplicate": false
         },
         {
-          "title": "Riding High After I.P.O., SpaceX Will Buy A.I. Start-Up for $60 Billion",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 20,
-          "reason": "来源可信度 +7；科技相关：artificial intelligence, space；信息量较完整 +3；商业宣传倾向：deal, buy；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 16 Jun 2026 17:59:53 +0000",
-          "businessDate": "2026-06-17",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-06-16T13:16:37-04:00",
+          "title": "Astronaut Jessica Meir Assists With Hardware Updates for NASA’s Cold Atom Lab",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 16 Jun 2026 20:41:29 +0000",
           "businessDate": "2026-06-17",
           "historyDuplicate": false
         }
