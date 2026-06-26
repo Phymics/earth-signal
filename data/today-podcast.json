@@ -1,24 +1,24 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "region": "GLOBAL",
-  "category": "科技",
-  "sourceName": "MIT Technology Review",
-  "sourceUrl": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+  "category": "科学",
+  "sourceName": "NASA News",
+  "sourceUrl": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-botswana-as-68th-artemis-accords-signatory/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-    "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to come. For more than half…",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from MIT Technology Review: IBM has unveiled chip technology that could help extend Moore’s Law another decade.\n\nThe report says: IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to come. For more than half…\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Welcomes Botswana as 68th Artemis Accords Signatory",
+    "summary": "The Republic of Botswana signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s headquarters in Washington, becoming the sixth African nation to join a growing community of nations committed to the peaceful, transparent, and responsible exploration of space. “It is my privilege to welcome Botswana as the newest signatory of the Artemis Accords,” said NASA Deputy […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Welcomes Botswana as 68th Artemis Accords Signatory.\n\nThe report says: The Republic of Botswana signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s headquarters in Washington, becoming the sixth African nation to join a growing community of nations committed to the peaceful, transparent, and responsible exploration of space. “It is my privilege to welcome Botswana as the newest signatory of the Artemis Accords,” said NASA Deputy […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "能源科技变化正在影响城市与生活",
-    "summary": "这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：能源科技变化正在影响城市与生活。这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "能源科技的变化往往不显眼，却会深刻影响城市成本、产业节奏和家庭生活。真正的信号，是低碳转型正在从口号变成基础设施的重新安排。"
+    "title": "太空与卫星技术释放新的地球观测信号",
+    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 13,
-    "recent48hCandidates": 19,
-    "historyRecordedRefs": 9,
+    "todayCandidates": 14,
+    "recent48hCandidates": 20,
+    "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 25 Jun 2026 10:00:00 +0000",
-    "selectedPublishedAtUtc8": "2026-06-25T18:00:00+08:00",
-    "selectedBusinessDate": "2026-06-25",
+    "selectedPublished": "Thu, 25 Jun 2026 21:09:42 +0000",
+    "selectedPublishedAtUtc8": "2026-06-26T05:09:42+08:00",
+    "selectedBusinessDate": "2026-06-26",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 43,
-    "selectedReason": "来源可信度 +8；科技相关：ai, energy, technology, chip；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 47,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-        "sourceName": "MIT Technology Review",
-        "score": 43,
-        "reason": "来源可信度 +8；科技相关：ai, energy, technology, chip；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 25 Jun 2026 10:00:00 +0000",
-        "businessDate": "2026-06-25",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA at the Ion: Orion Lessons from Artemis II Shape NASA’s Moon to Mars Path",
+        "title": "NASA Welcomes Botswana as 68th Artemis Accords Signatory",
         "sourceName": "NASA News",
-        "score": 34,
-        "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 24 Jun 2026 21:29:16 +0000",
-        "businessDate": "2026-06-25",
+        "score": 47,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 25 Jun 2026 21:09:42 +0000",
+        "businessDate": "2026-06-26",
         "historyDuplicate": false
       },
       {
-        "title": "What Europe’s heat wave means for the power grid",
-        "sourceName": "MIT Technology Review",
-        "score": 28,
-        "reason": "来源可信度 +8；科技相关：climate；公共价值：climate；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 25 Jun 2026 10:00:00 +0000",
-        "businessDate": "2026-06-25",
+        "title": "OpenAI Leans Toward Holding Up I.P.O. Until Next Year",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 29,
+        "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 25 Jun 2026 20:58:38 +0000",
+        "businessDate": "2026-06-26",
         "historyDuplicate": false
       },
       {
-        "title": "Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-06-25T06:54:21-04:00",
-        "businessDate": "2026-06-25",
+        "title": "Expedition 73 Crew Reflects on Science, Teamwork, and Life in Orbit",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 25 Jun 2026 21:30:32 +0000",
+        "businessDate": "2026-06-26",
         "historyDuplicate": false
       },
       {
-        "title": "Facebook’s Creator Studio has been revived as an AI companion app",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-06-25T05:37:40-04:00",
-        "businessDate": "2026-06-25",
+        "title": "NASA, US Small Business Administration to Announce Partnership",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 25 Jun 2026 21:10:38 +0000",
+        "businessDate": "2026-06-26",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Apple Raises Prices on Macs and iPads Amid the A.I. Boom",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 25,
+        "reason": "来源可信度 +7；科技相关：ai, chip, chips；信息量较完整 +3；商业宣传倾向：raises",
+        "published": "Thu, 25 Jun 2026 18:52:30 +0000",
+        "businessDate": "2026-06-26",
         "historyDuplicate": false
       }
     ]
