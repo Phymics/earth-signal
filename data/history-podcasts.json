@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-06-27",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "NYTimes Technology RSS",
+    "sourceUrl": "https://www.nytimes.com/2026/06/26/technology/ai-advanced-chip-packaging-tsmc.html",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "How a Niche Technology Became a Choke Point for A.I.",
+      "summary": "Advanced chip packaging, which boosts computing power for artificial intelligence, has made the United States more reliant on Taiwan than ever.",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: How a Niche Technology Became a Choke Point for A.I..\n\nThe report says: Advanced chip packaging, which boosts computing power for artificial intelligence, has made the United States more reliant on Taiwan than ever.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "人工智能新闻释放新的社会信号",
+      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-06-27-zh.mp3",
+      "original": "audio/history/2026-06-27-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 26 Jun 2026 18:55:00 +0000",
+      "selectedPublishedAtUtc8": "2026-06-27T02:55:00+08:00",
+      "selectedBusinessDate": "2026-06-27",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 36,
+      "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, technology, chip；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "How a Niche Technology Became a Choke Point for A.I.",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 36,
+          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, technology, chip；信息量较完整 +3",
+          "published": "Fri, 26 Jun 2026 18:55:00 +0000",
+          "businessDate": "2026-06-27",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Tests New Refuel Device for Future In-Space Refueling Missions",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 26 Jun 2026 18:44:07 +0000",
+          "businessDate": "2026-06-27",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Announces Winners for 2026 Human Lander Challenge",
+          "sourceName": "NASA News",
+          "score": 24,
+          "reason": "来源可信度 +8；科技相关：nasa；公共价值：environment；信息量较完整 +3",
+          "published": "Fri, 26 Jun 2026 19:44:48 +0000",
+          "businessDate": "2026-06-27",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Partners, NASA Ready for June Launch of Swift Boost Mission",
+          "sourceName": "NASA News",
+          "score": 23,
+          "reason": "来源可信度 +8；科技相关：ai, nasa",
+          "published": "Fri, 26 Jun 2026 17:16:22 +0000",
+          "businessDate": "2026-06-27",
+          "historyDuplicate": false
+        },
+        {
+          "title": "U.S. Loosens Restrictions on Anthropic’s Mythos A.I. Model",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：artificial intelligence；信息量较完整 +3",
+          "published": "Sat, 27 Jun 2026 00:54:06 +0000",
+          "businessDate": "2026-06-27",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-06-26",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "2026-06-25T05:37:40-04:00",
           "businessDate": "2026-06-25",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-06-24",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "NYTimes Technology RSS",
-    "sourceUrl": "https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Your Home Could Help Solve AI’s Growing Power Demand",
-      "summary": "Tesla, Sunrun and Renew Home plan to tap solar panels, batteries, thermostats and other devices installed in millions of homes to meet the energy demands of artificial intelligence.",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Your Home Could Help Solve AI’s Growing Power Demand.\n\nThe report says: Tesla, Sunrun and Renew Home plan to tap solar panels, batteries, thermostats and other devices installed in millions of homes to meet the energy demands of artificial intelligence.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "能源科技变化正在影响城市与生活",
-      "summary": "这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：能源科技变化正在影响城市与生活。这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "能源科技的变化往往不显眼，却会深刻影响城市成本、产业节奏和家庭生活。真正的信号，是低碳转型正在从口号变成基础设施的重新安排。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-06-24-zh.mp3",
-      "original": "audio/history/2026-06-24-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 18,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 9,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Wed, 24 Jun 2026 09:02:13 +0000",
-      "selectedPublishedAtUtc8": "2026-06-24T17:02:13+08:00",
-      "selectedBusinessDate": "2026-06-24",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 40,
-      "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Your Home Could Help Solve AI’s Growing Power Demand",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 40,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 24 Jun 2026 09:02:13 +0000",
-          "businessDate": "2026-06-24",
-          "historyDuplicate": false
-        },
-        {
-          "title": "CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards",
-          "sourceName": "NASA News",
-          "score": 33,
-          "reason": "来源可信度 +8；科技相关：nasa, satellite, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 23 Jun 2026 18:57:16 +0000",
-          "businessDate": "2026-06-24",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Names Sean Gallagher as Chief Information Officer",
-          "sourceName": "NASA News",
-          "score": 27,
-          "reason": "来源可信度 +8；科技相关：nasa, technology；公共价值：city；信息量较完整 +3",
-          "published": "Tue, 23 Jun 2026 21:32:03 +0000",
-          "businessDate": "2026-06-24",
-          "historyDuplicate": false
-        },
-        {
-          "title": "58th Girl Scouts Unite Event",
-          "sourceName": "NASA News",
-          "score": 26,
-          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
-          "published": "Tue, 23 Jun 2026 18:51:47 +0000",
-          "businessDate": "2026-06-24",
-          "historyDuplicate": false
-        },
-        {
-          "title": "All challenges big and small",
-          "sourceName": "MIT Technology Review",
-          "score": 23,
-          "reason": "来源可信度 +8；科技相关：ai；公共价值：city；信息量较完整 +3",
-          "published": "Wed, 24 Jun 2026 09:00:00 +0000",
-          "businessDate": "2026-06-24",
           "historyDuplicate": false
         }
       ]
