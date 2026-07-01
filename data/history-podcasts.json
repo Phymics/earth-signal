@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-01",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+      "summary": "Editor’s note: This release was updated on June 30, 2026, to clarify the engineering development version for the PROMISE rover. NASA announced Tuesday the selection of three companies to land four new missions on the Moon in late 2028 as part of the agency’s Moon Base Program. Astrobotic, Firefly Aerospace, and Intuitive Machines will deliver […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Awards More Moon Base Science, Previews New Opportunities.\n\nThe report says: Editor’s note: This release was updated on June 30, 2026, to clarify the engineering development version for the PROMISE rover. NASA announced Tuesday the selection of three companies to land four new missions on the Moon in late 2028 as part of the agency’s Moon Base Program. Astrobotic, Firefly Aerospace, and Intuitive Machines will deliver […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-07-01-zh.mp3",
+      "original": "audio/history/2026-07-01-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 16,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Tue, 30 Jun 2026 18:48:09 +0000",
+      "selectedPublishedAtUtc8": "2026-07-01T02:48:09+08:00",
+      "selectedBusinessDate": "2026-07-01",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 31,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+          "sourceName": "NASA News",
+          "score": 31,
+          "reason": "来源可信度 +8；科技相关：space, nasa, robot；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 30 Jun 2026 18:48:09 +0000",
+          "businessDate": "2026-07-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NextSTEP-3 B: Moon Base Demonstrations",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 30 Jun 2026 18:48:52 +0000",
+          "businessDate": "2026-07-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Anthropic’s long-sidelined Fable 5 is greenlit to return",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai；公共价值：global；信息量较完整 +3",
+          "published": "2026-07-01T00:46:05-04:00",
+          "businessDate": "2026-07-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA’s Chandra Reveals ‘Red, White, Blue’ Universe for US 250th",
+          "sourceName": "NASA News",
+          "score": 22,
+          "reason": "来源可信度 +8；科技相关：nasa, data；信息量较完整 +3",
+          "published": "Tue, 30 Jun 2026 19:54:29 +0000",
+          "businessDate": "2026-07-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Meta is adding ridiculous ‘rate limits’ and a soft paywall to its smart glasses",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-06-30T20:51:03-04:00",
+          "businessDate": "2026-07-01",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-06-30",
     "region": "GLOBAL",
     "category": "科学",
@@ -163,77 +252,6 @@
           "reason": "来源可信度 +7；信息量较完整 +3",
           "published": "2026-06-28T12:29:51-04:00",
           "businessDate": "2026-06-29",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-06-28",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
-      "summary": "Apple is looking to alleviate some of the pressure on its supply chain by seeking an exception from the Trump administration to buy RAM chips from CXMT, a company blacklisted by the Pentagon over ties to the People's Liberation Army, according to the Financial Times. The skyrocketing prices of RAM and storage have driven Apple […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Apple wants permission to buy memory from a blacklisted Chinese supplier.\n\nThe report says: Apple is looking to alleviate some of the pressure on its supply chain by seeking an exception from the Trump administration to buy RAM chips from CXMT, a company blacklisted by the Pentagon over ties to the People's Liberation Army, according to the Financial Times. The skyrocketing prices of RAM and storage have driven Apple […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "人工智能新闻释放新的社会信号",
-      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-06-28-zh.mp3",
-      "original": "audio/history/2026-06-28-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 3,
-      "recent48hCandidates": 16,
-      "historyRecordedRefs": 9,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-06-27T13:28:18-04:00",
-      "selectedPublishedAtUtc8": "2026-06-28T01:28:18+08:00",
-      "selectedBusinessDate": "2026-06-28",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 24,
-      "selectedReason": "来源可信度 +7；科技相关：ai, chip, chips；信息量较完整 +3；商业宣传倾向：buy",
-      "topCandidates": [
-        {
-          "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
-          "sourceName": "The Verge",
-          "score": 24,
-          "reason": "来源可信度 +7；科技相关：ai, chip, chips；信息量较完整 +3；商业宣传倾向：buy",
-          "published": "2026-06-27T13:28:18-04:00",
-          "businessDate": "2026-06-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-06-27T14:39:32-04:00",
-          "businessDate": "2026-06-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-06-27T17:20:32-04:00",
-          "businessDate": "2026-06-28",
           "historyDuplicate": false
         }
       ]
