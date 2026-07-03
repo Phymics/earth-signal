@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/humans-in-space/nasa-seeks-volunteers-for-new-yearlong-simulated-moon-mars-mission/",
+  "sourceUrl": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
-    "summary": "NASA is recruiting research participants for the agency’s next simulated deep space mission. Beginning no earlier than August 2027, research volunteers will spend one year living and working in interplanetary environments at the agency’s Johnson Space Center in Houston, operating under isolated conditions expected during crewed missions to the Moon or Red Planet. Insights from this […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission.\n\nThe report says: NASA is recruiting research participants for the agency’s next simulated deep space mission. Beginning no earlier than August 2027, research volunteers will spend one year living and working in interplanetary environments at the agency’s Johnson Space Center in Houston, operating under isolated conditions expected during crewed missions to the Moon or Red Planet. Insights from this […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+    "summary": "NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 streams covering the mission and the Orion spacecraft views – demonstrating strong, sustained global engagement throughout the mission. Around the Clock Live Broadcast NASA’s Artemis II Crew Launches to the Moon broadcast set unprecedented viewership records across the agency’s […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA’s Artemis II Breaks Agency Streaming Record.\n\nThe report says: NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 streams covering the mission and the Orion spacecraft views – demonstrating strong, sustained global engagement throughout the mission. Around the Clock Live Broadcast NASA’s Artemis II Crew Launches to the Moon broadcast set unprecedented viewership records across the agency’s […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 8,
-    "recent48hCandidates": 20,
-    "historyRecordedRefs": 8,
+    "todayCandidates": 7,
+    "recent48hCandidates": 17,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Wed, 01 Jul 2026 16:15:14 +0000",
-    "selectedPublishedAtUtc8": "2026-07-02T00:15:14+08:00",
-    "selectedBusinessDate": "2026-07-02",
+    "selectedPublished": "Thu, 02 Jul 2026 18:02:21 +0000",
+    "selectedPublishedAtUtc8": "2026-07-03T02:02:21+08:00",
+    "selectedBusinessDate": "2026-07-03",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 35,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：environment；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 47,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：global, public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
+        "title": "NASA’s Artemis II Breaks Agency Streaming Record",
         "sourceName": "NASA News",
-        "score": 35,
-        "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：environment；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 01 Jul 2026 16:15:14 +0000",
-        "businessDate": "2026-07-02",
+        "score": 47,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：global, public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 02 Jul 2026 18:02:21 +0000",
+        "businessDate": "2026-07-03",
         "historyDuplicate": false
       },
       {
-        "title": "Elon Musk denies a report about SpaceX’s AI phone prototype",
-        "sourceName": "The Verge",
-        "score": 34,
-        "reason": "来源可信度 +7；科技相关：ai, space；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "2026-07-01T16:10:21-04:00",
-        "businessDate": "2026-07-02",
-        "historyDuplicate": false
-      },
-      {
-        "title": "The funeral for PlayStation discs has begun",
+        "title": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
         "sourceName": "The Verge",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-07-01T18:03:37-04:00",
-        "businessDate": "2026-07-02",
+        "published": "2026-07-02T18:09:33-04:00",
+        "businessDate": "2026-07-03",
         "historyDuplicate": false
       },
       {
-        "title": "Xbox’s ‘reset’: all the news about Microsoft’s looming layoffs and studio closures",
+        "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
         "sourceName": "The Verge",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-07-01T16:58:33-04:00",
-        "businessDate": "2026-07-02",
+        "published": "2026-07-02T17:20:49-04:00",
+        "businessDate": "2026-07-03",
         "historyDuplicate": false
       },
       {
-        "title": "Krafton settles with Subnautica 2 developer after drawn-out dispute over $250 million",
+        "title": "Tesla Driver Using Autopilot in Texas Crash Is Charged With Manslaughter",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 10,
+        "reason": "来源可信度 +7；信息量较完整 +3",
+        "published": "Fri, 03 Jul 2026 00:01:43 +0000",
+        "businessDate": "2026-07-03",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Sony’s PlayStation disc factory is already being repurposed",
         "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-07-01T13:55:07-04:00",
-        "businessDate": "2026-07-02",
+        "score": 10,
+        "reason": "来源可信度 +7；信息量较完整 +3",
+        "published": "2026-07-02T22:12:19-04:00",
+        "businessDate": "2026-07-03",
         "historyDuplicate": false
       }
     ]
