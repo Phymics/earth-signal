@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "region": "GLOBAL",
   "category": "科技",
-  "sourceName": "NYTimes Technology RSS",
-  "sourceUrl": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+  "sourceName": "The Verge",
+  "sourceUrl": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
-    "summary": "The two companies struck a deal in 2024 to offer A.I. services on Apple devices, but their partnership has soured.",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Apple Sues OpenAI, Accusing It of Stealing Company Secrets.\n\nThe report says: The two companies struck a deal in 2024 to offer A.I. services on Apple devices, but their partnership has soured.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+    "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Apple’s failed self-driving car program left a legacy of powerful AI chips.\n\nThe report says: Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -29,42 +29,42 @@
   "selection": {
     "totalCandidates": 20,
     "todayCandidates": 3,
-    "recent48hCandidates": 16,
+    "recent48hCandidates": 6,
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Sat, 11 Jul 2026 18:00:01 +0000",
-    "selectedPublishedAtUtc8": "2026-07-12T02:00:01+08:00",
-    "selectedBusinessDate": "2026-07-12",
+    "selectedPublished": "2026-07-12T12:27:06-04:00",
+    "selectedPublishedAtUtc8": "2026-07-13T00:27:06+08:00",
+    "selectedBusinessDate": "2026-07-13",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 10,
-    "selectedReason": "来源可信度 +7；科技相关：ai；商业宣传倾向：deal",
+    "selectedScore": 28,
+    "selectedReason": "来源可信度 +7；科技相关：ai, chip, chips；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 10,
-        "reason": "来源可信度 +7；科技相关：ai；商业宣传倾向：deal",
-        "published": "Sat, 11 Jul 2026 18:00:01 +0000",
-        "businessDate": "2026-07-12",
+        "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+        "sourceName": "The Verge",
+        "score": 28,
+        "reason": "来源可信度 +7；科技相关：ai, chip, chips；信息量较完整 +3",
+        "published": "2026-07-12T12:27:06-04:00",
+        "businessDate": "2026-07-13",
         "historyDuplicate": false
       },
       {
-        "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
+        "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+        "sourceName": "The Verge",
+        "score": 18,
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "2026-07-12T16:10:32-04:00",
+        "businessDate": "2026-07-13",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Shall We Go On Sinning So That Grace May Increase? is hypnotic, healing, and hopeful",
         "sourceName": "The Verge",
         "score": 10,
         "reason": "来源可信度 +7；信息量较完整 +3",
-        "published": "2026-07-11T16:57:42-04:00",
-        "businessDate": "2026-07-12",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
-        "sourceName": "The Verge",
-        "score": 1,
-        "reason": "来源可信度 +7；信息量较完整 +3；商业宣传倾向：deal；偏消费评测 -4",
-        "published": "2026-07-11T14:44:12-04:00",
-        "businessDate": "2026-07-12",
+        "published": "2026-07-12T15:37:37-04:00",
+        "businessDate": "2026-07-13",
         "historyDuplicate": false
       }
     ]
