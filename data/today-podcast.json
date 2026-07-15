@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "region": "GLOBAL",
-  "category": "科技",
-  "sourceName": "NYTimes Technology RSS",
-  "sourceUrl": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
+  "category": "科学",
+  "sourceName": "NASA News",
+  "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-    "summary": "The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT.\n\nThe report says: The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Invites Media to Serbia Artemis Accords Signing Ceremony",
+    "summary": "The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign Affairs Marko Đurić and U.S. State Department Assistant Secretary for Oceans and International Environmental and Scientific Affairs Wesley Brooks for the ceremony. This […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Invites Media to Serbia Artemis Accords Signing Ceremony.\n\nThe report says: The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign Affairs Marko Đurić and U.S. State Department Assistant Secretary for Oceans and International Environmental and Scientific Affairs Wesley Brooks for the ceremony. This […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "人工智能新闻释放新的社会信号",
-    "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    "title": "太空与卫星技术释放新的地球观测信号",
+    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 9,
-    "recent48hCandidates": 14,
+    "todayCandidates": 10,
+    "recent48hCandidates": 16,
     "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Tue, 14 Jul 2026 03:39:53 +0000",
-    "selectedPublishedAtUtc8": "2026-07-14T11:39:53+08:00",
-    "selectedBusinessDate": "2026-07-14",
+    "selectedPublished": "Tue, 14 Jul 2026 21:03:29 +0000",
+    "selectedPublishedAtUtc8": "2026-07-15T05:03:29+08:00",
+    "selectedBusinessDate": "2026-07-15",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 30,
-    "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, data；信息量较完整 +3",
+    "selectedScore": 37,
+    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, environment；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 30,
-        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, data；信息量较完整 +3",
-        "published": "Tue, 14 Jul 2026 03:39:53 +0000",
-        "businessDate": "2026-07-14",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA Study Points to Smoother Air Taxi Rides",
+        "title": "NASA Invites Media to Serbia Artemis Accords Signing Ceremony",
         "sourceName": "NASA News",
-        "score": 30,
-        "reason": "来源可信度 +8；科技相关：ai, nasa, data；信息量较完整 +3",
-        "published": "Mon, 13 Jul 2026 21:46:11 +0000",
-        "businessDate": "2026-07-14",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, environment；信息量较完整 +3",
+        "published": "Tue, 14 Jul 2026 21:03:29 +0000",
+        "businessDate": "2026-07-15",
         "historyDuplicate": false
       },
       {
-        "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-        "sourceName": "MIT Technology Review",
-        "score": 19,
-        "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-        "published": "Mon, 13 Jul 2026 18:00:00 +0000",
-        "businessDate": "2026-07-14",
+        "title": "NASA Astronaut Anil Menon, Crewmates Arrive at Space Station",
+        "sourceName": "NASA News",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Tue, 14 Jul 2026 18:26:02 +0000",
+        "businessDate": "2026-07-15",
         "historyDuplicate": false
       },
       {
-        "title": "Microsoft tests Windows Search without all the ads and fluff",
+        "title": "Hubble Sees Crimson Cloud and Stars",
+        "sourceName": "NASA News",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Tue, 14 Jul 2026 18:06:33 +0000",
+        "businessDate": "2026-07-15",
+        "historyDuplicate": false
+      },
+      {
+        "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage",
         "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-07-13T17:53:20-04:00",
-        "businessDate": "2026-07-14",
+        "score": 29,
+        "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "2026-07-14T15:25:00-04:00",
+        "businessDate": "2026-07-15",
         "historyDuplicate": false
       },
       {
-        "title": "OnePlus is reportedly bailing on the US",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-07-13T17:48:43-04:00",
-        "businessDate": "2026-07-14",
+        "title": "NASA Jets Turn Red, White, and Blue",
+        "sourceName": "NASA News",
+        "score": 26,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+        "published": "Tue, 14 Jul 2026 17:13:53 +0000",
+        "businessDate": "2026-07-15",
         "historyDuplicate": false
       }
     ]
