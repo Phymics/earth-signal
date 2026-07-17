@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-17",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-serbia-as-newest-artemis-accords-signatory/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory",
+      "summary": "The Republic of Serbia signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s Headquarters in Washington, becoming the 69th nation to join a large community of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Serbia’s connection to NASA reaches back to the Apollo program, when the […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Welcomes Serbia as Newest Artemis Accords Signatory.\n\nThe report says: The Republic of Serbia signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s Headquarters in Washington, becoming the 69th nation to join a large community of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Serbia’s connection to NASA reaches back to the Apollo program, when the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-07-17-zh.mp3",
+      "original": "audio/history/2026-07-17-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 9,
+      "recent48hCandidates": 19,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Thu, 16 Jul 2026 22:37:19 +0000",
+      "selectedPublishedAtUtc8": "2026-07-17T06:37:19+08:00",
+      "selectedBusinessDate": "2026-07-17",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 39,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：public, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory",
+          "sourceName": "NASA News",
+          "score": 39,
+          "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：public, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 16 Jul 2026 22:37:19 +0000",
+          "businessDate": "2026-07-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Study Finds Near-Earth Asteroid Is Actually Comet",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 16 Jul 2026 18:40:26 +0000",
+          "businessDate": "2026-07-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-07-16T17:31:58-04:00",
+          "businessDate": "2026-07-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Netflix says around 300 titles used generative AI",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-07-16T17:28:29-04:00",
+          "businessDate": "2026-07-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Kalshi says it caught Trump’s teleprompter operator insider trading",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-07-16T14:43:14-04:00",
+          "businessDate": "2026-07-17",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-07-16",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
           "published": "Tue, 14 Jul 2026 17:13:53 +0000",
           "businessDate": "2026-07-15",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-07-14",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "NYTimes Technology RSS",
-    "sourceUrl": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-      "summary": "The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT.\n\nThe report says: The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "人工智能新闻释放新的社会信号",
-      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-07-14-zh.mp3",
-      "original": "audio/history/2026-07-14-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 9,
-      "recent48hCandidates": 14,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 14 Jul 2026 03:39:53 +0000",
-      "selectedPublishedAtUtc8": "2026-07-14T11:39:53+08:00",
-      "selectedBusinessDate": "2026-07-14",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 30,
-      "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, data；信息量较完整 +3",
-      "topCandidates": [
-        {
-          "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 30,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, data；信息量较完整 +3",
-          "published": "Tue, 14 Jul 2026 03:39:53 +0000",
-          "businessDate": "2026-07-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Study Points to Smoother Air Taxi Rides",
-          "sourceName": "NASA News",
-          "score": 30,
-          "reason": "来源可信度 +8；科技相关：ai, nasa, data；信息量较完整 +3",
-          "published": "Mon, 13 Jul 2026 21:46:11 +0000",
-          "businessDate": "2026-07-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-          "sourceName": "MIT Technology Review",
-          "score": 19,
-          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-          "published": "Mon, 13 Jul 2026 18:00:00 +0000",
-          "businessDate": "2026-07-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Microsoft tests Windows Search without all the ads and fluff",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-07-13T17:53:20-04:00",
-          "businessDate": "2026-07-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "OnePlus is reportedly bailing on the US",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-07-13T17:48:43-04:00",
-          "businessDate": "2026-07-14",
           "historyDuplicate": false
         }
       ]
