@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-21",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+      "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft power systems. Mounted to a Saab 340B aircraft, the engine flew at Farnborough International Air Show in the United Kingdom. It was the public […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration.\n\nThe report says: An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft power systems. Mounted to a Saab 340B aircraft, the engine flew at Farnborough International Air Show in the United Kingdom. It was the public […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-07-21-zh.mp3",
+      "original": "audio/history/2026-07-21-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 18,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Mon, 20 Jul 2026 18:54:44 +0000",
+      "selectedPublishedAtUtc8": "2026-07-21T02:54:44+08:00",
+      "selectedBusinessDate": "2026-07-21",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 42,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+          "sourceName": "NASA News",
+          "score": 42,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 20 Jul 2026 18:54:44 +0000",
+          "businessDate": "2026-07-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 20 Jul 2026 20:00:52 +0000",
+          "businessDate": "2026-07-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "SpaceX in your index fund, explained",
+          "sourceName": "The Verge",
+          "score": 29,
+          "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "2026-07-20T17:12:45-04:00",
+          "businessDate": "2026-07-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "China’s AI models have Trump’s AI world at war with itself",
+          "sourceName": "MIT Technology Review",
+          "score": 24,
+          "reason": "来源可信度 +8；科技相关：ai；公共价值：public；信息量较完整 +3",
+          "published": "Mon, 20 Jul 2026 18:00:00 +0000",
+          "businessDate": "2026-07-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "New NASA Earth Missions Gear Up to Start Science Flights",
+          "sourceName": "NASA News",
+          "score": 23,
+          "reason": "来源可信度 +8；科技相关：ai, nasa",
+          "published": "Mon, 20 Jul 2026 18:25:11 +0000",
+          "businessDate": "2026-07-21",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-07-20",
     "region": "GLOBAL",
     "category": "科技",
@@ -154,95 +243,6 @@
           "reason": "来源可信度 +7；信息量较完整 +3",
           "published": "2026-07-18T14:25:08-04:00",
           "businessDate": "2026-07-19",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-07-18",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/organizations/ochmo/establishing-a-vte-risk-score-for-astronauts-algorithm/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
-      "summary": "In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort of astronauts, and discuss progress of research and clinical activities intended to mitigate the risk of VTE during spaceflight with new […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Establishing a VTE Risk Score for Astronauts Algorithm.\n\nThe report says: In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort of astronauts, and discuss progress of research and clinical activities intended to mitigate the risk of VTE during spaceflight with new […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-07-18-zh.mp3",
-      "original": "audio/history/2026-07-18-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 12,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Fri, 17 Jul 2026 21:01:38 +0000",
-      "selectedPublishedAtUtc8": "2026-07-18T05:01:38+08:00",
-      "selectedBusinessDate": "2026-07-18",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 35,
-      "selectedReason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：health；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
-          "sourceName": "NASA News",
-          "score": 35,
-          "reason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：health；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 17 Jul 2026 21:01:38 +0000",
-          "businessDate": "2026-07-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA’s Chandra and IXPE Study Pulsar in Lighthouse Nebula",
-          "sourceName": "NASA News",
-          "score": 30,
-          "reason": "来源可信度 +8；科技相关：ai, nasa, data；信息量较完整 +3",
-          "published": "Fri, 17 Jul 2026 20:05:23 +0000",
-          "businessDate": "2026-07-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 17 Jul 2026 22:32:27 +0000",
-          "businessDate": "2026-07-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "China’s Moonshot AI Unveils Kimi Model, Threatening America’s Lead",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 26,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-          "published": "Fri, 17 Jul 2026 20:04:57 +0000",
-          "businessDate": "2026-07-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Awards Facilities Support Services Contract for Ames Research Center",
-          "sourceName": "NASA News",
-          "score": 26,
-          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
-          "published": "Fri, 17 Jul 2026 20:34:59 +0000",
-          "businessDate": "2026-07-18",
           "historyDuplicate": false
         }
       ]
