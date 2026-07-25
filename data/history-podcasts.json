@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-25",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
+      "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon.\n\nThe report says: On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-07-25-zh.mp3",
+      "original": "audio/history/2026-07-25-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 10,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 24 Jul 2026 17:47:06 +0000",
+      "selectedPublishedAtUtc8": "2026-07-25T01:47:06+08:00",
+      "selectedBusinessDate": "2026-07-25",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 37,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 24 Jul 2026 17:47:06 +0000",
+          "businessDate": "2026-07-25",
+          "historyDuplicate": false
+        },
+        {
+          "title": "New Crew Members Welcomed to International Space Station",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 24 Jul 2026 16:43:02 +0000",
+          "businessDate": "2026-07-25",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 24 Jul 2026 16:35:46 +0000",
+          "businessDate": "2026-07-25",
+          "historyDuplicate": false
+        },
+        {
+          "title": "The quest to keep organs alive outside the body",
+          "sourceName": "MIT Technology Review",
+          "score": 19,
+          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
+          "published": "Fri, 24 Jul 2026 17:03:55 +0000",
+          "businessDate": "2026-07-25",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Qualcomm is about to raise prices and that’s bad news for everyone",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-07-24T15:23:53-04:00",
+          "businessDate": "2026-07-25",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-07-24",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "Wed, 22 Jul 2026 18:47:15 +0000",
           "businessDate": "2026-07-23",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-07-22",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/photojournal/nisars-l-band-radar-reveals-hummingbird-in-antarctica/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NISAR’s L-Band Radar Reveals ‘Hummingbird’ in Antarctica",
-      "summary": "Description Data from the Earth-orbiting U.S.-India NISAR (NASA-ISRO Synthetic Aperture Radar) satellite’s L-band radar was used to produce an image of Nunatak Zaterjavshijsja — a mountaintop in East Antarctica — poking out amid a stream of ice flowing northeast to the ocean. The obstruction causes stresses in the ice, heavily fracturing the surrounding surfaces with […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NISAR’s L-Band Radar Reveals ‘Hummingbird’ in Antarctica.\n\nThe report says: Description Data from the Earth-orbiting U.S.-India NISAR (NASA-ISRO Synthetic Aperture Radar) satellite’s L-band radar was used to produce an image of Nunatak Zaterjavshijsja — a mountaintop in East Antarctica — poking out amid a stream of ice flowing northeast to the ocean. The obstruction causes stresses in the ice, heavily fracturing the surrounding surfaces with […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-07-22-zh.mp3",
-      "original": "audio/history/2026-07-22-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 11,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Wed, 22 Jul 2026 00:33:08 +0000",
-      "selectedPublishedAtUtc8": "2026-07-22T08:33:08+08:00",
-      "selectedBusinessDate": "2026-07-22",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 41,
-      "selectedReason": "来源可信度 +8；科技相关：ai, nasa, satellite, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NISAR’s L-Band Radar Reveals ‘Hummingbird’ in Antarctica",
-          "sourceName": "NASA News",
-          "score": 41,
-          "reason": "来源可信度 +8；科技相关：ai, nasa, satellite, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 22 Jul 2026 00:33:08 +0000",
-          "businessDate": "2026-07-22",
-          "historyDuplicate": false
-        },
-        {
-          "title": "US-India Satellite Delivers Data, Reveals ‘Hummingbird’ in Antarctica",
-          "sourceName": "NASA News",
-          "score": 38,
-          "reason": "来源可信度 +8；科技相关：nasa, satellite, data；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 21 Jul 2026 18:14:52 +0000",
-          "businessDate": "2026-07-22",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA to Host Media Briefing on Roman Telescope, Launching Next Month",
-          "sourceName": "NASA News",
-          "score": 25,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 21 Jul 2026 20:07:59 +0000",
-          "businessDate": "2026-07-22",
-          "historyDuplicate": false
-        },
-        {
-          "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-          "sourceName": "The Verge",
-          "score": 24,
-          "reason": "来源可信度 +7；科技相关：ai；公共价值：environment；信息量较完整 +3",
-          "published": "2026-07-21T18:00:09-04:00",
-          "businessDate": "2026-07-22",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Langley Celebrates Community through Music with ‘Symphony Under the Stars’ Event",
-          "sourceName": "NASA News",
-          "score": 23,
-          "reason": "来源可信度 +8；科技相关：nasa；公共价值：community；信息量较完整 +3",
-          "published": "Tue, 21 Jul 2026 18:00:43 +0000",
-          "businessDate": "2026-07-22",
           "historyDuplicate": false
         }
       ]
