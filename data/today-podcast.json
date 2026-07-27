@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "region": "GLOBAL",
   "category": "科技",
   "sourceName": "The Verge",
-  "sourceUrl": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
+  "sourceUrl": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Google basically confirms the Pixel 11 is getting a price hike",
-    "summary": "Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Google basically confirms the Pixel 11 is getting a price hike.\n\nThe report says: Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "The US is charging an American citizen for wiping his phone at the border",
+    "summary": "The government is prosecuting US citizen Sam Tunick for allegedly providing authorities with a \"duress password\" that wiped his phone when they tried to seize it at Atlanta's Hartsfield-Jackson airport on January 24th, 2025. Federal agents detained Tunick at the airport, allegedly questioning him about child exploitation images. However, a motion filed by Tunick's lawyers […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: The US is charging an American citizen for wiping his phone at the border.\n\nThe report says: The government is prosecuting US citizen Sam Tunick for allegedly providing authorities with a \"duress password\" that wiped his phone when they tried to seize it at Atlanta's Hartsfield-Jackson airport on January 24th, 2025. Federal agents detained Tunick at the airport, allegedly questioning him about child exploitation images. However, a motion filed by Tunick's lawyers […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,34 +28,43 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 2,
-    "recent48hCandidates": 14,
-    "historyRecordedRefs": 7,
+    "todayCandidates": 3,
+    "recent48hCandidates": 7,
+    "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "2026-07-25T14:13:36-04:00",
-    "selectedPublishedAtUtc8": "2026-07-26T02:13:36+08:00",
-    "selectedBusinessDate": "2026-07-26",
+    "selectedPublished": "2026-07-26T14:45:50-04:00",
+    "selectedPublishedAtUtc8": "2026-07-27T02:45:50+08:00",
+    "selectedBusinessDate": "2026-07-27",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 22,
-    "selectedReason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
+    "selectedScore": 18,
+    "selectedReason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "Google basically confirms the Pixel 11 is getting a price hike",
+        "title": "The US is charging an American citizen for wiping his phone at the border",
         "sourceName": "The Verge",
-        "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
-        "published": "2026-07-25T14:13:36-04:00",
-        "businessDate": "2026-07-26",
+        "score": 18,
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "2026-07-26T14:45:50-04:00",
+        "businessDate": "2026-07-27",
         "historyDuplicate": false
       },
       {
-        "title": "Silicon Valley Splits Over Closing the Borders to Chinese A.I.",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "Sat, 25 Jul 2026 20:07:33 +0000",
-        "businessDate": "2026-07-26",
+        "title": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+        "sourceName": "The Verge",
+        "score": 10,
+        "reason": "来源可信度 +7；信息量较完整 +3",
+        "published": "2026-07-26T17:24:07-04:00",
+        "businessDate": "2026-07-27",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Apple is banking on privacy to set its smart glasses apart",
+        "sourceName": "The Verge",
+        "score": 10,
+        "reason": "来源可信度 +7；信息量较完整 +3",
+        "published": "2026-07-26T15:36:38-04:00",
+        "businessDate": "2026-07-27",
         "historyDuplicate": false
       }
     ]
