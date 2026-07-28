@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-28",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "NYTimes Technology RSS",
+    "sourceUrl": "https://www.nytimes.com/2026/07/27/technology/apple-valuation.html",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "Apple Regains Spot Over Nvidia as Most Valuable Public Company",
+      "summary": "The company slipped by the chipmaker Nvidia, amid growing concern about costs associated with the artificial intelligence boom.",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Apple Regains Spot Over Nvidia as Most Valuable Public Company.\n\nThe report says: The company slipped by the chipmaker Nvidia, amid growing concern about costs associated with the artificial intelligence boom.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "人工智能新闻释放新的社会信号",
+      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-07-28-zh.mp3",
+      "original": "audio/history/2026-07-28-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 15,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Mon, 27 Jul 2026 20:34:32 +0000",
+      "selectedPublishedAtUtc8": "2026-07-28T04:34:32+08:00",
+      "selectedBusinessDate": "2026-07-28",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 36,
+      "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, chip；公共价值：public；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "Apple Regains Spot Over Nvidia as Most Valuable Public Company",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 36,
+          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, chip；公共价值：public；信息量较完整 +3",
+          "published": "Mon, 27 Jul 2026 20:34:32 +0000",
+          "businessDate": "2026-07-28",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Astronaut Chris Williams Returns to Earth",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 27 Jul 2026 16:48:46 +0000",
+          "businessDate": "2026-07-28",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 27 Jul 2026 18:49:20 +0000",
+          "businessDate": "2026-07-28",
+          "historyDuplicate": false
+        },
+        {
+          "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 27,
+          "reason": "来源可信度 +7；科技相关：ai, chip, data；信息量较完整 +3",
+          "published": "Tue, 28 Jul 2026 03:08:44 +0000",
+          "businessDate": "2026-07-28",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Microsoft Unveils A.I. Cybersecurity Tools",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 22,
+          "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+          "published": "Mon, 27 Jul 2026 16:51:15 +0000",
+          "businessDate": "2026-07-28",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-07-27",
     "region": "GLOBAL",
     "category": "科技",
@@ -127,95 +216,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "Sat, 25 Jul 2026 20:07:33 +0000",
           "businessDate": "2026-07-26",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-07-25",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
-      "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon.\n\nThe report says: On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-07-25-zh.mp3",
-      "original": "audio/history/2026-07-25-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 10,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Fri, 24 Jul 2026 17:47:06 +0000",
-      "selectedPublishedAtUtc8": "2026-07-25T01:47:06+08:00",
-      "selectedBusinessDate": "2026-07-25",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 37,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 24 Jul 2026 17:47:06 +0000",
-          "businessDate": "2026-07-25",
-          "historyDuplicate": false
-        },
-        {
-          "title": "New Crew Members Welcomed to International Space Station",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 24 Jul 2026 16:43:02 +0000",
-          "businessDate": "2026-07-25",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon",
-          "sourceName": "NASA News",
-          "score": 34,
-          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 24 Jul 2026 16:35:46 +0000",
-          "businessDate": "2026-07-25",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The quest to keep organs alive outside the body",
-          "sourceName": "MIT Technology Review",
-          "score": 19,
-          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-          "published": "Fri, 24 Jul 2026 17:03:55 +0000",
-          "businessDate": "2026-07-25",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Qualcomm is about to raise prices and that’s bad news for everyone",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-07-24T15:23:53-04:00",
-          "businessDate": "2026-07-25",
           "historyDuplicate": false
         }
       ]
