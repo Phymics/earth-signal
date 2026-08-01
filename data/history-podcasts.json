@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-08-01",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-host-florida-event-celebrating-american-air-space-leadership/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA to Host Florida Event Celebrating American Air, Space Leadership",
+      "summary": "NASA will hold a news conference at 2:30 p.m. EDT, Friday, Aug. 14, live from the agency’s Kennedy Space Center in Florida, and media and digital creators are invited to attend in person. The announcement, held in the XLV Hangar at the Shuttle Landing Facility, will preview a new event at NASA Kennedy later this […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA to Host Florida Event Celebrating American Air, Space Leadership.\n\nThe report says: NASA will hold a news conference at 2:30 p.m. EDT, Friday, Aug. 14, live from the agency’s Kennedy Space Center in Florida, and media and digital creators are invited to attend in person. The announcement, held in the XLV Hangar at the Shuttle Landing Facility, will preview a new event at NASA Kennedy later this […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-01-zh.mp3",
+      "original": "audio/history/2026-08-01-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 31 Jul 2026 21:08:10 +0000",
+      "selectedPublishedAtUtc8": "2026-08-01T05:08:10+08:00",
+      "selectedBusinessDate": "2026-08-01",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 33,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA to Host Florida Event Celebrating American Air, Space Leadership",
+          "sourceName": "NASA News",
+          "score": 33,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 31 Jul 2026 21:08:10 +0000",
+          "businessDate": "2026-08-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Google Earth’s AI deepfake tool only lasted one day",
+          "sourceName": "The Verge",
+          "score": 29,
+          "reason": "来源可信度 +7；科技相关：ai, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "2026-07-31T15:13:29-04:00",
+          "businessDate": "2026-08-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 31 Jul 2026 18:39:47 +0000",
+          "businessDate": "2026-08-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "TB 26-04 Webbings for Use in Elevated Oxygen Environments",
+          "sourceName": "NASA News",
+          "score": 24,
+          "reason": "来源可信度 +8；科技相关：nasa；公共价值：environment；信息量较完整 +3",
+          "published": "Fri, 31 Jul 2026 19:05:25 +0000",
+          "businessDate": "2026-08-01",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Google might launch a ‘Pixel Tag’",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
+          "published": "2026-07-31T14:27:24-04:00",
+          "businessDate": "2026-08-01",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-07-31",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：artificial intelligence, technology；信息量较完整 +3",
           "published": "Wed, 29 Jul 2026 23:10:21 +0000",
           "businessDate": "2026-07-30",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-07-29",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: AI leaders sign a statement asking the government to do something about automated AI.\n\nThe report says: Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "人工智能新闻释放新的社会信号",
-      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-07-29-zh.mp3",
-      "original": "audio/history/2026-07-29-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 9,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-07-28T19:14:53-04:00",
-      "selectedPublishedAtUtc8": "2026-07-29T07:14:53+08:00",
-      "selectedBusinessDate": "2026-07-29",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 23,
-      "selectedReason": "来源可信度 +7；科技相关：ai；公共价值：global；信息量较完整 +3",
-      "topCandidates": [
-        {
-          "title": "AI leaders sign a statement asking the government to do something about automated AI",
-          "sourceName": "The Verge",
-          "score": 23,
-          "reason": "来源可信度 +7；科技相关：ai；公共价值：global；信息量较完整 +3",
-          "published": "2026-07-28T19:14:53-04:00",
-          "businessDate": "2026-07-29",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Couple Stalked by eBay Settle for $56 Million",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 22,
-          "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
-          "published": "Tue, 28 Jul 2026 21:02:51 +0000",
-          "businessDate": "2026-07-29",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The US is banning foreign robots",
-          "sourceName": "The Verge",
-          "score": 22,
-          "reason": "来源可信度 +7；科技相关：robot, robots；信息量较完整 +3",
-          "published": "2026-07-28T18:49:40-04:00",
-          "businessDate": "2026-07-29",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Mark Zuckerberg Blasts Centralization of A.I. Power",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "Wed, 29 Jul 2026 00:59:08 +0000",
-          "businessDate": "2026-07-29",
-          "historyDuplicate": false
-        },
-        {
-          "title": "What Is Open-Weights A.I.?",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：artificial intelligence；信息量较完整 +3",
-          "published": "Tue, 28 Jul 2026 22:38:23 +0000",
-          "businessDate": "2026-07-29",
           "historyDuplicate": false
         }
       ]
