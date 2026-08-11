@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-08-11",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-debuts-on-discovery-coming-soon-to-hbo-max/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA+ Debuts on discovery+, Coming Soon to HBO Max",
+      "summary": "As NASA+ continues its expansion across multiple streaming platforms to bring space closer to home, NASA announced Monday programming is next heading to discovery+ and HBO Max. A continuous live feed of NASA+ programming is streaming on discovery+ live channels, while HBO Max will stream NASA’s special events, including the Artemis III mission in 2027. […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA+ Debuts on discovery+, Coming Soon to HBO Max.\n\nThe report says: As NASA+ continues its expansion across multiple streaming platforms to bring space closer to home, NASA announced Monday programming is next heading to discovery+ and HBO Max. A continuous live feed of NASA+ programming is streaming on discovery+ live channels, while HBO Max will stream NASA’s special events, including the Artemis III mission in 2027. […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-11-zh.mp3",
+      "original": "audio/history/2026-08-11-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 19,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Mon, 10 Aug 2026 16:30:13 +0000",
+      "selectedPublishedAtUtc8": "2026-08-11T00:30:13+08:00",
+      "selectedBusinessDate": "2026-08-11",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 29,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA+ Debuts on discovery+, Coming Soon to HBO Max",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 10 Aug 2026 16:30:13 +0000",
+          "businessDate": "2026-08-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Community College Instructors Bring Astronomy Textbook Into 21st Century",
+          "sourceName": "NASA News",
+          "score": 23,
+          "reason": "来源可信度 +8；科技相关：nasa；公共价值：community；信息量较完整 +3",
+          "published": "Mon, 10 Aug 2026 18:08:56 +0000",
+          "businessDate": "2026-08-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "AI professors are negotiating the new realities of academic research",
+          "sourceName": "MIT Technology Review",
+          "score": 19,
+          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
+          "published": "Mon, 10 Aug 2026 20:00:00 +0000",
+          "businessDate": "2026-08-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Mark Zuckerberg doesn’t understand how to live",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-08-10T18:47:01-04:00",
+          "businessDate": "2026-08-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Waymo Is Growing Faster Than Ever. So Are Its ‘Edge Cases.’",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 15,
+          "reason": "来源可信度 +7；公共价值：cities；信息量较完整 +3",
+          "published": "Mon, 10 Aug 2026 20:37:37 +0000",
+          "businessDate": "2026-08-11",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-08-10",
     "region": "GLOBAL",
     "category": "科技",
@@ -127,95 +216,6 @@
           "reason": "来源可信度 +7；信息量较完整 +3",
           "published": "2026-08-08T17:15:12-04:00",
           "businessDate": "2026-08-09",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-08-08",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/earth/2026-igarss-hyperwall-schedule/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "2026 IGARSS Hyperwall Schedule",
-      "summary": "IGARSS 2026 Join NASA in the Exhibit Hall (Booth #100) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, AUGUST 10 3:00 PM Technology Enabling the Future of Earth ScienceMike Seablom3:15 PM Discovery Earth: New Missions & Technical Innovation Advancing Earth System InsightsKaren St. Germain TUESDAY, AUGUST 11 10:00 AMSTELLA: Open-Source Multisenor Platforms For Real-Time […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: 2026 IGARSS Hyperwall Schedule.\n\nThe report says: IGARSS 2026 Join NASA in the Exhibit Hall (Booth #100) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, AUGUST 10 3:00 PM Technology Enabling the Future of Earth ScienceMike Seablom3:15 PM Discovery Earth: New Missions & Technical Innovation Advancing Earth System InsightsKaren St. Germain TUESDAY, AUGUST 11 10:00 AMSTELLA: Open-Source Multisenor Platforms For Real-Time […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-08-08-zh.mp3",
-      "original": "audio/history/2026-08-08-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 6,
-      "recent48hCandidates": 17,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Fri, 07 Aug 2026 18:57:34 +0000",
-      "selectedPublishedAtUtc8": "2026-08-08T02:57:34+08:00",
-      "selectedBusinessDate": "2026-08-08",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 31,
-      "selectedReason": "来源可信度 +8；科技相关：ai, nasa, technology；信息量较完整 +3",
-      "topCandidates": [
-        {
-          "title": "2026 IGARSS Hyperwall Schedule",
-          "sourceName": "NASA News",
-          "score": 31,
-          "reason": "来源可信度 +8；科技相关：ai, nasa, technology；信息量较完整 +3",
-          "published": "Fri, 07 Aug 2026 18:57:34 +0000",
-          "businessDate": "2026-08-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Watching Roku’s AI channel is like eating from a trough",
-          "sourceName": "The Verge",
-          "score": 29,
-          "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "2026-08-07T14:59:46-04:00",
-          "businessDate": "2026-08-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-          "sourceName": "The Verge",
-          "score": 22,
-          "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
-          "published": "2026-08-07T14:40:34-04:00",
-          "businessDate": "2026-08-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-08-07T16:01:51-04:00",
-          "businessDate": "2026-08-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The gaming site sponsored by Walmart lays off its editorial staff",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3；商业宣传倾向：sponsored",
-          "published": "2026-08-07T18:05:08-04:00",
-          "businessDate": "2026-08-08",
           "historyDuplicate": false
         }
       ]
