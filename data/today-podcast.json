@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "region": "GLOBAL",
-  "category": "科学",
-  "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
+  "category": "科技",
+  "sourceName": "The Verge",
+  "sourceUrl": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
-    "summary": "The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment. Where those resources can be found will dictate where to land and how to mine them. To help with that, Lunar Station Corp. is using a wealth of NASA […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Data Helps Commercial Space Plan Living Off Our Moon.\n\nThe report says: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment. Where those resources can be found will dictate where to land and how to mine them. To help with that, Lunar Station Corp. is using a wealth of NASA […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+    "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and aircraft parts, too. He's going to try to make them cost a lot more. In a presidential […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Trump declares 100 percent tariffs on many drones and all aircraft parts.\n\nThe report says: The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and aircraft parts, too. He's going to try to make them cost a lot more. In a presidential […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "太空与卫星技术释放新的地球观测信号",
-    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    "title": "人工智能新闻释放新的社会信号",
+    "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 12,
+    "todayCandidates": 10,
     "recent48hCandidates": 18,
     "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Wed, 12 Aug 2026 20:40:27 +0000",
-    "selectedPublishedAtUtc8": "2026-08-13T04:40:27+08:00",
-    "selectedBusinessDate": "2026-08-13",
+    "selectedPublished": "2026-08-13T21:06:15-04:00",
+    "selectedPublishedAtUtc8": "2026-08-14T09:06:15+08:00",
+    "selectedBusinessDate": "2026-08-14",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 37,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 30,
+    "selectedReason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
-        "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 12 Aug 2026 20:40:27 +0000",
-        "businessDate": "2026-08-13",
+        "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+        "sourceName": "The Verge",
+        "score": 30,
+        "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
+        "published": "2026-08-13T21:06:15-04:00",
+        "businessDate": "2026-08-14",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Upgrades Vertical Motion Simulator for Modern Mission Needs",
-        "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 12 Aug 2026 17:55:36 +0000",
-        "businessDate": "2026-08-13",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA Astronaut Mike Fincke Leaves NASA, Career Includes 4 Spaceflights",
+        "title": "For West Virginia Engineer, Home Is Where the Heart Is… and NASA, Too",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 12 Aug 2026 16:03:05 +0000",
-        "businessDate": "2026-08-13",
+        "published": "Thu, 13 Aug 2026 19:03:19 +0000",
+        "businessDate": "2026-08-14",
         "historyDuplicate": false
       },
       {
-        "title": "Scaling AI agents with trustworthy data",
-        "sourceName": "MIT Technology Review",
-        "score": 28,
-        "reason": "来源可信度 +8；科技相关：ai, technology, data；信息量较完整 +3",
-        "published": "Wed, 12 Aug 2026 16:51:57 +0000",
-        "businessDate": "2026-08-13",
+        "title": "NASA’s 737 Reveals New Paint",
+        "sourceName": "NASA News",
+        "score": 26,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+        "published": "Thu, 13 Aug 2026 19:41:23 +0000",
+        "businessDate": "2026-08-14",
         "historyDuplicate": false
       },
       {
-        "title": "Cats and dogs are missing meals after a popular smart feeder went down",
+        "title": "The fight over Flock and other ALPRs",
         "sourceName": "The Verge",
-        "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：water；信息量较完整 +3",
-        "published": "2026-08-12T17:43:45-04:00",
-        "businessDate": "2026-08-13",
+        "score": 18,
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "2026-08-13T17:46:21-04:00",
+        "businessDate": "2026-08-14",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Building a practical path to post-quantum cryptography",
+        "sourceName": "MIT Technology Review",
+        "score": 16,
+        "reason": "来源可信度 +8；科技相关：technology；信息量较完整 +3",
+        "published": "Thu, 13 Aug 2026 18:11:42 +0000",
+        "businessDate": "2026-08-14",
         "historyDuplicate": false
       }
     ]
