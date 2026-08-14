@@ -10,8 +10,8 @@
   },
   "original": {
     "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-    "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and aircraft parts, too. He's going to try to make them cost a lot more. In a presidential […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Trump declares 100 percent tariffs on many drones and all aircraft parts.\n\nThe report says: The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and aircraft parts, too. He's going to try to make them cost a lot more. In a presidential […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Trump declares 100 percent tariffs on many drones and all aircraft parts.\n\nThe report says: The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -30,11 +30,11 @@
     "totalCandidates": 20,
     "todayCandidates": 10,
     "recent48hCandidates": 18,
-    "historyRecordedRefs": 7,
+    "historyRecordedRefs": 5,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "2026-08-13T21:06:15-04:00",
-    "selectedPublishedAtUtc8": "2026-08-14T09:06:15+08:00",
+    "selectedPublished": "2026-08-13T21:13:47-04:00",
+    "selectedPublishedAtUtc8": "2026-08-14T09:13:47+08:00",
     "selectedBusinessDate": "2026-08-14",
     "selectedIsHistoryDuplicate": false,
     "selectedScore": 30,
@@ -45,7 +45,7 @@
         "sourceName": "The Verge",
         "score": 30,
         "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
-        "published": "2026-08-13T21:06:15-04:00",
+        "published": "2026-08-13T21:13:47-04:00",
         "businessDate": "2026-08-14",
         "historyDuplicate": false
       },
