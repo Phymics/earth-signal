@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-08-15",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow",
+      "summary": "In honor of America’s historic 250th anniversary, NASA announced on Friday MAX POWER, a public exposition of American air and space innovation, Nov. 7 and Nov. 8, on and near the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event will showcase the next-generation aircraft, spacecraft, autonomous vehicles, and technologies that will help define […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow.\n\nThe report says: In honor of America’s historic 250th anniversary, NASA announced on Friday MAX POWER, a public exposition of American air and space innovation, Nov. 7 and Nov. 8, on and near the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event will showcase the next-generation aircraft, spacecraft, autonomous vehicles, and technologies that will help define […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-15-zh.mp3",
+      "original": "audio/history/2026-08-15-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 9,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 14 Aug 2026 18:44:36 +0000",
+      "selectedPublishedAtUtc8": "2026-08-15T02:44:36+08:00",
+      "selectedBusinessDate": "2026-08-15",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 42,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow",
+          "sourceName": "NASA News",
+          "score": 42,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 14 Aug 2026 18:44:36 +0000",
+          "businessDate": "2026-08-15",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+          "sourceName": "NASA News",
+          "score": 41,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 14 Aug 2026 17:00:23 +0000",
+          "businessDate": "2026-08-15",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Volunteer Develops Machine-Learning Tool to Identify Rare Clouds",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 14 Aug 2026 17:35:46 +0000",
+          "businessDate": "2026-08-15",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 14 Aug 2026 20:00:38 +0000",
+          "businessDate": "2026-08-15",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Samsung has new Galaxy headphones in the works",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-08-14T15:18:45-04:00",
+          "businessDate": "2026-08-15",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-08-14",
     "region": "GLOBAL",
     "category": "科技",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；公共价值：water；信息量较完整 +3",
           "published": "2026-08-12T17:43:45-04:00",
           "businessDate": "2026-08-13",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-08-12",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
-      "summary": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space. Roman will help astronomers answer questions about dark energy, dark matter, exoplanets, and more. ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies physics and mathematics to […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: What Is the Nancy Grace Roman Space Telescope? (Grades 5-8).\n\nThe report says: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space. Roman will help astronomers answer questions about dark energy, dark matter, exoplanets, and more. ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies physics and mathematics to […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-08-12-zh.mp3",
-      "original": "audio/history/2026-08-12-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 10,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 11 Aug 2026 21:04:39 +0000",
-      "selectedPublishedAtUtc8": "2026-08-12T05:04:39+08:00",
-      "selectedBusinessDate": "2026-08-12",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 39,
-      "selectedReason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
-          "sourceName": "NASA News",
-          "score": 39,
-          "reason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 11 Aug 2026 21:04:39 +0000",
-          "businessDate": "2026-08-12",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Lion Nebula Roars in Webb’s Sights",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 11 Aug 2026 17:02:49 +0000",
-          "businessDate": "2026-08-12",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
-          "sourceName": "NASA News",
-          "score": 24,
-          "reason": "来源可信度 +8；科技相关：nasa；公共价值：environment；信息量较完整 +3",
-          "published": "Tue, 11 Aug 2026 19:41:34 +0000",
-          "businessDate": "2026-08-12",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-08-11T20:40:27-04:00",
-          "businessDate": "2026-08-12",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Xbox Elite 3 prototype pad leaks with tiny built-in screen",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-08-11T18:36:35-04:00",
-          "businessDate": "2026-08-12",
           "historyDuplicate": false
         }
       ]
