@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-08-17",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "The Verge",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: OpenAI reportedly disbanded its preparedness team.\n\nThe report says: According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "人工智能新闻释放新的社会信号",
+      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-17-zh.mp3",
+      "original": "audio/history/2026-08-17-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 3,
+      "recent48hCandidates": 7,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "2026-08-16T17:32:56-04:00",
+      "selectedPublishedAtUtc8": "2026-08-17T05:32:56+08:00",
+      "selectedBusinessDate": "2026-08-17",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 18,
+      "selectedReason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "OpenAI reportedly disbanded its preparedness team",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-08-16T17:32:56-04:00",
+          "businessDate": "2026-08-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Amazon is trying to crush class-action suits before they get started",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-08-16T13:35:02-04:00",
+          "businessDate": "2026-08-17",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+          "sourceName": "The Verge",
+          "score": 10,
+          "reason": "来源可信度 +7；信息量较完整 +3",
+          "published": "2026-08-16T16:31:37-04:00",
+          "businessDate": "2026-08-17",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-08-16",
     "region": "GLOBAL",
     "category": "科技",
@@ -163,95 +234,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "2026-08-14T15:18:45-04:00",
           "businessDate": "2026-08-15",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-08-14",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-      "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Trump declares 100 percent tariffs on many drones and all aircraft parts.\n\nThe report says: The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "人工智能新闻释放新的社会信号",
-      "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-08-14-zh.mp3",
-      "original": "audio/history/2026-08-14-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 10,
-      "recent48hCandidates": 18,
-      "historyRecordedRefs": 5,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-08-13T21:13:47-04:00",
-      "selectedPublishedAtUtc8": "2026-08-14T09:13:47+08:00",
-      "selectedBusinessDate": "2026-08-14",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 30,
-      "selectedReason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
-      "topCandidates": [
-        {
-          "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-          "sourceName": "The Verge",
-          "score": 30,
-          "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
-          "published": "2026-08-13T21:13:47-04:00",
-          "businessDate": "2026-08-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "For West Virginia Engineer, Home Is Where the Heart Is… and NASA, Too",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Thu, 13 Aug 2026 19:03:19 +0000",
-          "businessDate": "2026-08-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA’s 737 Reveals New Paint",
-          "sourceName": "NASA News",
-          "score": 26,
-          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
-          "published": "Thu, 13 Aug 2026 19:41:23 +0000",
-          "businessDate": "2026-08-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The fight over Flock and other ALPRs",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-08-13T17:46:21-04:00",
-          "businessDate": "2026-08-14",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Building a practical path to post-quantum cryptography",
-          "sourceName": "MIT Technology Review",
-          "score": 16,
-          "reason": "来源可信度 +8；科技相关：technology；信息量较完整 +3",
-          "published": "Thu, 13 Aug 2026 18:11:42 +0000",
-          "businessDate": "2026-08-14",
           "historyDuplicate": false
         }
       ]
