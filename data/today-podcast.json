@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "region": "GLOBAL",
   "category": "科技",
   "sourceName": "The Verge",
-  "sourceUrl": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+  "sourceUrl": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent",
-    "summary": "Citing \"significant increases in memory and storage component costs,\" Amazon has raised prices on Echos, Kindles, Fire TVs, and Eeros by up to 60 percent, as first reported by Fortune. The cheapest products in Amazon's lineup were hit hardest, with the Echo Dot smart speaker jumping from $49.99 to $79.99. The Fire TV Stick 4K […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent.\n\nThe report says: Citing \"significant increases in memory and storage component costs,\" Amazon has raised prices on Echos, Kindles, Fire TVs, and Eeros by up to 60 percent, as first reported by Fortune. The cheapest products in Amazon's lineup were hit hardest, with the Echo Dot smart speaker jumping from $49.99 to $79.99. The Fire TV Stick 4K […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+    "summary": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series.\n\nThe report says: It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -29,24 +29,24 @@
   "selection": {
     "totalCandidates": 20,
     "todayCandidates": 1,
-    "recent48hCandidates": 18,
-    "historyRecordedRefs": 7,
+    "recent48hCandidates": 8,
+    "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "2026-08-22T13:41:45-04:00",
-    "selectedPublishedAtUtc8": "2026-08-23T01:41:45+08:00",
-    "selectedBusinessDate": "2026-08-23",
+    "selectedPublished": "2026-08-23T15:14:43-04:00",
+    "selectedPublishedAtUtc8": "2026-08-24T03:14:43+08:00",
+    "selectedBusinessDate": "2026-08-24",
     "selectedIsHistoryDuplicate": false,
     "selectedScore": 18,
     "selectedReason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent",
+        "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
         "sourceName": "The Verge",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-08-22T13:41:45-04:00",
-        "businessDate": "2026-08-23",
+        "published": "2026-08-23T15:14:43-04:00",
+        "businessDate": "2026-08-24",
         "historyDuplicate": false
       }
     ]
