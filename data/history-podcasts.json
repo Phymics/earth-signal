@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-08-29",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "The Verge",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
+      "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Trump’s EPA wants to let data centers hide their air pollution.\n\nThe report says: Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "气候与环境科技出现新的全球信号",
+      "summary": "这条新闻关注气候与环境相关技术，背后牵动城市韧性、公共安全和长期生活方式变化。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：气候与环境科技出现新的全球信号。这条新闻关注气候与环境相关技术，背后牵动城市韧性、公共安全和长期生活方式变化。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-29-zh.mp3",
+      "original": "audio/history/2026-08-29-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 10,
+      "recent48hCandidates": 19,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "2026-08-28T12:28:40-04:00",
+      "selectedPublishedAtUtc8": "2026-08-29T00:28:40+08:00",
+      "selectedBusinessDate": "2026-08-29",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 38,
+      "selectedReason": "来源可信度 +7；科技相关：ai, data；公共价值：public, environment, communities；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "Trump’s EPA wants to let data centers hide their air pollution",
+          "sourceName": "The Verge",
+          "score": 38,
+          "reason": "来源可信度 +7；科技相关：ai, data；公共价值：public, environment, communities；信息量较完整 +3",
+          "published": "2026-08-28T12:28:40-04:00",
+          "businessDate": "2026-08-29",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 28 Aug 2026 20:30:52 +0000",
+          "businessDate": "2026-08-29",
+          "historyDuplicate": false
+        },
+        {
+          "title": "President Trump Signs Executive Order to Create US Space Academy",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：ai, space, security；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 28 Aug 2026 17:21:04 +0000",
+          "businessDate": "2026-08-29",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA’s Artemis II Crew Receives Congressional Space Medal of Honor",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 28 Aug 2026 22:21:31 +0000",
+          "businessDate": "2026-08-29",
+          "historyDuplicate": false
+        },
+        {
+          "title": "President Honors NASA’s Artemis II Crew with Highest US Space Award",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 28 Aug 2026 17:37:01 +0000",
+          "businessDate": "2026-08-29",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-08-28",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；公共价值：environment；信息量较完整 +3",
           "published": "2026-08-27T03:46:20-04:00",
           "businessDate": "2026-08-27",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-08-26",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/news-release/nasa-ames-experts-available-for-roman-space-telescope-interviews/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NASA Ames Experts Available for Roman Space Telescope Interviews",
-      "summary": "NASA’s Ames Research Center in California’s Silicon Valley invites media to learn more about NASA’s Nancy Grace Roman Space Telescope, scheduled to launch Sunday, Aug. 30, 2026, from NASA’s Kennedy Space Center in Florida. The Roman telescope will provide a wide, detailed view of the universe, helping scientists study dark energy, exoplanets, and cosmic structures. […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Ames Experts Available for Roman Space Telescope Interviews.\n\nThe report says: NASA’s Ames Research Center in California’s Silicon Valley invites media to learn more about NASA’s Nancy Grace Roman Space Telescope, scheduled to launch Sunday, Aug. 30, 2026, from NASA’s Kennedy Space Center in Florida. The Roman telescope will provide a wide, detailed view of the universe, helping scientists study dark energy, exoplanets, and cosmic structures. […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-08-26-zh.mp3",
-      "original": "audio/history/2026-08-26-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 19,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 25 Aug 2026 18:47:01 +0000",
-      "selectedPublishedAtUtc8": "2026-08-26T02:47:01+08:00",
-      "selectedBusinessDate": "2026-08-26",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 47,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NASA Ames Experts Available for Roman Space Telescope Interviews",
-          "sourceName": "NASA News",
-          "score": 47,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 25 Aug 2026 18:47:01 +0000",
-          "businessDate": "2026-08-26",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Ames’ Contributions to Roman’s Mission",
-          "sourceName": "NASA News",
-          "score": 39,
-          "reason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 25 Aug 2026 19:44:55 +0000",
-          "businessDate": "2026-08-26",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：nasa, satellite, data；公共价值：water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 25 Aug 2026 17:55:02 +0000",
-          "businessDate": "2026-08-26",
-          "historyDuplicate": false
-        },
-        {
-          "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-          "sourceName": "NASA News",
-          "score": 34,
-          "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：global；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 25 Aug 2026 22:28:34 +0000",
-          "businessDate": "2026-08-26",
-          "historyDuplicate": false
-        },
-        {
-          "title": "A new stamp on cyberfraud prevention",
-          "sourceName": "MIT Technology Review",
-          "score": 27,
-          "reason": "来源可信度 +8；科技相关：ai, data, security；信息量较完整 +3",
-          "published": "Tue, 25 Aug 2026 21:00:00 +0000",
-          "businessDate": "2026-08-26",
           "historyDuplicate": false
         }
       ]
