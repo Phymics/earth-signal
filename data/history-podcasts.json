@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-08-31",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "The Verge",
+    "sourceUrl": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
+      "summary": "After funding struggles and a name change, the Nancy Grace Roman Space Telescope has been successfully launched. It will now make a three-month, one-million-mile journey to its orbit at the second Sun-Earth Lagrange point (L2) beyond the Moon. From this vantage point, Roman will conduct an unprecedented survey of the universe. Its field of view […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy.\n\nThe report says: After funding struggles and a name change, the Nancy Grace Roman Space Telescope has been successfully launched. It will now make a three-month, one-million-mile journey to its orbit at the second Sun-Earth Lagrange point (L2) beyond the Moon. From this vantage point, Roman will conduct an unprecedented survey of the universe. Its field of view […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-08-31-zh.mp3",
+      "original": "audio/history/2026-08-31-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 5,
+      "recent48hCandidates": 11,
+      "historyRecordedRefs": 9,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "2026-08-30T12:36:39-04:00",
+      "selectedPublishedAtUtc8": "2026-08-31T00:36:39+08:00",
+      "selectedBusinessDate": "2026-08-31",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 28,
+      "selectedReason": "来源可信度 +7；科技相关：space, energy；公共价值：energy；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
+          "sourceName": "The Verge",
+          "score": 28,
+          "reason": "来源可信度 +7；科技相关：space, energy；公共价值：energy；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
+          "published": "2026-08-30T12:36:39-04:00",
+          "businessDate": "2026-08-31",
+          "historyDuplicate": false
+        },
+        {
+          "title": "APOD: 2026 August 31 – Launch of the Roman Space Telescope",
+          "sourceName": "NASA News",
+          "score": 28,
+          "reason": "来源可信度 +8；科技相关：space；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Mon, 31 Aug 2026 04:05:00 +0000",
+          "businessDate": "2026-08-31",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
+          "sourceName": "The Verge",
+          "score": 22,
+          "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
+          "published": "2026-08-30T15:14:08-04:00",
+          "businessDate": "2026-08-31",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+          "sourceName": "The Verge",
+          "score": 20,
+          "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3；商业宣传倾向：funding",
+          "published": "2026-08-30T12:14:46-04:00",
+          "businessDate": "2026-08-31",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
+          "sourceName": "The Verge",
+          "score": 10,
+          "reason": "来源可信度 +7；信息量较完整 +3",
+          "published": "2026-08-30T17:18:59-04:00",
+          "businessDate": "2026-08-31",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-08-30",
     "region": "GLOBAL",
     "category": "科技",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
           "published": "Fri, 28 Aug 2026 17:37:01 +0000",
           "businessDate": "2026-08-29",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-08-28",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
-      "summary": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: 9 Things to Know About NASA’s Nancy Grace Roman Space Telescope.\n\nThe report says: NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-08-28-zh.mp3",
-      "original": "audio/history/2026-08-28-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 15,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Thu, 27 Aug 2026 17:47:11 +0000",
-      "selectedPublishedAtUtc8": "2026-08-28T01:47:11+08:00",
-      "selectedBusinessDate": "2026-08-28",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 37,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Thu, 27 Aug 2026 17:47:11 +0000",
-          "businessDate": "2026-08-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "How to sign up for a virtual power plant—and decide whether you should",
-          "sourceName": "MIT Technology Review",
-          "score": 26,
-          "reason": "来源可信度 +8；科技相关：energy, technology；公共价值：energy；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 28 Aug 2026 09:00:00 +0000",
-          "businessDate": "2026-08-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Invites Media to Turkey Artemis Accords Signing Ceremony",
-          "sourceName": "NASA News",
-          "score": 23,
-          "reason": "来源可信度 +8；科技相关：nasa, technology；信息量较完整 +3",
-          "published": "Thu, 27 Aug 2026 18:42:38 +0000",
-          "businessDate": "2026-08-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "APOD: 2026 August 28 – The Sky Turns Above Paranal",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Fri, 28 Aug 2026 04:05:00 +0000",
-          "businessDate": "2026-08-28",
-          "historyDuplicate": false
-        },
-        {
-          "title": "A startup claims it’s found a drug to make your blood young",
-          "sourceName": "MIT Technology Review",
-          "score": 19,
-          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-          "published": "Thu, 27 Aug 2026 19:48:13 +0000",
-          "businessDate": "2026-08-28",
           "historyDuplicate": false
         }
       ]
