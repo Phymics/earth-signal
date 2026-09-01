@@ -1,24 +1,24 @@
 {
   "date": "2026-09-01",
   "region": "GLOBAL",
-  "category": "科技",
-  "sourceName": "MIT Technology Review",
-  "sourceUrl": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+  "category": "科学",
+  "sourceName": "NASA News",
+  "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from MIT Technology Review: The Hugging Face hack could indicate cultural issues at OpenAI.\n\nThe report says: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Welcomes Türkiye as Newest Artemis Accords Signatory",
+    "summary": "During a ceremony hosted by NASA Administrator Jared Isaacman at the agency’s headquarters in Washington on Monday, the Republic of Türkiye signed the Artemis Accords, joining the growing international coalition of like-minded nations dedicated to peaceful, transparent space exploration. “It is my privilege to welcome the Republic of Türkiye as the 71st signatory of the […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Welcomes Türkiye as Newest Artemis Accords Signatory.\n\nThe report says: During a ceremony hosted by NASA Administrator Jared Isaacman at the agency’s headquarters in Washington on Monday, the Republic of Türkiye signed the Artemis Accords, joining the growing international coalition of like-minded nations dedicated to peaceful, transparent space exploration. “It is my privilege to welcome the Republic of Türkiye as the 71st signatory of the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "人工智能新闻释放新的社会信号",
-    "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    "title": "太空与卫星技术释放新的地球观测信号",
+    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -27,19 +27,28 @@
     "duration": "01:00"
   },
   "selection": {
-    "totalCandidates": 15,
-    "todayCandidates": 7,
-    "recent48hCandidates": 7,
+    "totalCandidates": 20,
+    "todayCandidates": 11,
+    "recent48hCandidates": 12,
     "historyRecordedRefs": 6,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Mon, 31 Aug 2026 18:00:00 +0000",
-    "selectedPublishedAtUtc8": "2026-09-01T02:00:00+08:00",
+    "selectedPublished": "Mon, 31 Aug 2026 21:14:12 +0000",
+    "selectedPublishedAtUtc8": "2026-09-01T05:14:12+08:00",
     "selectedBusinessDate": "2026-09-01",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 23,
-    "selectedReason": "来源可信度 +8；科技相关：ai, security；信息量较完整 +3",
+    "selectedScore": 34,
+    "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
+      {
+        "title": "NASA Welcomes Türkiye as Newest Artemis Accords Signatory",
+        "sourceName": "NASA News",
+        "score": 34,
+        "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Mon, 31 Aug 2026 21:14:12 +0000",
+        "businessDate": "2026-09-01",
+        "historyDuplicate": false
+      },
       {
         "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
         "sourceName": "MIT Technology Review",
@@ -50,38 +59,29 @@
         "historyDuplicate": false
       },
       {
-        "title": "FTC and 22 States Sue Amazon Over Advertising Practices",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "Mon, 31 Aug 2026 22:26:37 +0000",
+        "title": "APOD: 2026 September 1 – A Plane Lunar Eclipse",
+        "sourceName": "NASA News",
+        "score": 21,
+        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Tue, 01 Sep 2026 04:05:00 +0000",
         "businessDate": "2026-09-01",
         "historyDuplicate": false
       },
       {
-        "title": "FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-08-31T18:45:57-04:00",
+        "title": "Ice Island Survives Run-In With Joe Island",
+        "sourceName": "NASA News",
+        "score": 19,
+        "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
+        "published": "Tue, 01 Sep 2026 04:00:00 +0000",
         "businessDate": "2026-09-01",
         "historyDuplicate": false
       },
       {
-        "title": "The Google TV Streamer now costs $50 more",
-        "sourceName": "The Verge",
-        "score": 14,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3；商业宣传倾向：buy",
-        "published": "2026-08-31T18:32:51-04:00",
-        "businessDate": "2026-09-01",
-        "historyDuplicate": false
-      },
-      {
-        "title": "JMGO’s very bright all-in-one projector looks ideal for gamers and sports",
-        "sourceName": "The Verge",
-        "score": 13,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3；商业宣传倾向：deal",
-        "published": "2026-08-31T18:34:58-04:00",
+        "title": "September 2026 Satellite Puzzler",
+        "sourceName": "NASA News",
+        "score": 19,
+        "reason": "来源可信度 +8；科技相关：satellite；适合 Earth Signal 的长期议题 +4",
+        "published": "Mon, 31 Aug 2026 19:37:57 +0000",
         "businessDate": "2026-09-01",
         "historyDuplicate": false
       }
