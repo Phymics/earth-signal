@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
+  "sourceUrl": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Historic Engines Take Their Place on Artemis III",
-    "summary": "On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low Earth orbit in 2027. Each RS‑25 engine has a unique serial number that records its detailed flight […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Historic Engines Take Their Place on Artemis III.\n\nThe report says: On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low Earth orbit in 2027. Each RS‑25 engine has a unique serial number that records its detailed flight […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
+    "summary": "Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA Community College Aerospace Scholars (NCAS) student challenge invites students to learn about the agency and its missions, engage with NASA experts, and explore […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Revamps Challenge Linking Community College Studies to Aerospace Careers.\n\nThe report says: Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA Community College Aerospace Scholars (NCAS) student challenge invites students to learn about the agency and its missions, engage with NASA experts, and explore […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -29,60 +29,60 @@
   "selection": {
     "totalCandidates": 20,
     "todayCandidates": 11,
-    "recent48hCandidates": 19,
-    "historyRecordedRefs": 8,
+    "recent48hCandidates": 20,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Tue, 01 Sep 2026 17:30:35 +0000",
-    "selectedPublishedAtUtc8": "2026-09-02T01:30:35+08:00",
-    "selectedBusinessDate": "2026-09-02",
+    "selectedPublished": "Wed, 02 Sep 2026 19:01:05 +0000",
+    "selectedPublishedAtUtc8": "2026-09-03T03:01:05+08:00",
+    "selectedBusinessDate": "2026-09-03",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 37,
-    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 45,
+    "selectedReason": "来源可信度 +8；科技相关：space, nasa, technology；公共价值：education, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "Historic Engines Take Their Place on Artemis III",
+        "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
         "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 01 Sep 2026 17:30:35 +0000",
-        "businessDate": "2026-09-02",
+        "score": 45,
+        "reason": "来源可信度 +8；科技相关：space, nasa, technology；公共价值：education, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 02 Sep 2026 19:01:05 +0000",
+        "businessDate": "2026-09-03",
         "historyDuplicate": false
       },
       {
-        "title": "How AI plotted an interstellar journey to Alpha Centauri",
-        "sourceName": "MIT Technology Review",
-        "score": 30,
-        "reason": "来源可信度 +8；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 01 Sep 2026 19:10:36 +0000",
-        "businessDate": "2026-09-02",
+        "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+        "sourceName": "NASA News",
+        "score": 26,
+        "reason": "来源可信度 +8；科技相关：space, nasa；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 02 Sep 2026 18:00:37 +0000",
+        "businessDate": "2026-09-03",
         "historyDuplicate": false
       },
       {
-        "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-        "sourceName": "The Verge",
-        "score": 24,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：environment；信息量较完整 +3",
-        "published": "2026-09-01T16:45:49-04:00",
-        "businessDate": "2026-09-02",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
-        "sourceName": "The Verge",
+        "title": "Justice Dept. Sides With OpenAI in New York Times Copyright Suit",
+        "sourceName": "NYTimes Technology RSS",
         "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
-        "published": "2026-09-01T18:01:36-04:00",
-        "businessDate": "2026-09-02",
+        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+        "published": "Wed, 02 Sep 2026 18:48:37 +0000",
+        "businessDate": "2026-09-03",
         "historyDuplicate": false
       },
       {
-        "title": "Missouri Voters Appear to Recall City Councilman Over Data Center Support",
+        "title": "Uber beats Waymo as first to launch robotaxis in London",
+        "sourceName": "The Verge",
+        "score": 20,
+        "reason": "来源可信度 +7；科技相关：robot；公共价值：city；信息量较完整 +3",
+        "published": "2026-09-02T17:31:46-04:00",
+        "businessDate": "2026-09-03",
+        "historyDuplicate": false
+      },
+      {
+        "title": "In a Big Win, Google Won’t Have to Break Up Its Ad Tech Business, Court Rules",
         "sourceName": "NYTimes Technology RSS",
         "score": 18,
-        "reason": "来源可信度 +7；科技相关：data；公共价值：city；信息量较完整 +3",
-        "published": "Wed, 02 Sep 2026 02:47:33 +0000",
-        "businessDate": "2026-09-02",
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "Wed, 02 Sep 2026 20:50:31 +0000",
+        "businessDate": "2026-09-03",
         "historyDuplicate": false
       }
     ]
