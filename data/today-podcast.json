@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
+  "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
-    "summary": "Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA Community College Aerospace Scholars (NCAS) student challenge invites students to learn about the agency and its missions, engage with NASA experts, and explore […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Revamps Challenge Linking Community College Studies to Aerospace Careers.\n\nThe report says: Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA Community College Aerospace Scholars (NCAS) student challenge invites students to learn about the agency and its missions, engage with NASA experts, and explore […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+    "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baikonur time), Wednesday, Sept. 9, on a […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA to Cover Progress 96 Spacecraft Launch, Docking.\n\nThe report says: NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baikonur time), Wednesday, Sept. 9, on a […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 11,
+    "todayCandidates": 9,
     "recent48hCandidates": 20,
     "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Wed, 02 Sep 2026 19:01:05 +0000",
-    "selectedPublishedAtUtc8": "2026-09-03T03:01:05+08:00",
-    "selectedBusinessDate": "2026-09-03",
+    "selectedPublished": "Thu, 03 Sep 2026 17:06:00 +0000",
+    "selectedPublishedAtUtc8": "2026-09-04T01:06:00+08:00",
+    "selectedBusinessDate": "2026-09-04",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 45,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa, technology；公共价值：education, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 37,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
+        "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
         "sourceName": "NASA News",
-        "score": 45,
-        "reason": "来源可信度 +8；科技相关：space, nasa, technology；公共价值：education, community；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 02 Sep 2026 19:01:05 +0000",
-        "businessDate": "2026-09-03",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 03 Sep 2026 17:06:00 +0000",
+        "businessDate": "2026-09-04",
         "historyDuplicate": false
       },
       {
-        "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
-        "sourceName": "NASA News",
-        "score": 26,
-        "reason": "来源可信度 +8；科技相关：space, nasa；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 02 Sep 2026 18:00:37 +0000",
-        "businessDate": "2026-09-03",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Justice Dept. Sides With OpenAI in New York Times Copyright Suit",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
-        "published": "Wed, 02 Sep 2026 18:48:37 +0000",
-        "businessDate": "2026-09-03",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Uber beats Waymo as first to launch robotaxis in London",
+        "title": "The unusually muted Tesla Cybercab launch",
         "sourceName": "The Verge",
-        "score": 20,
-        "reason": "来源可信度 +7；科技相关：robot；公共价值：city；信息量较完整 +3",
-        "published": "2026-09-02T17:31:46-04:00",
-        "businessDate": "2026-09-03",
+        "score": 30,
+        "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
+        "published": "2026-09-03T21:51:43-04:00",
+        "businessDate": "2026-09-04",
         "historyDuplicate": false
       },
       {
-        "title": "In a Big Win, Google Won’t Have to Break Up Its Ad Tech Business, Court Rules",
+        "title": "Why the Hugging Face Hack Should Make You Worry More About A.I.",
         "sourceName": "NYTimes Technology RSS",
+        "score": 26,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
+        "published": "Fri, 04 Sep 2026 00:06:04 +0000",
+        "businessDate": "2026-09-04",
+        "historyDuplicate": false
+      },
+      {
+        "title": "You can watch the coolant flow inside Ugreen’s liquid-cooled power bank",
+        "sourceName": "The Verge",
+        "score": 23,
+        "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
+        "published": "2026-09-03T16:17:14-04:00",
+        "businessDate": "2026-09-04",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
+        "sourceName": "The Verge",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "Wed, 02 Sep 2026 20:50:31 +0000",
-        "businessDate": "2026-09-03",
+        "published": "2026-09-03T23:30:17-04:00",
+        "businessDate": "2026-09-04",
         "historyDuplicate": false
       }
     ]
