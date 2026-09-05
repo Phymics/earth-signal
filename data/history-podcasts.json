@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-09-05",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+      "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community.\n\nThe report says: NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-09-05-zh.mp3",
+      "original": "audio/history/2026-09-05-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 04 Sep 2026 16:48:59 +0000",
+      "selectedPublishedAtUtc8": "2026-09-05T00:48:59+08:00",
+      "selectedBusinessDate": "2026-09-05",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 36,
+      "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, community；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+          "sourceName": "NASA News",
+          "score": 36,
+          "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, community；信息量较完整 +3",
+          "published": "Fri, 04 Sep 2026 16:48:59 +0000",
+          "businessDate": "2026-09-05",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Architecting memory and storage in the AI era",
+          "sourceName": "MIT Technology Review",
+          "score": 33,
+          "reason": "来源可信度 +8；科技相关：ai, data；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 04 Sep 2026 18:39:19 +0000",
+          "businessDate": "2026-09-05",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Why the Hugging Face Hack Should Make You Worry More About A.I.",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 26,
+          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
+          "published": "Fri, 04 Sep 2026 16:12:19 +0000",
+          "businessDate": "2026-09-05",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+          "sourceName": "NASA News",
+          "score": 26,
+          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+          "published": "Fri, 04 Sep 2026 19:51:56 +0000",
+          "businessDate": "2026-09-05",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Court Filings In A.I. Suit Invoke Copyright Law, Culture and Sports",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "Sat, 05 Sep 2026 00:18:57 +0000",
+          "businessDate": "2026-09-05",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-09-04",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "Wed, 02 Sep 2026 20:50:31 +0000",
           "businessDate": "2026-09-03",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-09-02",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Historic Engines Take Their Place on Artemis III",
-      "summary": "On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low Earth orbit in 2027. Each RS‑25 engine has a unique serial number that records its detailed flight […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Historic Engines Take Their Place on Artemis III.\n\nThe report says: On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low Earth orbit in 2027. Each RS‑25 engine has a unique serial number that records its detailed flight […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-09-02-zh.mp3",
-      "original": "audio/history/2026-09-02-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 11,
-      "recent48hCandidates": 19,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 01 Sep 2026 17:30:35 +0000",
-      "selectedPublishedAtUtc8": "2026-09-02T01:30:35+08:00",
-      "selectedBusinessDate": "2026-09-02",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 37,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Historic Engines Take Their Place on Artemis III",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 01 Sep 2026 17:30:35 +0000",
-          "businessDate": "2026-09-02",
-          "historyDuplicate": false
-        },
-        {
-          "title": "How AI plotted an interstellar journey to Alpha Centauri",
-          "sourceName": "MIT Technology Review",
-          "score": 30,
-          "reason": "来源可信度 +8；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 01 Sep 2026 19:10:36 +0000",
-          "businessDate": "2026-09-02",
-          "historyDuplicate": false
-        },
-        {
-          "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-          "sourceName": "The Verge",
-          "score": 24,
-          "reason": "来源可信度 +7；科技相关：ai；公共价值：environment；信息量较完整 +3",
-          "published": "2026-09-01T16:45:49-04:00",
-          "businessDate": "2026-09-02",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
-          "sourceName": "The Verge",
-          "score": 22,
-          "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
-          "published": "2026-09-01T18:01:36-04:00",
-          "businessDate": "2026-09-02",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Missouri Voters Appear to Recall City Councilman Over Data Center Support",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：data；公共价值：city；信息量较完整 +3",
-          "published": "Wed, 02 Sep 2026 02:47:33 +0000",
-          "businessDate": "2026-09-02",
           "historyDuplicate": false
         }
       ]

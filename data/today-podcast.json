@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+  "sourceUrl": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
-    "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baikonur time), Wednesday, Sept. 9, on a […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA to Cover Progress 96 Spacecraft Launch, Docking.\n\nThe report says: NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress 96 resupply spacecraft is scheduled to launch at 12:15 p.m. EDT (9:15 p.m. Baikonur time), Wednesday, Sept. 9, on a […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+    "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community.\n\nThe report says: NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the public, however it is tailored specifically for a blind and low-vision audience. The webinar will last about two hours and […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,34 +28,34 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 9,
+    "todayCandidates": 11,
     "recent48hCandidates": 20,
     "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 03 Sep 2026 17:06:00 +0000",
-    "selectedPublishedAtUtc8": "2026-09-04T01:06:00+08:00",
-    "selectedBusinessDate": "2026-09-04",
+    "selectedPublished": "Fri, 04 Sep 2026 16:48:59 +0000",
+    "selectedPublishedAtUtc8": "2026-09-05T00:48:59+08:00",
+    "selectedBusinessDate": "2026-09-05",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 37,
-    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 36,
+    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, community；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+        "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
         "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 03 Sep 2026 17:06:00 +0000",
-        "businessDate": "2026-09-04",
+        "score": 36,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public, community；信息量较完整 +3",
+        "published": "Fri, 04 Sep 2026 16:48:59 +0000",
+        "businessDate": "2026-09-05",
         "historyDuplicate": false
       },
       {
-        "title": "The unusually muted Tesla Cybercab launch",
-        "sourceName": "The Verge",
-        "score": 30,
-        "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
-        "published": "2026-09-03T21:51:43-04:00",
-        "businessDate": "2026-09-04",
+        "title": "Architecting memory and storage in the AI era",
+        "sourceName": "MIT Technology Review",
+        "score": 33,
+        "reason": "来源可信度 +8；科技相关：ai, data；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 04 Sep 2026 18:39:19 +0000",
+        "businessDate": "2026-09-05",
         "historyDuplicate": false
       },
       {
@@ -63,26 +63,26 @@
         "sourceName": "NYTimes Technology RSS",
         "score": 26,
         "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "Fri, 04 Sep 2026 00:06:04 +0000",
-        "businessDate": "2026-09-04",
+        "published": "Fri, 04 Sep 2026 16:12:19 +0000",
+        "businessDate": "2026-09-05",
         "historyDuplicate": false
       },
       {
-        "title": "You can watch the coolant flow inside Ugreen’s liquid-cooled power bank",
-        "sourceName": "The Verge",
-        "score": 23,
-        "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
-        "published": "2026-09-03T16:17:14-04:00",
-        "businessDate": "2026-09-04",
+        "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+        "sourceName": "NASA News",
+        "score": 26,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+        "published": "Fri, 04 Sep 2026 19:51:56 +0000",
+        "businessDate": "2026-09-05",
         "historyDuplicate": false
       },
       {
-        "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
-        "sourceName": "The Verge",
+        "title": "Court Filings In A.I. Suit Invoke Copyright Law, Culture and Sports",
+        "sourceName": "NYTimes Technology RSS",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-09-03T23:30:17-04:00",
-        "businessDate": "2026-09-04",
+        "published": "Sat, 05 Sep 2026 00:18:57 +0000",
+        "businessDate": "2026-09-05",
         "historyDuplicate": false
       }
     ]
