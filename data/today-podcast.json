@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/",
+  "sourceUrl": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Superbubble in the Large Magellanic Cloud",
-    "summary": "NASA’s Hubble Space Telescope captures a photogenic nebula, N44, in the Large Magellanic Cloud in this Sept. 3, 2026, image. N44 is dominated by two features: a vast central void and a shell of dense, dusty gas. The central void is a ‘superbubble’ spanning roughly 210 by 140 light-years across. The glittering stars at the […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Superbubble in the Large Magellanic Cloud.\n\nThe report says: NASA’s Hubble Space Telescope captures a photogenic nebula, N44, in the Large Magellanic Cloud in this Sept. 3, 2026, image. N44 is dominated by two features: a vast central void and a shell of dense, dusty gas. The central void is a ‘superbubble’ spanning roughly 210 by 140 light-years across. The glittering stars at the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
+    "summary": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be available to NASA’s launch services to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Adds Relativity Space’s Terran R to Launch Services Contract.\n\nThe report says: A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be available to NASA’s launch services to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 13,
-    "recent48hCandidates": 19,
-    "historyRecordedRefs": 8,
+    "todayCandidates": 14,
+    "recent48hCandidates": 20,
+    "historyRecordedRefs": 9,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Tue, 08 Sep 2026 16:49:15 +0000",
-    "selectedPublishedAtUtc8": "2026-09-09T00:49:15+08:00",
-    "selectedBusinessDate": "2026-09-09",
+    "selectedPublished": "Wed, 09 Sep 2026 20:11:58 +0000",
+    "selectedPublishedAtUtc8": "2026-09-10T04:11:58+08:00",
+    "selectedBusinessDate": "2026-09-10",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 29,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 37,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "Superbubble in the Large Magellanic Cloud",
+        "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
         "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 08 Sep 2026 16:49:15 +0000",
-        "businessDate": "2026-09-09",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 09 Sep 2026 20:11:58 +0000",
+        "businessDate": "2026-09-10",
         "historyDuplicate": false
       },
       {
-        "title": "OpenAI Says It Has Cracked One of Math’s ‘Millennium Problems’",
+        "title": "NASA’s Chandra Unveils Mysterious X-Ray Objects",
+        "sourceName": "NASA News",
+        "score": 32,
+        "reason": "来源可信度 +8；科技相关：nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 09 Sep 2026 18:11:24 +0000",
+        "businessDate": "2026-09-10",
+        "historyDuplicate": false
+      },
+      {
+        "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 09 Sep 2026 16:00:00 +0000",
+        "businessDate": "2026-09-10",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
         "sourceName": "NYTimes Technology RSS",
         "score": 26,
         "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "Tue, 08 Sep 2026 21:02:03 +0000",
-        "businessDate": "2026-09-09",
+        "published": "Thu, 10 Sep 2026 00:12:18 +0000",
+        "businessDate": "2026-09-10",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies",
-        "sourceName": "NASA News",
-        "score": 23,
-        "reason": "来源可信度 +8；科技相关：nasa, technology；信息量较完整 +3",
-        "published": "Tue, 08 Sep 2026 20:16:16 +0000",
-        "businessDate": "2026-09-09",
-        "historyDuplicate": false
-      },
-      {
-        "title": "What OpenAI’s latest controversy tells us about the future of math",
-        "sourceName": "MIT Technology Review",
-        "score": 19,
-        "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
-        "published": "Wed, 09 Sep 2026 03:10:08 +0000",
-        "businessDate": "2026-09-09",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Meta Introduces Muse, an A.I. Agent That Can Send Your Emails and Book Your Travel",
+        "title": "Why California Is Reconsidering Its Decision to Shun Nuclear Power",
         "sourceName": "NYTimes Technology RSS",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "Tue, 08 Sep 2026 19:00:03 +0000",
-        "businessDate": "2026-09-09",
+        "score": 24,
+        "reason": "来源可信度 +7；科技相关：energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 09 Sep 2026 16:39:27 +0000",
+        "businessDate": "2026-09-10",
         "historyDuplicate": false
       }
     ]
