@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-09-11",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Answers President’s Call to Establish United States Space Academy",
+      "summary": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Answers President’s Call to Establish United States Space Academy.\n\nThe report says: Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-09-11-zh.mp3",
+      "original": "audio/history/2026-09-11-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 12,
+      "recent48hCandidates": 19,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Thu, 10 Sep 2026 20:26:52 +0000",
+      "selectedPublishedAtUtc8": "2026-09-11T04:26:52+08:00",
+      "selectedBusinessDate": "2026-09-11",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 37,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Answers President’s Call to Establish United States Space Academy",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 10 Sep 2026 20:26:52 +0000",
+          "businessDate": "2026-09-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Dust and Water in Sagittarius A*",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 10 Sep 2026 16:14:03 +0000",
+          "businessDate": "2026-09-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 10 Sep 2026 17:28:13 +0000",
+          "businessDate": "2026-09-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Electric air taxis get the green light for test flights in Texas",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
+          "published": "2026-09-10T12:32:43-04:00",
+          "businessDate": "2026-09-11",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony",
+          "sourceName": "NASA News",
+          "score": 23,
+          "reason": "来源可信度 +8；科技相关：nasa；公共价值：public；信息量较完整 +3",
+          "published": "Thu, 10 Sep 2026 21:11:32 +0000",
+          "businessDate": "2026-09-11",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-09-10",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
           "published": "Tue, 08 Sep 2026 19:00:03 +0000",
           "businessDate": "2026-09-09",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-09-08",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
-      "summary": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Audi’s new A2 E-tron is its most affordable and efficient EV yet.\n\nThe report says: When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "能源科技变化正在影响城市与生活",
-      "summary": "这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：能源科技变化正在影响城市与生活。这条新闻关注能源技术的新变化，背后关系到城市运行、成本压力和低碳转型。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "能源科技的变化往往不显眼，却会深刻影响城市成本、产业节奏和家庭生活。真正的信号，是低碳转型正在从口号变成基础设施的重新安排。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-09-08-zh.mp3",
-      "original": "audio/history/2026-09-08-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 6,
-      "recent48hCandidates": 11,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-09-07T16:03:41-04:00",
-      "selectedPublishedAtUtc8": "2026-09-08T04:03:41+08:00",
-      "selectedBusinessDate": "2026-09-08",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 32,
-      "selectedReason": "来源可信度 +7；科技相关：ai, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
-          "sourceName": "The Verge",
-          "score": 32,
-          "reason": "来源可信度 +7；科技相关：ai, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "2026-09-07T16:03:41-04:00",
-          "businessDate": "2026-09-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
-          "sourceName": "The Verge",
-          "score": 28,
-          "reason": "来源可信度 +7；科技相关：ai, technology, chip；信息量较完整 +3",
-          "published": "2026-09-07T19:51:11-04:00",
-          "businessDate": "2026-09-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "APOD: 2026 September 8 – Hubble: Decagon Around Saturn’s South Pole",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 08 Sep 2026 04:05:00 +0000",
-          "businessDate": "2026-09-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 16,
-          "reason": "来源可信度 +7；科技相关：chip, chips；信息量较完整 +3；商业宣传倾向：buy",
-          "published": "Tue, 08 Sep 2026 01:54:45 +0000",
-          "businessDate": "2026-09-08",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The Otherworldly Geology of Vasquez Rocks",
-          "sourceName": "NASA News",
-          "score": 11,
-          "reason": "来源可信度 +8；信息量较完整 +3",
-          "published": "Tue, 08 Sep 2026 04:01:00 +0000",
-          "businessDate": "2026-09-08",
           "historyDuplicate": false
         }
       ]
