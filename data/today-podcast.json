@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "region": "GLOBAL",
   "category": "科技",
   "sourceName": "NYTimes Technology RSS",
-  "sourceUrl": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
+  "sourceUrl": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
-    "summary": "In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown.\n\nThe report says: In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
+    "summary": "Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Inside the Discussions at AI Companies Over a Superintelligence Doomsday.\n\nThe report says: Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -29,13 +29,13 @@
   "selection": {
     "totalCandidates": 20,
     "todayCandidates": 9,
-    "recent48hCandidates": 18,
-    "historyRecordedRefs": 7,
-    "duplicateSkippedCandidates": 0,
+    "recent48hCandidates": 13,
+    "historyRecordedRefs": 8,
+    "duplicateSkippedCandidates": 1,
     "selectedPool": "today",
-    "selectedPublished": "Sun, 13 Sep 2026 00:15:54 +0000",
-    "selectedPublishedAtUtc8": "2026-09-13T08:15:54+08:00",
-    "selectedBusinessDate": "2026-09-13",
+    "selectedPublished": "Mon, 14 Sep 2026 02:31:14 +0000",
+    "selectedPublishedAtUtc8": "2026-09-14T10:31:14+08:00",
+    "selectedBusinessDate": "2026-09-14",
     "selectedIsHistoryDuplicate": false,
     "selectedScore": 26,
     "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
@@ -45,44 +45,44 @@
         "sourceName": "NYTimes Technology RSS",
         "score": 26,
         "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "Sun, 13 Sep 2026 00:15:54 +0000",
-        "businessDate": "2026-09-13",
-        "historyDuplicate": false
+        "published": "Mon, 14 Sep 2026 01:03:30 +0000",
+        "businessDate": "2026-09-14",
+        "historyDuplicate": true
       },
       {
         "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
         "sourceName": "NYTimes Technology RSS",
         "score": 26,
         "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "Sat, 12 Sep 2026 22:57:38 +0000",
-        "businessDate": "2026-09-13",
+        "published": "Mon, 14 Sep 2026 02:31:14 +0000",
+        "businessDate": "2026-09-14",
         "historyDuplicate": false
       },
       {
-        "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+        "title": "Some in Silicon Valley Are Questioning the Calls for an A.I. Slowdown",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 26,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
+        "published": "Mon, 14 Sep 2026 03:12:44 +0000",
+        "businessDate": "2026-09-14",
+        "historyDuplicate": false
+      },
+      {
+        "title": "What Anthropic CEO Dario Amodei Argued in His Call for AI Slowdown",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 23,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence",
+        "published": "Mon, 14 Sep 2026 01:04:20 +0000",
+        "businessDate": "2026-09-14",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Trump and Mike Johnson think the AI industry is overreacting",
         "sourceName": "The Verge",
         "score": 23,
         "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
-        "published": "2026-09-12T17:16:28-04:00",
-        "businessDate": "2026-09-13",
-        "historyDuplicate": false
-      },
-      {
-        "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
-        "sourceName": "NASA News",
-        "score": 21,
-        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Sun, 13 Sep 2026 04:05:00 +0000",
-        "businessDate": "2026-09-13",
-        "historyDuplicate": false
-      },
-      {
-        "title": "OpenAI’s rogue AI tried to hack another company in May",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-09-12T17:41:36-04:00",
-        "businessDate": "2026-09-13",
+        "published": "2026-09-13T15:41:48-04:00",
+        "businessDate": "2026-09-14",
         "historyDuplicate": false
       }
     ]
