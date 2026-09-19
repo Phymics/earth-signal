@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
+  "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector",
-    "summary": "NASA has selected SpaceX to provide launch services for the agency’s StarBurst mission, a small satellite designed to investigate neutron star mergers and the origins of short gamma-ray bursts. StarBurst will launch aboard a Bandwagon rideshare mission on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Awards Launch Services for StarBurst Gamma-Ray Detector.\n\nThe report says: NASA has selected SpaceX to provide launch services for the agency’s StarBurst mission, a small satellite designed to investigate neutron star mergers and the origins of short gamma-ray bursts. StarBurst will launch aboard a Bandwagon rideshare mission on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
+    "summary": "The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory. NASA Deputy Administrator Matt Anderson will host Albania’s Minister for Europe and Foreign Affairs Ferit Hoxha and Ambassador of the Republic of Albania to the […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Invites Media to Albania Artemis Accords Signing Ceremony.\n\nThe report says: The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory. NASA Deputy Administrator Matt Anderson will host Albania’s Minister for Europe and Foreign Affairs Ferit Hoxha and Ambassador of the Republic of Albania to the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 8,
+    "todayCandidates": 10,
     "recent48hCandidates": 20,
-    "historyRecordedRefs": 8,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 17 Sep 2026 20:37:09 +0000",
-    "selectedPublishedAtUtc8": "2026-09-18T04:37:09+08:00",
-    "selectedBusinessDate": "2026-09-18",
+    "selectedPublished": "Fri, 18 Sep 2026 19:56:08 +0000",
+    "selectedPublishedAtUtc8": "2026-09-19T03:56:08+08:00",
+    "selectedBusinessDate": "2026-09-19",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 36,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 31,
+    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector",
+        "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
         "sourceName": "NASA News",
-        "score": 36,
-        "reason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 17 Sep 2026 20:37:09 +0000",
-        "businessDate": "2026-09-18",
+        "score": 31,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public；信息量较完整 +3",
+        "published": "Fri, 18 Sep 2026 19:56:08 +0000",
+        "businessDate": "2026-09-19",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+        "title": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 30,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, security；信息量较完整 +3",
+        "published": "Sat, 19 Sep 2026 00:31:38 +0000",
+        "businessDate": "2026-09-19",
+        "historyDuplicate": false
+      },
+      {
+        "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 17 Sep 2026 18:32:30 +0000",
-        "businessDate": "2026-09-18",
+        "published": "Fri, 18 Sep 2026 16:02:31 +0000",
+        "businessDate": "2026-09-19",
         "historyDuplicate": false
       },
       {
-        "title": "The AI Superintelligence Slowdown",
+        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+        "sourceName": "The Verge",
+        "score": 27,
+        "reason": "来源可信度 +7；科技相关：ai, data；公共价值：communities；信息量较完整 +3",
+        "published": "2026-09-18T15:09:19-04:00",
+        "businessDate": "2026-09-19",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Disney’s first CTO is Character.AI’s former CEO",
         "sourceName": "The Verge",
         "score": 23,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
-        "published": "2026-09-17T17:22:19-04:00",
-        "businessDate": "2026-09-18",
-        "historyDuplicate": false
-      },
-      {
-        "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
-        "sourceName": "NASA News",
-        "score": 21,
-        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 18 Sep 2026 04:05:00 +0000",
-        "businessDate": "2026-09-18",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Waymo says Singapore will be its next international robotaxi city",
-        "sourceName": "The Verge",
-        "score": 20,
-        "reason": "来源可信度 +7；科技相关：robot；公共价值：city；信息量较完整 +3",
-        "published": "2026-09-17T16:41:19-04:00",
-        "businessDate": "2026-09-18",
+        "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
+        "published": "2026-09-18T14:54:39-04:00",
+        "businessDate": "2026-09-19",
         "historyDuplicate": false
       }
     ]

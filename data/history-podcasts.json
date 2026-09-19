@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-09-19",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
+      "summary": "The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory. NASA Deputy Administrator Matt Anderson will host Albania’s Minister for Europe and Foreign Affairs Ferit Hoxha and Ambassador of the Republic of Albania to the […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Invites Media to Albania Artemis Accords Signing Ceremony.\n\nThe report says: The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory. NASA Deputy Administrator Matt Anderson will host Albania’s Minister for Europe and Foreign Affairs Ferit Hoxha and Ambassador of the Republic of Albania to the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-09-19-zh.mp3",
+      "original": "audio/history/2026-09-19-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 10,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 18 Sep 2026 19:56:08 +0000",
+      "selectedPublishedAtUtc8": "2026-09-19T03:56:08+08:00",
+      "selectedBusinessDate": "2026-09-19",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 31,
+      "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public；信息量较完整 +3",
+      "topCandidates": [
+        {
+          "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
+          "sourceName": "NASA News",
+          "score": 31,
+          "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：public；信息量较完整 +3",
+          "published": "Fri, 18 Sep 2026 19:56:08 +0000",
+          "businessDate": "2026-09-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 30,
+          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, security；信息量较完整 +3",
+          "published": "Sat, 19 Sep 2026 00:31:38 +0000",
+          "businessDate": "2026-09-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 18 Sep 2026 16:02:31 +0000",
+          "businessDate": "2026-09-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+          "sourceName": "The Verge",
+          "score": 27,
+          "reason": "来源可信度 +7；科技相关：ai, data；公共价值：communities；信息量较完整 +3",
+          "published": "2026-09-18T15:09:19-04:00",
+          "businessDate": "2026-09-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Disney’s first CTO is Character.AI’s former CEO",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
+          "published": "2026-09-18T14:54:39-04:00",
+          "businessDate": "2026-09-19",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-09-18",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
           "published": "2026-09-16T16:40:46-04:00",
           "businessDate": "2026-09-17",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-09-16",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Celebrate International Observe the Moon Night with NASA",
-      "summary": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept. 19, the public is invited to look up again with NASA events across the country, including the International Observe the Moon Night celebration held at NASA’s Goddard Space […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Celebrate International Observe the Moon Night with NASA.\n\nThe report says: In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept. 19, the public is invited to look up again with NASA events across the country, including the International Observe the Moon Night celebration held at NASA’s Goddard Space […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-09-16-zh.mp3",
-      "original": "audio/history/2026-09-16-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 15,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 15 Sep 2026 16:15:12 +0000",
-      "selectedPublishedAtUtc8": "2026-09-16T00:15:12+08:00",
-      "selectedBusinessDate": "2026-09-16",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 42,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Celebrate International Observe the Moon Night with NASA",
-          "sourceName": "NASA News",
-          "score": 42,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 15 Sep 2026 16:15:12 +0000",
-          "businessDate": "2026-09-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Ames Stars of the Month: September 2026",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 15 Sep 2026 23:46:11 +0000",
-          "businessDate": "2026-09-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Invites Media to International Observe the Moon Night",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 15 Sep 2026 18:55:33 +0000",
-          "businessDate": "2026-09-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 15 Sep 2026 16:14:24 +0000",
-          "businessDate": "2026-09-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "What if social media isn’t hurting kids?",
-          "sourceName": "The Verge",
-          "score": 28,
-          "reason": "来源可信度 +7；科技相关：ai；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "2026-09-15T16:13:30-04:00",
-          "businessDate": "2026-09-16",
           "historyDuplicate": false
         }
       ]
