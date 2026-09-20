@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-09-20",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
+      "summary": "APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Analemma over the […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: APOD: 2026 September 20 – Analemma over the Callanish Stones.\n\nThe report says: APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Analemma over the […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "一条科技新闻显示新的社会变化",
+      "summary": "这条新闻关注科技行业的新变化，背后涉及创新速度、公共信任和社会规则如何重新调整。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：一条科技新闻显示新的社会变化。这条新闻关注科技行业的新变化，背后涉及创新速度、公共信任和社会规则如何重新调整。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻背后的长期趋势，是科技越来越少停留在屏幕里，越来越多进入社会结构本身。它提醒我们，未来不是突然到来的，而是通过这些看似零散的新闻一点点靠近。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-09-20-zh.mp3",
+      "original": "audio/history/2026-09-20-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 4,
+      "recent48hCandidates": 18,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Sun, 20 Sep 2026 04:05:00 +0000",
+      "selectedPublishedAtUtc8": "2026-09-20T12:05:00+08:00",
+      "selectedBusinessDate": "2026-09-20",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 21,
+      "selectedReason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
+          "sourceName": "NASA News",
+          "score": 21,
+          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Sun, 20 Sep 2026 04:05:00 +0000",
+          "businessDate": "2026-09-20",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-09-19T16:44:40-04:00",
+          "businessDate": "2026-09-20",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Trump treads further on free speech with new journalist bans",
+          "sourceName": "The Verge",
+          "score": 15,
+          "reason": "来源可信度 +7；公共价值：public；信息量较完整 +3",
+          "published": "2026-09-19T13:10:21-04:00",
+          "businessDate": "2026-09-20",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Anamanaguchi has ‘too goddamn many’ browser tabs open right now",
+          "sourceName": "The Verge",
+          "score": 15,
+          "reason": "来源可信度 +7；科技相关：chip；信息量较完整 +3",
+          "published": "2026-09-19T15:08:04-04:00",
+          "businessDate": "2026-09-20",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-09-19",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +252,6 @@
           "reason": "来源可信度 +7；科技相关：robot；公共价值：city；信息量较完整 +3",
           "published": "2026-09-17T16:41:19-04:00",
           "businessDate": "2026-09-18",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-09-17",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Passion Meets Precision at NASA’s Flight Research Lab",
-      "summary": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their creations at hobby events. That early passion now fuels the work of NASA’s Dale Reed Subscale Flight Research Laboratory at the agency’s Armstrong Flight […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Passion Meets Precision at NASA’s Flight Research Lab.\n\nThe report says: Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their creations at hobby events. That early passion now fuels the work of NASA’s Dale Reed Subscale Flight Research Laboratory at the agency’s Armstrong Flight […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-09-17-zh.mp3",
-      "original": "audio/history/2026-09-17-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 14,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 9,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Wed, 16 Sep 2026 21:06:08 +0000",
-      "selectedPublishedAtUtc8": "2026-09-17T05:06:08+08:00",
-      "selectedBusinessDate": "2026-09-17",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 37,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Passion Meets Precision at NASA’s Flight Research Lab",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 16 Sep 2026 21:06:08 +0000",
-          "businessDate": "2026-09-17",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
-          "sourceName": "NASA News",
-          "score": 30,
-          "reason": "来源可信度 +8；科技相关：ai, nasa, data；信息量较完整 +3",
-          "published": "Wed, 16 Sep 2026 18:06:35 +0000",
-          "businessDate": "2026-09-17",
-          "historyDuplicate": false
-        },
-        {
-          "title": "OpenAI Discloses Six New Incidents of ‘Concerning' A.I. Behavior",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 23,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence",
-          "published": "Thu, 17 Sep 2026 00:12:24 +0000",
-          "businessDate": "2026-09-17",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Mark Zuckerberg Takes Aim at Anthropic in Debate Over A.I. Slowdown",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 23,
-          "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
-          "published": "Wed, 16 Sep 2026 17:22:07 +0000",
-          "businessDate": "2026-09-17",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The AI data center e-waste problem is huge — and getting bigger",
-          "sourceName": "The Verge",
-          "score": 22,
-          "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
-          "published": "2026-09-16T16:40:46-04:00",
-          "businessDate": "2026-09-17",
           "historyDuplicate": false
         }
       ]
