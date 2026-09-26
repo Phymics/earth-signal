@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "region": "GLOBAL",
-  "category": "科技",
-  "sourceName": "The Verge",
-  "sourceUrl": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats",
+  "category": "科学",
+  "sourceName": "NASA News",
+  "sourceUrl": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
-    "summary": "Meta's lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client privilege in the ongoing lawsuits over alleged harm to teens' safety and mental health. Lawyers suing the company said this week that the label has been applied far too broadly, while pointing to a recently unsealed document […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures.\n\nThe report says: Meta's lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client privilege in the ongoing lawsuits over alleged harm to teens' safety and mental health. Lawyers suing the company said this week that the label has been applied far too broadly, while pointing to a recently unsealed document […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "2026-2027 DWU: Middle School Design Challenge",
+    "summary": "2026-2027 DWU: Middle School Design Challenge Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NAS), NASA and partners at the FAA, at universities, and in the aviation industry are searching for ways to increase safety, make […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: 2026-2027 DWU: Middle School Design Challenge.\n\nThe report says: 2026-2027 DWU: Middle School Design Challenge Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NAS), NASA and partners at the FAA, at universities, and in the aviation industry are searching for ways to increase safety, make […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "人工智能新闻释放新的社会信号",
-    "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    "title": "太空与卫星技术释放新的地球观测信号",
+    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -33,56 +33,56 @@
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "2026-09-24T19:50:55-04:00",
-    "selectedPublishedAtUtc8": "2026-09-25T07:50:55+08:00",
-    "selectedBusinessDate": "2026-09-25",
+    "selectedPublished": "Fri, 25 Sep 2026 17:20:51 +0000",
+    "selectedPublishedAtUtc8": "2026-09-26T01:20:51+08:00",
+    "selectedBusinessDate": "2026-09-26",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 33,
-    "selectedReason": "来源可信度 +7；科技相关：ai；公共价值：public, health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 47,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
-        "sourceName": "The Verge",
-        "score": 33,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：public, health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "2026-09-24T19:50:55-04:00",
-        "businessDate": "2026-09-25",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission",
+        "title": "2026-2027 DWU: Middle School Design Challenge",
         "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 24 Sep 2026 21:15:46 +0000",
-        "businessDate": "2026-09-25",
+        "score": 47,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 25 Sep 2026 17:20:51 +0000",
+        "businessDate": "2026-09-26",
         "historyDuplicate": false
       },
       {
-        "title": "OpenAI’s A.I. Tried Breaching Four Other Targets, With No Prompting",
+        "title": "NASA Welcomes San Marino Signing the Artemis Accords",
+        "sourceName": "NASA News",
+        "score": 46,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；公共价值：city, public；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 25 Sep 2026 19:53:03 +0000",
+        "businessDate": "2026-09-26",
+        "historyDuplicate": false
+      },
+      {
+        "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
+        "sourceName": "NASA News",
+        "score": 42,
+        "reason": "来源可信度 +8；科技相关：space, nasa, satellite；公共价值：environment；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 25 Sep 2026 19:36:10 +0000",
+        "businessDate": "2026-09-26",
+        "historyDuplicate": false
+      },
+      {
+        "title": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
         "sourceName": "NYTimes Technology RSS",
-        "score": 27,
-        "reason": "来源可信度 +7；科技相关：ai, technology, data；信息量较完整 +3",
-        "published": "Thu, 24 Sep 2026 16:49:20 +0000",
-        "businessDate": "2026-09-25",
+        "score": 33,
+        "reason": "来源可信度 +7；科技相关：ai, technology；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Sat, 26 Sep 2026 01:37:20 +0000",
+        "businessDate": "2026-09-26",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Welcomes Côte d’Ivoire as Newest Artemis Accords Signatory",
-        "sourceName": "NASA News",
-        "score": 22,
-        "reason": "来源可信度 +8；科技相关：nasa；公共价值：city；信息量较完整 +3",
-        "published": "Thu, 24 Sep 2026 21:27:17 +0000",
-        "businessDate": "2026-09-25",
-        "historyDuplicate": false
-      },
-      {
-        "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
-        "sourceName": "NASA News",
-        "score": 21,
-        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 25 Sep 2026 04:05:00 +0000",
-        "businessDate": "2026-09-25",
+        "title": "Tesla’s Optimus robot is going through growing pains",
+        "sourceName": "The Verge",
+        "score": 30,
+        "reason": "来源可信度 +7；科技相关：ai, robot, robots；信息量较完整 +3",
+        "published": "2026-09-25T13:01:36-04:00",
+        "businessDate": "2026-09-26",
         "historyDuplicate": false
       }
     ]
