@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "region": "GLOBAL",
-  "category": "科学",
-  "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+  "category": "科技",
+  "sourceName": "The Verge",
+  "sourceUrl": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-    "summary": "NASA’s 2027 Human Lander Challenge is seeking ideas from college and university students to help address one of the most critical needs for sustained lunar exploration: reliable communications. As NASA prepares for long-term human presence on the Moon through the Artemis and Moon Base programs, communications systems will be just as important as spacecraft and […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Opens 2027 Human Lander Challenge for Lunar Communications.\n\nThe report says: NASA’s 2027 Human Lander Challenge is seeking ideas from college and university students to help address one of the most critical needs for sustained lunar exploration: reliable communications. As NASA prepares for long-term human presence on the Moon through the Artemis and Moon Base programs, communications systems will be just as important as spacecraft and […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+    "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Elon Musk’s Grokipedia has a ‘newly refreshed’ design.\n\nThe report says: Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 14,
+    "todayCandidates": 13,
     "recent48hCandidates": 20,
-    "historyRecordedRefs": 9,
+    "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Tue, 29 Sep 2026 21:27:56 +0000",
-    "selectedPublishedAtUtc8": "2026-09-30T05:27:56+08:00",
-    "selectedBusinessDate": "2026-09-30",
+    "selectedPublished": "2026-09-30T20:23:45-04:00",
+    "selectedPublishedAtUtc8": "2026-10-01T08:23:45+08:00",
+    "selectedBusinessDate": "2026-10-01",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 37,
-    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 29,
+    "selectedReason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-        "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 29 Sep 2026 21:27:56 +0000",
-        "businessDate": "2026-09-30",
+        "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+        "sourceName": "The Verge",
+        "score": 29,
+        "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "2026-09-30T20:23:45-04:00",
+        "businessDate": "2026-10-01",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
-        "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 29 Sep 2026 21:00:00 +0000",
-        "businessDate": "2026-09-30",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA Features Exploration, Science at International Space Conference",
+        "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 29 Sep 2026 20:55:24 +0000",
-        "businessDate": "2026-09-30",
+        "published": "Wed, 30 Sep 2026 23:37:47 +0000",
+        "businessDate": "2026-10-01",
         "historyDuplicate": false
       },
       {
-        "title": "At A.I. Event, Trump Asks Meta, OpenAI and Microsoft to Make Safety Decisions Themselves",
+        "title": "Google Wants Hollywood to Stop Being So Afraid of Technology",
         "sourceName": "NYTimes Technology RSS",
-        "score": 26,
-        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "Tue, 29 Sep 2026 23:20:44 +0000",
-        "businessDate": "2026-09-30",
+        "score": 23,
+        "reason": "来源可信度 +7；科技相关：ai, technology；信息量较完整 +3",
+        "published": "Wed, 30 Sep 2026 21:18:56 +0000",
+        "businessDate": "2026-10-01",
         "historyDuplicate": false
       },
       {
-        "title": "Trump orders US government to call AI ‘Super Intelligence’",
+        "title": "Google Releases New Gemini Model With Guardrails Amid A.I. Safety Debate",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 22,
+        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+        "published": "Wed, 30 Sep 2026 20:24:33 +0000",
+        "businessDate": "2026-10-01",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
         "sourceName": "The Verge",
-        "score": 26,
-        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-        "published": "2026-09-29T19:34:43-04:00",
-        "businessDate": "2026-09-30",
+        "score": 22,
+        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+        "published": "2026-09-30T16:41:41-04:00",
+        "businessDate": "2026-10-01",
         "historyDuplicate": false
       }
     ]
