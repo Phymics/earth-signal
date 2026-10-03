@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-10-03",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+      "summary": "As part of NASA’s ongoing Inspiration Tour, NASA astronaut Christina Koch will highlight America’s strengths in space exploration and aeronautics innovation at the Philadelphia Eagles vs. Los Angeles Rams game in Philadelphia on Sunday, Oct. 4. A self-proclaimed Philadelphia sports fan, Koch is an explorer and engineer who spent a total of 338 days in […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia.\n\nThe report says: As part of NASA’s ongoing Inspiration Tour, NASA astronaut Christina Koch will highlight America’s strengths in space exploration and aeronautics innovation at the Philadelphia Eagles vs. Los Angeles Rams game in Philadelphia on Sunday, Oct. 4. A self-proclaimed Philadelphia sports fan, Koch is an explorer and engineer who spent a total of 338 days in […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-10-03-zh.mp3",
+      "original": "audio/history/2026-10-03-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 18,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 02 Oct 2026 19:54:54 +0000",
+      "selectedPublishedAtUtc8": "2026-10-03T03:54:54+08:00",
+      "selectedBusinessDate": "2026-10-03",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 37,
+      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+          "sourceName": "NASA News",
+          "score": 37,
+          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 02 Oct 2026 19:54:54 +0000",
+          "businessDate": "2026-10-03",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 02 Oct 2026 19:30:00 +0000",
+          "businessDate": "2026-10-03",
+          "historyDuplicate": false
+        },
+        {
+          "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+          "sourceName": "NASA News",
+          "score": 21,
+          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Sat, 03 Oct 2026 04:05:00 +0000",
+          "businessDate": "2026-10-03",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Meta open sources code to let you make Muse AI gadgets",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-10-02T17:08:37-04:00",
+          "businessDate": "2026-10-03",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "sourceName": "The Verge",
+          "score": 18,
+          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+          "published": "2026-10-02T16:08:55-04:00",
+          "businessDate": "2026-10-03",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-10-02",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
           "published": "2026-09-30T16:41:41-04:00",
           "businessDate": "2026-10-01",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-09-30",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-      "summary": "NASA’s 2027 Human Lander Challenge is seeking ideas from college and university students to help address one of the most critical needs for sustained lunar exploration: reliable communications. As NASA prepares for long-term human presence on the Moon through the Artemis and Moon Base programs, communications systems will be just as important as spacecraft and […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Opens 2027 Human Lander Challenge for Lunar Communications.\n\nThe report says: NASA’s 2027 Human Lander Challenge is seeking ideas from college and university students to help address one of the most critical needs for sustained lunar exploration: reliable communications. As NASA prepares for long-term human presence on the Moon through the Artemis and Moon Base programs, communications systems will be just as important as spacecraft and […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-09-30-zh.mp3",
-      "original": "audio/history/2026-09-30-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 14,
-      "recent48hCandidates": 20,
-      "historyRecordedRefs": 9,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 29 Sep 2026 21:27:56 +0000",
-      "selectedPublishedAtUtc8": "2026-09-30T05:27:56+08:00",
-      "selectedBusinessDate": "2026-09-30",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 37,
-      "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 29 Sep 2026 21:27:56 +0000",
-          "businessDate": "2026-09-30",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
-          "sourceName": "NASA News",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 29 Sep 2026 21:00:00 +0000",
-          "businessDate": "2026-09-30",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Features Exploration, Science at International Space Conference",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 29 Sep 2026 20:55:24 +0000",
-          "businessDate": "2026-09-30",
-          "historyDuplicate": false
-        },
-        {
-          "title": "At A.I. Event, Trump Asks Meta, OpenAI and Microsoft to Make Safety Decisions Themselves",
-          "sourceName": "NYTimes Technology RSS",
-          "score": 26,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-          "published": "Tue, 29 Sep 2026 23:20:44 +0000",
-          "businessDate": "2026-09-30",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Trump orders US government to call AI ‘Super Intelligence’",
-          "sourceName": "The Verge",
-          "score": 26,
-          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
-          "published": "2026-09-29T19:34:43-04:00",
-          "businessDate": "2026-09-30",
           "historyDuplicate": false
         }
       ]
