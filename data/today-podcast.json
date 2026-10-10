@@ -1,24 +1,24 @@
 {
   "date": "2026-10-10",
   "region": "GLOBAL",
-  "category": "科技",
-  "sourceName": "The Verge",
-  "sourceUrl": "https://www.theverge.com/policy/1008950/fcc-brendan-carr-pete-hegseth-execution-tv-networks-air",
+  "category": "科学",
+  "sourceName": "NASA News",
+  "sourceUrl": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Brendan Carr says he’ll let Pete Hegseth decide whether TV networks can air the public execution",
-    "summary": "FCC chairman Brendan Carr said he will defer to Secretary of Defense Pete Hegseth on whether TV networks can air the planned execution of convicted Fort Hood shooter Nidal Hasan by firing squad. The Pentagon has said the execution will be livestreamed, suggesting it'll appear on an online platform beyond the FCC's jurisdiction. But it's […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Brendan Carr says he’ll let Pete Hegseth decide whether TV networks can air the public execution.\n\nThe report says: FCC chairman Brendan Carr said he will defer to Secretary of Defense Pete Hegseth on whether TV networks can air the planned execution of convicted Fort Hood shooter Nidal Hasan by firing squad. The Pentagon has said the execution will be livestreamed, suggesting it'll appear on an online platform beyond the FCC's jurisdiction. But it's […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+    "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations. “In alignment with the President’s National […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Seeks US Industry Plans for Commercial Space Stations.\n\nThe report says: NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations. “In alignment with the President’s National […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
-    "title": "人工智能新闻释放新的社会信号",
-    "summary": "这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。",
-    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：人工智能新闻释放新的社会信号。这条新闻关注人工智能的新动作，背后反映技术扩张、公共规则和日常生活之间的关系。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-    "aiInsight": "人工智能的长期信号不只是模型更强，而是它正在进入社会运行的底层。普通人需要关注的，是技术如何参与决策，以及这些决策是否仍然能被理解和监督。"
+    "title": "太空与卫星技术释放新的地球观测信号",
+    "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+    "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+    "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
   },
   "audio": {
     "zh": "audio/today-podcast-zh.mp3",
@@ -27,19 +27,37 @@
     "duration": "01:00"
   },
   "selection": {
-    "totalCandidates": 15,
-    "todayCandidates": 6,
-    "recent48hCandidates": 14,
-    "historyRecordedRefs": 7,
+    "totalCandidates": 20,
+    "todayCandidates": 9,
+    "recent48hCandidates": 19,
+    "historyRecordedRefs": 5,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "2026-10-09T14:30:48-04:00",
-    "selectedPublishedAtUtc8": "2026-10-10T02:30:48+08:00",
+    "selectedPublished": "Fri, 09 Oct 2026 18:11:44 +0000",
+    "selectedPublishedAtUtc8": "2026-10-10T02:11:44+08:00",
     "selectedBusinessDate": "2026-10-10",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 23,
-    "selectedReason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
+    "selectedScore": 29,
+    "selectedReason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
+      {
+        "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 09 Oct 2026 18:11:44 +0000",
+        "businessDate": "2026-10-10",
+        "historyDuplicate": false
+      },
+      {
+        "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 09 Oct 2026 16:59:24 +0000",
+        "businessDate": "2026-10-10",
+        "historyDuplicate": false
+      },
       {
         "title": "Brendan Carr says he’ll let Pete Hegseth decide whether TV networks can air the public execution",
         "sourceName": "The Verge",
@@ -50,38 +68,20 @@
         "historyDuplicate": false
       },
       {
+        "title": "APOD: 2026 October 10 – Lunar Farside",
+        "sourceName": "NASA News",
+        "score": 21,
+        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Sat, 10 Oct 2026 04:05:00 +0000",
+        "businessDate": "2026-10-10",
+        "historyDuplicate": false
+      },
+      {
         "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
         "sourceName": "NYTimes Technology RSS",
         "score": 18,
         "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
         "published": "Sat, 10 Oct 2026 01:19:55 +0000",
-        "businessDate": "2026-10-10",
-        "historyDuplicate": false
-      },
-      {
-        "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-10-09T15:11:12-04:00",
-        "businessDate": "2026-10-10",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Ohio blogger found guilty of harassment for sending Shrek nude to senator",
-        "sourceName": "The Verge",
-        "score": 15,
-        "reason": "来源可信度 +7；公共价值：public；信息量较完整 +3",
-        "published": "2026-10-09T15:41:11-04:00",
-        "businessDate": "2026-10-10",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-        "sourceName": "The Verge",
-        "score": 14,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3；偏消费评测 -4",
-        "published": "2026-10-09T19:45:03-04:00",
         "businessDate": "2026-10-10",
         "historyDuplicate": false
       }
