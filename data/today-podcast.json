@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+  "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Astronauts to Answer Questions from Florida Students",
-    "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. EDT Friday, Oct. 16, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Sally Ride Elementary School […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Astronauts to Answer Questions from Florida Students.\n\nThe report says: Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. EDT Friday, Oct. 16, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Sally Ride Elementary School […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
+    "summary": "From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research investigations that improve life on Earth and prepare humans for deep space exploration. Over the past five years, NASA augmented the station’s […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Power Up: Roll Out Solar Arrays Boost Space Station Power Supply.\n\nThe report says: From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research investigations that improve life on Earth and prepare humans for deep space exploration. Over the past five years, NASA augmented the station’s […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 10,
+    "todayCandidates": 11,
     "recent48hCandidates": 20,
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Wed, 14 Oct 2026 19:12:51 +0000",
-    "selectedPublishedAtUtc8": "2026-10-15T03:12:51+08:00",
-    "selectedBusinessDate": "2026-10-15",
+    "selectedPublished": "Thu, 15 Oct 2026 17:30:00 +0000",
+    "selectedPublishedAtUtc8": "2026-10-16T01:30:00+08:00",
+    "selectedBusinessDate": "2026-10-16",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 29,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 47,
+    "selectedReason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA Astronauts to Answer Questions from Florida Students",
+        "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
         "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 14 Oct 2026 19:12:51 +0000",
-        "businessDate": "2026-10-15",
+        "score": 47,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa, energy；公共价值：energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 15 Oct 2026 17:30:00 +0000",
+        "businessDate": "2026-10-16",
         "historyDuplicate": false
       },
       {
-        "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
+        "title": "NASA Satellites Observe Historic 2026 El Niño",
         "sourceName": "NASA News",
-        "score": 25,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 14 Oct 2026 20:13:29 +0000",
-        "businessDate": "2026-10-15",
+        "score": 46,
+        "reason": "来源可信度 +8；科技相关：nasa, satellite, climate；公共价值：climate, water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 15 Oct 2026 17:59:22 +0000",
+        "businessDate": "2026-10-16",
         "historyDuplicate": false
       },
       {
-        "title": "The best feature of Apple’s HomeView might be its simplicity",
+        "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
+        "sourceName": "NASA News",
+        "score": 37,
+        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Thu, 15 Oct 2026 19:58:08 +0000",
+        "businessDate": "2026-10-16",
+        "historyDuplicate": false
+      },
+      {
+        "title": "APOD: 2026 October 16 – Chasing the International Space Station",
+        "sourceName": "NASA News",
+        "score": 28,
+        "reason": "来源可信度 +8；科技相关：space；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Fri, 16 Oct 2026 04:05:00 +0000",
+        "businessDate": "2026-10-16",
+        "historyDuplicate": false
+      },
+      {
+        "title": "The tech backlash is now in theaters",
         "sourceName": "The Verge",
-        "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：city；信息量较完整 +3",
-        "published": "2026-10-14T18:52:14-04:00",
-        "businessDate": "2026-10-15",
-        "historyDuplicate": false
-      },
-      {
-        "title": "22 People Got Together For a Dinner Party. So Did Their A.I. Agents.",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：artificial intelligence；信息量较完整 +3",
-        "published": "Wed, 14 Oct 2026 17:35:24 +0000",
-        "businessDate": "2026-10-15",
-        "historyDuplicate": false
-      },
-      {
-        "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "Thu, 15 Oct 2026 02:27:52 +0000",
-        "businessDate": "2026-10-15",
+        "score": 24,
+        "reason": "来源可信度 +7；科技相关：ai, robot；信息量较完整 +3",
+        "published": "2026-10-15T17:39:52-04:00",
+        "businessDate": "2026-10-16",
         "historyDuplicate": false
       }
     ]
