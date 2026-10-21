@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-10-21",
+    "region": "GLOBAL",
+    "category": "科技",
+    "sourceName": "NYTimes Technology RSS",
+    "sourceUrl": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "SpaceX Swings to a Profit, as A.I. Business Grows",
+      "summary": "Elon Musk’s rocket company said its artificial intelligence spending had soared, but revenue more than doubled from its Starlink internet satellite service and A.I. products.",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: SpaceX Swings to a Profit, as A.I. Business Grows.\n\nThe report says: Elon Musk’s rocket company said its artificial intelligence spending had soared, but revenue more than doubled from its Starlink internet satellite service and A.I. products.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-10-21-zh.mp3",
+      "original": "audio/history/2026-10-21-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 18,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 9,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Tue, 20 Oct 2026 22:37:38 +0000",
+      "selectedPublishedAtUtc8": "2026-10-21T06:37:38+08:00",
+      "selectedBusinessDate": "2026-10-21",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 44,
+      "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence, space, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "SpaceX Swings to a Profit, as A.I. Business Grows",
+          "sourceName": "NYTimes Technology RSS",
+          "score": 44,
+          "reason": "来源可信度 +7；科技相关：ai, artificial intelligence, space, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 20 Oct 2026 22:37:38 +0000",
+          "businessDate": "2026-10-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Robotic therapy for stroke patients",
+          "sourceName": "MIT Technology Review",
+          "score": 33,
+          "reason": "来源可信度 +8；科技相关：ai, artificial intelligence, robot；信息量较完整 +3",
+          "published": "Tue, 20 Oct 2026 21:00:00 +0000",
+          "businessDate": "2026-10-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
+          "sourceName": "The Verge",
+          "score": 29,
+          "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "2026-10-20T18:01:50-04:00",
+          "businessDate": "2026-10-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Tue, 20 Oct 2026 18:11:33 +0000",
+          "businessDate": "2026-10-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+          "sourceName": "NASA News",
+          "score": 26,
+          "reason": "来源可信度 +8；科技相关：ai, nasa；信息量较完整 +3",
+          "published": "Tue, 20 Oct 2026 20:21:36 +0000",
+          "businessDate": "2026-10-21",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-10-20",
     "region": "GLOBAL",
     "category": "科学",
@@ -163,77 +252,6 @@
           "reason": "来源可信度 +7；信息量较完整 +3",
           "published": "2026-10-18T12:27:51-04:00",
           "businessDate": "2026-10-19",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-10-18",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
-      "summary": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Sonified: Eagle Nebula […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars.\n\nThe report says: APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Sonified: Eagle Nebula […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "一条科技新闻显示新的社会变化",
-      "summary": "这条新闻关注科技行业的新变化，背后涉及创新速度、公共信任和社会规则如何重新调整。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：一条科技新闻显示新的社会变化。这条新闻关注科技行业的新变化，背后涉及创新速度、公共信任和社会规则如何重新调整。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻背后的长期趋势，是科技越来越少停留在屏幕里，越来越多进入社会结构本身。它提醒我们，未来不是突然到来的，而是通过这些看似零散的新闻一点点靠近。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-10-18-zh.mp3",
-      "original": "audio/history/2026-10-18-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 3,
-      "recent48hCandidates": 17,
-      "historyRecordedRefs": 7,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Sun, 18 Oct 2026 04:05:00 +0000",
-      "selectedPublishedAtUtc8": "2026-10-18T12:05:00+08:00",
-      "selectedBusinessDate": "2026-10-18",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 21,
-      "selectedReason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Sun, 18 Oct 2026 04:05:00 +0000",
-          "businessDate": "2026-10-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-10-17T12:39:44-04:00",
-          "businessDate": "2026-10-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "TikTok bans Musk documentary account",
-          "sourceName": "The Verge",
-          "score": 10,
-          "reason": "来源可信度 +7；信息量较完整 +3",
-          "published": "2026-10-17T15:32:23-04:00",
-          "businessDate": "2026-10-18",
           "historyDuplicate": false
         }
       ]
