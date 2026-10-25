@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "region": "GLOBAL",
-  "category": "科学",
-  "sourceName": "NASA News",
-  "sourceUrl": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+  "category": "科技",
+  "sourceName": "NYTimes Technology RSS",
+  "sourceUrl": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-    "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza.\n\nThe report says: NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
+    "summary": "The comments were his first since the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal speeds.",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Elon Musk Says Ukraine Violated Starlink’s Rules.\n\nThe report says: The comments were his first since the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal speeds.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,43 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 12,
-    "recent48hCandidates": 19,
-    "historyRecordedRefs": 5,
+    "todayCandidates": 3,
+    "recent48hCandidates": 14,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Fri, 23 Oct 2026 21:51:19 +0000",
-    "selectedPublishedAtUtc8": "2026-10-24T05:51:19+08:00",
-    "selectedBusinessDate": "2026-10-24",
+    "selectedPublished": "Sun, 25 Oct 2026 00:10:07 +0000",
+    "selectedPublishedAtUtc8": "2026-10-25T08:10:07+08:00",
+    "selectedBusinessDate": "2026-10-25",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 36,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 29,
+    "selectedReason": "来源可信度 +7；科技相关：ai, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-        "sourceName": "NASA News",
-        "score": 36,
-        "reason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 23 Oct 2026 21:51:19 +0000",
-        "businessDate": "2026-10-24",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Why Anger About Data Centers and Energy Prices May Not Swing Votes",
+        "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
         "sourceName": "NYTimes Technology RSS",
-        "score": 32,
-        "reason": "来源可信度 +7；科技相关：energy, data；公共价值：city, energy；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 23 Oct 2026 16:00:09 +0000",
-        "businessDate": "2026-10-24",
+        "score": 29,
+        "reason": "来源可信度 +7；科技相关：ai, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Sun, 25 Oct 2026 00:10:07 +0000",
+        "businessDate": "2026-10-25",
         "historyDuplicate": false
       },
       {
-        "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-        "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 23 Oct 2026 22:39:39 +0000",
-        "businessDate": "2026-10-24",
+        "title": "Pennsylvania will require labels on AI-generated ads",
+        "sourceName": "The Verge",
+        "score": 26,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；信息量较完整 +3",
+        "published": "2026-10-24T14:32:44-04:00",
+        "businessDate": "2026-10-25",
         "historyDuplicate": false
       },
       {
-        "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-        "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 23 Oct 2026 22:37:53 +0000",
-        "businessDate": "2026-10-24",
-        "historyDuplicate": false
-      },
-      {
-        "title": "RS-25 Engine Tests at NASA Stennis",
-        "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Fri, 23 Oct 2026 18:57:04 +0000",
-        "businessDate": "2026-10-24",
+        "title": "Blue Planet III is keeping the rough edges in the age of AI",
+        "sourceName": "The Verge",
+        "score": 22,
+        "reason": "来源可信度 +7；科技相关：ai；公共价值：city；信息量较完整 +3",
+        "published": "2026-10-24T17:29:12-04:00",
+        "businessDate": "2026-10-25",
         "historyDuplicate": false
       }
     ]
