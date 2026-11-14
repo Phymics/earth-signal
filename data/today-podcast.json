@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "region": "GLOBAL",
   "category": "科技",
-  "sourceName": "MIT Technology Review",
-  "sourceUrl": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+  "sourceName": "NYTimes Technology RSS",
+  "sourceUrl": "https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-    "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from MIT Technology Review: Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility.\n\nThe report says: Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Why Anthropic’s Dario Amodei Has Angered OpenAI and Other A.I. Peers",
+    "summary": "Dario Amodei, the company’s chief executive, publicly frets about the dangers of artificial intelligence and has made enemies of his peers along the way.",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NYTimes Technology RSS: Why Anthropic’s Dario Amodei Has Angered OpenAI and Other A.I. Peers.\n\nThe report says: Dario Amodei, the company’s chief executive, publicly frets about the dangers of artificial intelligence and has made enemies of his peers along the way.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 13,
-    "recent48hCandidates": 19,
+    "todayCandidates": 11,
+    "recent48hCandidates": 20,
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Thu, 12 Nov 2026 20:16:24 +0000",
-    "selectedPublishedAtUtc8": "2026-11-13T04:16:24+08:00",
-    "selectedBusinessDate": "2026-11-13",
+    "selectedPublished": "Fri, 13 Nov 2026 23:20:11 +0000",
+    "selectedPublishedAtUtc8": "2026-11-14T07:20:11+08:00",
+    "selectedBusinessDate": "2026-11-14",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 39,
-    "selectedReason": "来源可信度 +8；科技相关：ai, technology, chip, chips；公共价值：public；信息量较完整 +3；偏消费评测 -4",
+    "selectedScore": 31,
+    "selectedReason": "来源可信度 +7；科技相关：ai, artificial intelligence；公共价值：public；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-        "sourceName": "MIT Technology Review",
-        "score": 39,
-        "reason": "来源可信度 +8；科技相关：ai, technology, chip, chips；公共价值：public；信息量较完整 +3；偏消费评测 -4",
-        "published": "Thu, 12 Nov 2026 20:16:24 +0000",
-        "businessDate": "2026-11-13",
+        "title": "Why Anthropic’s Dario Amodei Has Angered OpenAI and Other A.I. Peers",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 31,
+        "reason": "来源可信度 +7；科技相关：ai, artificial intelligence；公共价值：public；信息量较完整 +3",
+        "published": "Fri, 13 Nov 2026 23:20:11 +0000",
+        "businessDate": "2026-11-14",
         "historyDuplicate": false
       },
       {
-        "title": "Heart in the Sky at NASA Kennedy",
-        "sourceName": "NASA News",
-        "score": 37,
-        "reason": "来源可信度 +8；科技相关：ai, space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 12 Nov 2026 19:12:49 +0000",
-        "businessDate": "2026-11-13",
-        "historyDuplicate": false
-      },
-      {
-        "title": "NASA Ames Stars of the Month: November 2026",
+        "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Thu, 12 Nov 2026 17:54:32 +0000",
-        "businessDate": "2026-11-13",
+        "published": "Fri, 13 Nov 2026 16:05:54 +0000",
+        "businessDate": "2026-11-14",
         "historyDuplicate": false
       },
       {
-        "title": "Jensen Huang Resigns From Nvidia After Affairs",
+        "title": "Microsoft’s Global Outage and Fixes: What We Know",
         "sourceName": "NYTimes Technology RSS",
         "score": 23,
-        "reason": "来源可信度 +7；科技相关：ai, chip；信息量较完整 +3",
-        "published": "Thu, 12 Nov 2026 19:07:44 +0000",
-        "businessDate": "2026-11-13",
+        "reason": "来源可信度 +7；科技相关：ai；公共价值：global；信息量较完整 +3",
+        "published": "Fri, 13 Nov 2026 22:30:40 +0000",
+        "businessDate": "2026-11-14",
         "historyDuplicate": false
       },
       {
-        "title": "Donald Trump really wants Tim Cook to run Nvidia",
+        "title": "Amazon has a plan to index the world’s online shopping data",
         "sourceName": "The Verge",
-        "score": 23,
-        "reason": "来源可信度 +7；科技相关：ai, chip；信息量较完整 +3",
-        "published": "2026-11-12T19:51:25-05:00",
-        "businessDate": "2026-11-13",
+        "score": 22,
+        "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3",
+        "published": "2026-11-13T18:49:11-05:00",
+        "businessDate": "2026-11-14",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 18,
+        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
+        "published": "Fri, 13 Nov 2026 16:36:28 +0000",
+        "businessDate": "2026-11-14",
         "historyDuplicate": false
       }
     ]
