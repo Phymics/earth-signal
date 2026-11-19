@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-11-19",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+      "summary": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions. Used for propelling satellites and deep […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Announces Mid-Power Electric Rocket Challenge for US Companies.\n\nThe report says: NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions. Used for propelling satellites and deep […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-11-19-zh.mp3",
+      "original": "audio/history/2026-11-19-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 11,
+      "recent48hCandidates": 16,
+      "historyRecordedRefs": 8,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Wed, 18 Nov 2026 18:12:32 +0000",
+      "selectedPublishedAtUtc8": "2026-11-19T02:12:32+08:00",
+      "selectedBusinessDate": "2026-11-19",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 36,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+          "sourceName": "NASA News",
+          "score": 36,
+          "reason": "来源可信度 +8；科技相关：space, nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 18 Nov 2026 18:12:32 +0000",
+          "businessDate": "2026-11-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "El Niño Rains Paint the Atacama",
+          "sourceName": "NASA News",
+          "score": 30,
+          "reason": "来源可信度 +8；科技相关：ai, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 19 Nov 2026 05:00:00 +0000",
+          "businessDate": "2026-11-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 18 Nov 2026 22:19:17 +0000",
+          "businessDate": "2026-11-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Elon Musk tries to explain what’s going on with Ukraine and Starlink",
+          "sourceName": "The Verge",
+          "score": 24,
+          "reason": "来源可信度 +7；科技相关：ai, space；信息量较完整 +3；商业宣传倾向：deal；适合 Earth Signal 的长期议题 +4",
+          "published": "2026-11-18T20:39:45-05:00",
+          "businessDate": "2026-11-19",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
+          "sourceName": "The Verge",
+          "score": 23,
+          "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
+          "published": "2026-11-18T17:05:48-05:00",
+          "businessDate": "2026-11-19",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-11-18",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
           "published": "Tue, 17 Nov 2026 05:05:00 +0000",
           "businessDate": "2026-11-17",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-11-16",
-    "region": "GLOBAL",
-    "category": "科技",
-    "sourceName": "The Verge",
-    "sourceUrl": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-      "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the necessary satellites to challenge Starlink […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from The Verge: Vulcan rocket fails, destroying 40 Amazon Leo satellites.\n\nThe report says: United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the necessary satellites to challenge Starlink […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-11-16-zh.mp3",
-      "original": "audio/history/2026-11-16-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 9,
-      "recent48hCandidates": 11,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "2026-11-15T16:05:02-05:00",
-      "selectedPublishedAtUtc8": "2026-11-16T05:05:02+08:00",
-      "selectedBusinessDate": "2026-11-16",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 36,
-      "selectedReason": "来源可信度 +7；科技相关：ai, space, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-          "sourceName": "The Verge",
-          "score": 36,
-          "reason": "来源可信度 +7；科技相关：ai, space, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "2026-11-15T16:05:02-05:00",
-          "businessDate": "2026-11-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-          "sourceName": "The Verge",
-          "score": 33,
-          "reason": "来源可信度 +7；科技相关：ai, chip, chips；公共价值：public；信息量较完整 +3",
-          "published": "2026-11-15T14:15:43-05:00",
-          "businessDate": "2026-11-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-          "sourceName": "The Verge",
-          "score": 28,
-          "reason": "来源可信度 +7；科技相关：ai；公共价值：health；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "2026-11-15T20:47:16-05:00",
-          "businessDate": "2026-11-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Mon, 16 Nov 2026 05:05:00 +0000",
-          "businessDate": "2026-11-16",
-          "historyDuplicate": false
-        },
-        {
-          "title": "The Last Ice on Puncak Jaya",
-          "sourceName": "NASA News",
-          "score": 16,
-          "reason": "来源可信度 +8；科技相关：ai",
-          "published": "Mon, 16 Nov 2026 05:00:00 +0000",
-          "businessDate": "2026-11-16",
           "historyDuplicate": false
         }
       ]
