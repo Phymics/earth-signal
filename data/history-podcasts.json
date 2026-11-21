@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-11-21",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "summary": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: New NASA Seed Funding Primes Small Businesses for Innovation.\n\nThe report says: Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-11-21-zh.mp3",
+      "original": "audio/history/2026-11-21-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 12,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Fri, 20 Nov 2026 20:46:14 +0000",
+      "selectedPublishedAtUtc8": "2026-11-21T04:46:14+08:00",
+      "selectedBusinessDate": "2026-11-21",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 31,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+          "sourceName": "NASA News",
+          "score": 31,
+          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；商业宣传倾向：funding；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 20 Nov 2026 20:46:14 +0000",
+          "businessDate": "2026-11-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Fri, 20 Nov 2026 16:27:46 +0000",
+          "businessDate": "2026-11-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+          "sourceName": "The Verge",
+          "score": 27,
+          "reason": "来源可信度 +7；科技相关：ai, data；公共价值：cities；信息量较完整 +3",
+          "published": "2026-11-20T13:50:19-05:00",
+          "businessDate": "2026-11-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "APOD: 2026 November 21 – Voyager’s Neptune",
+          "sourceName": "NASA News",
+          "score": 21,
+          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Sat, 21 Nov 2026 05:05:00 +0000",
+          "businessDate": "2026-11-21",
+          "historyDuplicate": false
+        },
+        {
+          "title": "The most misunderstood graph in AI just got a major update",
+          "sourceName": "MIT Technology Review",
+          "score": 19,
+          "reason": "来源可信度 +8；科技相关：ai；信息量较完整 +3",
+          "published": "Fri, 20 Nov 2026 18:15:15 +0000",
+          "businessDate": "2026-11-21",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-11-20",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
           "published": "2026-11-18T17:05:48-05:00",
           "businessDate": "2026-11-19",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-11-18",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
-      "summary": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Space Apps Challenge Breaks Global Hackathon Records.\n\nThe report says: On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-11-18-zh.mp3",
-      "original": "audio/history/2026-11-18-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 13,
-      "recent48hCandidates": 16,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Tue, 17 Nov 2026 21:50:34 +0000",
-      "selectedPublishedAtUtc8": "2026-11-18T05:50:34+08:00",
-      "selectedBusinessDate": "2026-11-18",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 38,
-      "selectedReason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：global；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
-          "sourceName": "NASA News",
-          "score": 38,
-          "reason": "来源可信度 +8；科技相关：space, nasa, data；公共价值：global；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 17 Nov 2026 21:50:34 +0000",
-          "businessDate": "2026-11-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Hydropower hit record lows in the US Southwest this summer",
-          "sourceName": "MIT Technology Review",
-          "score": 37,
-          "reason": "来源可信度 +8；科技相关：energy, data；公共价值：city, energy, water；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 17 Nov 2026 17:52:10 +0000",
-          "businessDate": "2026-11-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "NASA Launches Nuclear Power Systems Student Contest",
-          "sourceName": "NASA News",
-          "score": 34,
-          "reason": "来源可信度 +8；科技相关：space, nasa, technology；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 17 Nov 2026 22:02:48 +0000",
-          "businessDate": "2026-11-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "BPS Digital AVATAR Challenge",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Tue, 17 Nov 2026 20:39:38 +0000",
-          "businessDate": "2026-11-18",
-          "historyDuplicate": false
-        },
-        {
-          "title": "APOD: 2026 November 18 – An M-class Solar Flare",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Wed, 18 Nov 2026 05:05:00 +0000",
-          "businessDate": "2026-11-18",
           "historyDuplicate": false
         }
       ]
