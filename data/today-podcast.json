@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
+  "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Laser Focus at the Top of the World",
-    "summary": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Laser Focus at the Top of the World.\n\nThe report says: A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+    "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Seeks Partners to Design First Nuclear Reactor for the Moon.\n\nThe report says: NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 7,
-    "recent48hCandidates": 14,
+    "todayCandidates": 16,
+    "recent48hCandidates": 18,
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Mon, 23 Nov 2026 05:01:00 +0000",
-    "selectedPublishedAtUtc8": "2026-11-23T13:01:00+08:00",
-    "selectedBusinessDate": "2026-11-23",
+    "selectedPublished": "Mon, 23 Nov 2026 17:23:50 +0000",
+    "selectedPublishedAtUtc8": "2026-11-24T01:23:50+08:00",
+    "selectedBusinessDate": "2026-11-24",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 29,
-    "selectedReason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 30,
+    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：city；信息量较完整 +3",
     "topCandidates": [
       {
-        "title": "Laser Focus at the Top of the World",
+        "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+        "sourceName": "NASA News",
+        "score": 30,
+        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：city；信息量较完整 +3",
+        "published": "Mon, 23 Nov 2026 17:23:50 +0000",
+        "businessDate": "2026-11-24",
+        "historyDuplicate": false
+      },
+      {
+        "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Mon, 23 Nov 2026 05:01:00 +0000",
-        "businessDate": "2026-11-23",
+        "published": "Mon, 23 Nov 2026 21:10:03 +0000",
+        "businessDate": "2026-11-24",
         "historyDuplicate": false
       },
       {
-        "title": "65 Years of Human Spaceflight at NASA Johnson",
+        "title": "Studying Cancer Cells in Microgravity",
         "sourceName": "NASA News",
-        "score": 29,
-        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Sun, 22 Nov 2026 19:13:25 +0000",
-        "businessDate": "2026-11-23",
+        "score": 27,
+        "reason": "来源可信度 +8；科技相关：space, chip；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Mon, 23 Nov 2026 17:28:37 +0000",
+        "businessDate": "2026-11-24",
         "historyDuplicate": false
       },
       {
-        "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-        "sourceName": "NASA News",
-        "score": 21,
-        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Mon, 23 Nov 2026 05:05:00 +0000",
-        "businessDate": "2026-11-23",
+        "title": "Elon Musk Faces an A.I. Dilemma at SpaceX",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 25,
+        "reason": "来源可信度 +7；科技相关：space, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Mon, 23 Nov 2026 16:13:32 +0000",
+        "businessDate": "2026-11-24",
         "historyDuplicate": false
       },
       {
-        "title": "Delta flights in and out of Atlanta delayed due to system outage",
+        "title": "Google alternative Kagi launches an email service",
         "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-        "published": "2026-11-22T12:46:44-05:00",
-        "businessDate": "2026-11-23",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-        "sourceName": "The Verge",
-        "score": 18,
-        "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3；偏消费评测 -4",
-        "published": "2026-11-22T12:25:20-05:00",
-        "businessDate": "2026-11-23",
+        "score": 23,
+        "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
+        "published": "2026-11-23T19:02:52-05:00",
+        "businessDate": "2026-11-24",
         "historyDuplicate": false
       }
     ]
