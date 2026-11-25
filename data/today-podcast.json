@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+  "sourceUrl": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
-    "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: NASA Seeks Partners to Design First Nuclear Reactor for the Moon.\n\nThe report says: NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+    "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Teams Lock in Mission Architecture for NASA’s SR-1 Freedom.\n\nThe report says: NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 16,
-    "recent48hCandidates": 18,
+    "todayCandidates": 14,
+    "recent48hCandidates": 20,
     "historyRecordedRefs": 8,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Mon, 23 Nov 2026 17:23:50 +0000",
-    "selectedPublishedAtUtc8": "2026-11-24T01:23:50+08:00",
-    "selectedBusinessDate": "2026-11-24",
+    "selectedPublished": "Tue, 24 Nov 2026 21:04:32 +0000",
+    "selectedPublishedAtUtc8": "2026-11-25T05:04:32+08:00",
+    "selectedBusinessDate": "2026-11-25",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 30,
-    "selectedReason": "来源可信度 +8；科技相关：ai, nasa；公共价值：city；信息量较完整 +3",
+    "selectedScore": 35,
+    "selectedReason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+        "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
         "sourceName": "NASA News",
-        "score": 30,
-        "reason": "来源可信度 +8；科技相关：ai, nasa；公共价值：city；信息量较完整 +3",
-        "published": "Mon, 23 Nov 2026 17:23:50 +0000",
-        "businessDate": "2026-11-24",
+        "score": 35,
+        "reason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+        "published": "Tue, 24 Nov 2026 21:04:32 +0000",
+        "businessDate": "2026-11-25",
         "historyDuplicate": false
       },
       {
-        "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
+        "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
         "sourceName": "NASA News",
         "score": 29,
-        "reason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Mon, 23 Nov 2026 21:10:03 +0000",
-        "businessDate": "2026-11-24",
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Tue, 24 Nov 2026 21:14:36 +0000",
+        "businessDate": "2026-11-25",
         "historyDuplicate": false
       },
       {
-        "title": "Studying Cancer Cells in Microgravity",
-        "sourceName": "NASA News",
-        "score": 27,
-        "reason": "来源可信度 +8；科技相关：space, chip；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Mon, 23 Nov 2026 17:28:37 +0000",
-        "businessDate": "2026-11-24",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Elon Musk Faces an A.I. Dilemma at SpaceX",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 25,
-        "reason": "来源可信度 +7；科技相关：space, data；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Mon, 23 Nov 2026 16:13:32 +0000",
-        "businessDate": "2026-11-24",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Google alternative Kagi launches an email service",
+        "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
         "sourceName": "The Verge",
-        "score": 23,
-        "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
-        "published": "2026-11-23T19:02:52-05:00",
-        "businessDate": "2026-11-24",
+        "score": 22,
+        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
+        "published": "2026-11-24T20:45:35-05:00",
+        "businessDate": "2026-11-25",
+        "historyDuplicate": false
+      },
+      {
+        "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
+        "sourceName": "NASA News",
+        "score": 21,
+        "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 25 Nov 2026 05:05:00 +0000",
+        "businessDate": "2026-11-25",
+        "historyDuplicate": false
+      },
+      {
+        "title": "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
+        "sourceName": "NYTimes Technology RSS",
+        "score": 20,
+        "reason": "来源可信度 +7；科技相关：chip, chips；信息量较完整 +3",
+        "published": "Tue, 24 Nov 2026 23:27:37 +0000",
+        "businessDate": "2026-11-25",
         "historyDuplicate": false
       }
     ]
