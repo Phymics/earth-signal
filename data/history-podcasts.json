@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-11-26",
+    "region": "GLOBAL",
+    "category": "科学",
+    "sourceName": "NASA News",
+    "sourceUrl": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+    "language": {
+      "original": "en",
+      "default": "zh"
+    },
+    "original": {
+      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+      "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard.\n\nThe report says: Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
+    },
+    "zh": {
+      "title": "太空与卫星技术释放新的地球观测信号",
+      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
+      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
+      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
+    },
+    "audio": {
+      "zh": "audio/history/2026-11-26-zh.mp3",
+      "original": "audio/history/2026-11-26-original.mp3",
+      "duration": "01:00"
+    },
+    "selection": {
+      "totalCandidates": 20,
+      "todayCandidates": 13,
+      "recent48hCandidates": 20,
+      "historyRecordedRefs": 7,
+      "duplicateSkippedCandidates": 0,
+      "selectedPool": "today",
+      "selectedPublished": "Wed, 25 Nov 2026 16:47:29 +0000",
+      "selectedPublishedAtUtc8": "2026-11-26T00:47:29+08:00",
+      "selectedBusinessDate": "2026-11-26",
+      "selectedIsHistoryDuplicate": false,
+      "selectedScore": 34,
+      "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：disaster；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+      "topCandidates": [
+        {
+          "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+          "sourceName": "NASA News",
+          "score": 34,
+          "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：disaster；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 25 Nov 2026 16:47:29 +0000",
+          "businessDate": "2026-11-26",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 25 Nov 2026 19:06:56 +0000",
+          "businessDate": "2026-11-26",
+          "historyDuplicate": false
+        },
+        {
+          "title": "NASA Eyes Crop Candidates for Future Menus",
+          "sourceName": "NASA News",
+          "score": 29,
+          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Wed, 25 Nov 2026 17:53:42 +0000",
+          "businessDate": "2026-11-26",
+          "historyDuplicate": false
+        },
+        {
+          "title": "How data centers are driving a US natural-gas boom",
+          "sourceName": "MIT Technology Review",
+          "score": 27,
+          "reason": "来源可信度 +8；科技相关：ai, data；公共价值：city；信息量较完整 +3",
+          "published": "Wed, 25 Nov 2026 17:00:00 +0000",
+          "businessDate": "2026-11-26",
+          "historyDuplicate": false
+        },
+        {
+          "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+          "sourceName": "NASA News",
+          "score": 21,
+          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+          "published": "Thu, 26 Nov 2026 05:05:00 +0000",
+          "businessDate": "2026-11-26",
+          "historyDuplicate": false
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-11-25",
     "region": "GLOBAL",
     "category": "科学",
@@ -172,95 +261,6 @@
           "reason": "来源可信度 +7；科技相关：ai；公共价值：public；信息量较完整 +3",
           "published": "2026-11-23T19:02:52-05:00",
           "businessDate": "2026-11-24",
-          "historyDuplicate": false
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-11-23",
-    "region": "GLOBAL",
-    "category": "科学",
-    "sourceName": "NASA News",
-    "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
-    "language": {
-      "original": "en",
-      "default": "zh"
-    },
-    "original": {
-      "title": "Laser Focus at the Top of the World",
-      "summary": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
-      "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Laser Focus at the Top of the World.\n\nThe report says: A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
-      "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
-    },
-    "zh": {
-      "title": "太空与卫星技术释放新的地球观测信号",
-      "summary": "这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。",
-      "podcastScript": "今天的 Earth Signal 来自全球科技新闻现场。\n\n我们关注的是：太空与卫星技术释放新的地球观测信号。这条新闻关注太空与卫星技术的新进展，它可能帮助人类更好理解地球、气候、灾害或未来探索。\n\n如果把它放在更长的时间线上看，这不只是一次技术更新。它说明科技正在更深地进入城市、公共服务、环境风险和普通人的日常选择。\n\n值得听的地方在于：真正改变生活的，往往不是某个单点发明，而是它和社会系统连接起来之后，开始重新分配效率、风险和机会。\n\n今天的信号是：技术越靠近地球，越需要被听见的不只是速度，还有它会把我们带向怎样的生活。",
-      "aiInsight": "这条新闻真正指向的，是人类正在用更高维度的技术重新理解地球。当太空、气候和城市治理连在一起，科技就不只是远方的探索，也会变成每个人生活里的安全感。"
-    },
-    "audio": {
-      "zh": "audio/history/2026-11-23-zh.mp3",
-      "original": "audio/history/2026-11-23-original.mp3",
-      "duration": "01:00"
-    },
-    "selection": {
-      "totalCandidates": 20,
-      "todayCandidates": 7,
-      "recent48hCandidates": 14,
-      "historyRecordedRefs": 8,
-      "duplicateSkippedCandidates": 0,
-      "selectedPool": "today",
-      "selectedPublished": "Mon, 23 Nov 2026 05:01:00 +0000",
-      "selectedPublishedAtUtc8": "2026-11-23T13:01:00+08:00",
-      "selectedBusinessDate": "2026-11-23",
-      "selectedIsHistoryDuplicate": false,
-      "selectedScore": 29,
-      "selectedReason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-      "topCandidates": [
-        {
-          "title": "Laser Focus at the Top of the World",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：nasa, satellite；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Mon, 23 Nov 2026 05:01:00 +0000",
-          "businessDate": "2026-11-23",
-          "historyDuplicate": false
-        },
-        {
-          "title": "65 Years of Human Spaceflight at NASA Johnson",
-          "sourceName": "NASA News",
-          "score": 29,
-          "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Sun, 22 Nov 2026 19:13:25 +0000",
-          "businessDate": "2026-11-23",
-          "historyDuplicate": false
-        },
-        {
-          "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-          "sourceName": "NASA News",
-          "score": 21,
-          "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-          "published": "Mon, 23 Nov 2026 05:05:00 +0000",
-          "businessDate": "2026-11-23",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Delta flights in and out of Atlanta delayed due to system outage",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai；信息量较完整 +3",
-          "published": "2026-11-22T12:46:44-05:00",
-          "businessDate": "2026-11-23",
-          "historyDuplicate": false
-        },
-        {
-          "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-          "sourceName": "The Verge",
-          "score": 18,
-          "reason": "来源可信度 +7；科技相关：ai, data；信息量较完整 +3；偏消费评测 -4",
-          "published": "2026-11-22T12:25:20-05:00",
-          "businessDate": "2026-11-23",
           "historyDuplicate": false
         }
       ]

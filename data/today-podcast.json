@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "region": "GLOBAL",
   "category": "科学",
   "sourceName": "NASA News",
-  "sourceUrl": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
+  "sourceUrl": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
   "language": {
     "original": "en",
     "default": "zh"
   },
   "original": {
-    "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
-    "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
-    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Teams Lock in Mission Architecture for NASA’s SR-1 Freedom.\n\nThe report says: NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
+    "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+    "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+    "podcastScript": "Hello, this is Earth Signal.\n\nToday's story comes from NASA News: Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard.\n\nThe report says: Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]\n\nThe signal is the longer trend behind the headline: how technology keeps moving into public life, infrastructure, science and everyday decisions.",
     "aiInsight": "The important signal is not just the event, but the system it points to: technology is becoming part of how societies manage risk, opportunity and trust."
   },
   "zh": {
@@ -28,61 +28,61 @@
   },
   "selection": {
     "totalCandidates": 20,
-    "todayCandidates": 14,
+    "todayCandidates": 13,
     "recent48hCandidates": 20,
-    "historyRecordedRefs": 8,
+    "historyRecordedRefs": 7,
     "duplicateSkippedCandidates": 0,
     "selectedPool": "today",
-    "selectedPublished": "Tue, 24 Nov 2026 21:04:32 +0000",
-    "selectedPublishedAtUtc8": "2026-11-25T05:04:32+08:00",
-    "selectedBusinessDate": "2026-11-25",
+    "selectedPublished": "Wed, 25 Nov 2026 16:47:29 +0000",
+    "selectedPublishedAtUtc8": "2026-11-26T00:47:29+08:00",
+    "selectedBusinessDate": "2026-11-26",
     "selectedIsHistoryDuplicate": false,
-    "selectedScore": 35,
-    "selectedReason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
+    "selectedScore": 34,
+    "selectedReason": "来源可信度 +8；科技相关：space, nasa；公共价值：disaster；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
     "topCandidates": [
       {
-        "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+        "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
         "sourceName": "NASA News",
-        "score": 35,
-        "reason": "来源可信度 +8；科技相关：space, nasa, energy；公共价值：energy；信息量较完整 +3；偏消费评测 -4；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 24 Nov 2026 21:04:32 +0000",
-        "businessDate": "2026-11-25",
+        "score": 34,
+        "reason": "来源可信度 +8；科技相关：space, nasa；公共价值：disaster；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 25 Nov 2026 16:47:29 +0000",
+        "businessDate": "2026-11-26",
         "historyDuplicate": false
       },
       {
-        "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+        "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
         "sourceName": "NASA News",
         "score": 29,
         "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Tue, 24 Nov 2026 21:14:36 +0000",
-        "businessDate": "2026-11-25",
+        "published": "Wed, 25 Nov 2026 19:06:56 +0000",
+        "businessDate": "2026-11-26",
         "historyDuplicate": false
       },
       {
-        "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
-        "sourceName": "The Verge",
-        "score": 22,
-        "reason": "来源可信度 +7；科技相关：ai, security；信息量较完整 +3",
-        "published": "2026-11-24T20:45:35-05:00",
-        "businessDate": "2026-11-25",
+        "title": "NASA Eyes Crop Candidates for Future Menus",
+        "sourceName": "NASA News",
+        "score": 29,
+        "reason": "来源可信度 +8；科技相关：space, nasa；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
+        "published": "Wed, 25 Nov 2026 17:53:42 +0000",
+        "businessDate": "2026-11-26",
         "historyDuplicate": false
       },
       {
-        "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
+        "title": "How data centers are driving a US natural-gas boom",
+        "sourceName": "MIT Technology Review",
+        "score": 27,
+        "reason": "来源可信度 +8；科技相关：ai, data；公共价值：city；信息量较完整 +3",
+        "published": "Wed, 25 Nov 2026 17:00:00 +0000",
+        "businessDate": "2026-11-26",
+        "historyDuplicate": false
+      },
+      {
+        "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
         "sourceName": "NASA News",
         "score": 21,
         "reason": "来源可信度 +8；公共价值：education；信息量较完整 +3；适合 Earth Signal 的长期议题 +4",
-        "published": "Wed, 25 Nov 2026 05:05:00 +0000",
-        "businessDate": "2026-11-25",
-        "historyDuplicate": false
-      },
-      {
-        "title": "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
-        "sourceName": "NYTimes Technology RSS",
-        "score": 20,
-        "reason": "来源可信度 +7；科技相关：chip, chips；信息量较完整 +3",
-        "published": "Tue, 24 Nov 2026 23:27:37 +0000",
-        "businessDate": "2026-11-25",
+        "published": "Thu, 26 Nov 2026 05:05:00 +0000",
+        "businessDate": "2026-11-26",
         "historyDuplicate": false
       }
     ]
